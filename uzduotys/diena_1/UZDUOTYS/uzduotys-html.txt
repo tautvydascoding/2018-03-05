@@ -1,0 +1,24 @@
+
+=========================GIT============================
+UŽDAVINYS
+0.  nueiti i uzduotys kataloga, diena_1
+1. Susikurti kataloga su savo vardu
+2. Susikurti failą - ‘vardas.txt’3. Įrašyti pakeitimus į šį failą “pvz” labas
+4. naudojantis SourceTree arba gitBash console idkelti susikurta faila i serveri:
+   git stage / add   git commit 
+   git pull
+   git push  
+
+=========================HTML===========================
+ UŽDAVINYS1. Sukurti ‘index.html’ bei ‘contacts.html’ failus, kuriuose būtų antraštė bei paragrafas teksto 
+2. Pridėti nuorodą, kuri nurodytų į šį puslapį ‘contacts.html’.3. Pridėti nuorodai paveikslelį, ant kurio paspaudus būtų nueinama į šį puslapį
+
+
+
+ UŽDAVINYS1. Pridėti antraštę “Hello world”2. Pridėti paragrafą teksto, kurio viduje vienas žodis būtų ‘italic’3. Pridėti įvedimo laukelį email adreso įvedimui4. Pridėti mygtuką, kuris siųstų formą5. Pridėti tekstinį įvedimą pavadinimu  name=‘q’6. Nurodyti formos siuntimą per GET metodą į ‘http:// www.google.com/search'
+
+
+UŽDAVINYS1. Sukurti 4 skirtingus HTML puslapius 
+2. Pridėti po paragrafą teksto kieviename3. Sukuriame navigacijos sąrašą su nuorodomis į kitus puslapius
+4. i kontaktu puslapi ideti: google maps
+5. i galerijos puslapi ideti 8 nuotraukas (vienodas) su atributais: width=’20%’ heigth=‘auto’
