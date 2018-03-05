@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 Mane galite rasti:
+=======
+Mane galite rasti /wink /wink ;)
+>>>>>>> bb57298c0d2bac840b34d7a3ec2817ba35c5c6ea
 
 https://www.youtube.com/channel/UCa6dEqIc4putPB5uWN99IBw
 https://www.pinterest.com/AicaBunnisher/
