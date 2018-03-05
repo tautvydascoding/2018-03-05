@@ -1,13 +1,14 @@
-Parsisiusti: GoogleChrome
+﻿Parsisiusti: GoogleChrome
 
 
 linter
-linter-htmlhint
+linter-htmlhint 
+autoclose-html
+
 linter-csslint ?
 linter-jshint 
 linter-sass-lint
 
-autoclose-html
  
 beautify       // ivykdo ctrl + ALT + B
 atom-autocomplete-php
@@ -29,7 +30,7 @@ ctrl + shift + D   - copy - paste visa eilute
 
 ========== Setting ==========
 Plugins -> auto-save -> ON
-Settings -> Editor -> SotWrap  // visas kodas kuris netips  atvaiduoti ekrane, bus nukeltas i kita eilute
+Settings -> Editor -> SoftWrap  // visas kodas kuris netips  atvaiduoti ekrane, bus nukeltas i kita eilute
  
 
  Goto-definition   - PHP f-ju atidarymui

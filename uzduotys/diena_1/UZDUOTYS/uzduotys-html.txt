@@ -1,8 +1,12 @@
-
+﻿
 =========================GIT============================
+
 UŽDAVINYS
-0.  nueiti i uzduotys kataloga, diena_1
-1. Susikurti kataloga su savo vardu
+
+0.  nueiti i dribame-cia kataloga, 
+diena_1
+.
+ Susikurti kataloga su savo vardu
 2. Susikurti failą - ‘vardas.txt’3. Įrašyti pakeitimus į šį failą “pvz” labas
 4. naudojantis SourceTree arba gitBash console idkelti susikurta faila i serveri:
    git stage / add   git commit 
