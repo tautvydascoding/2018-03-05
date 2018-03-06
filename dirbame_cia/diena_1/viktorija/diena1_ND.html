@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Diena_1_ND</title>
+    <style>
+       #map {
+        height: 400px;
+        width: 50%;
+       }
+    </style>
+  </head>
+  <body>
+    <a href="https://lt.wikipedia.org/wiki/Volung%C4%97" target="-_blank">
+      <img src="C:\Users\vikto\Desktop\Kaunas_Coding\Diena_1_ND\paukstis.jpg" alt="Geltonas paukštis">
+    </a>
+    <table style="width:20%;text-align:center;" border="5px black">
+      <tr>
+        <th>Vardas</th>
+        <th>Pavardė</th>
+        <th>Amžius</th>
+      </tr>
+      <tr>
+        <td>Viktorija</td>
+        <td>Mačiūnė</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Vėjas</td>
+        <td>Pašėlęs</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Žaloji</td>
+        <td>Karvutė</td>
+        <td>60</td>
+      </tr>
+    </table>
+    <div id="map" style="margin-top:20px"></div>
+    <script>
+      function initMap() {
+        var kauno_pilis = {lat: 54.898899, lng: 23.885406};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: kauno_pilis
+        });
+        var marker = new google.maps.Marker({
+          position: kauno_pilis,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsaSu3fG9V4lAFNbN9oQ6hPA77wXdxqq8&callback=initMap">
+    </script>
+    <iframe width="560" height="315" style="margin-top:20px"
+      src="https://www.youtube.com/embed/fLexgOxsZu0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+    </iframe>
+    <ul>
+      <li><a href="index.html">Pirma diena</a></li>
+      <li><a href="index.html">Antra diena</a></li>
+      <li><a href="index.html">Trečia diena</a></li>
+    </ul>
+  </body>
+</html>
