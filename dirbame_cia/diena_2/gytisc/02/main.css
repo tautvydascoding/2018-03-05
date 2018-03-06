@@ -1,3 +1,22 @@
 h1 {
   color: blue;
+  font-size: 20 pix;
+  width: 200px;
 }
+/* .name -> <p class="blue">...</p> */
+/* #name -> id="name" */
+/* name -> name */
+
+#antraste {
+  color: pink;
+}
+.raudonas {
+  background-color: red
+}
+.didelis {
+  height: 200px;
+}
+h1 {
+  color: red;
+}
+/* visada laimi zemiausias css tam paciam elementui (lygiuju atveju) */
