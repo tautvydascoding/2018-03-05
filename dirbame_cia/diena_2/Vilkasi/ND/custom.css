@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  font-family: "Caviar dreams";
+}
+
+section {
+width: 30%;
+border: 2px solid black;
+font-family: "Caviar dreams";
+color: white;
+float: left;
+position: relative;
+left: 20px;
+background-color: #888;
+margin: 10px;
+}
+
+h2 {
+position: absolute;
+top: -22px;
+right: -2px;
+width: 150px;
+border: 2px solid black;
+
+
+}
+
+.section-1 {
+background-color: red;
+}
+
+.section-2 {
+background-color: green;
+}
+
+.section-3 {
+background-color: blue;
+}
+
+
+p {
+  padding: 20px;
+  padding-bottom: 5px;
+  bottom: 0px;
+}
