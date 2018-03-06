@@ -11,15 +11,41 @@
     </p>
     <form>
       <input type="email" placeholder="email"><br />
-      <input type="text" placeholder="q"><br />
+      <input type="text" placeholder="Tekstas"><br />
       <input type="submit" value="Patvirtinti"><br />
     </form>
-    <form action="www.google.com/search" method="get">
-      <input type="text" placeholder="tekstas">
+    <br />
+    <!--paieska su atidarymu i nauja langa-->
+    <form action="https://www.google.com/search" method="get" target="_blank">
+      <label> Paieška </label>
+      <br />
+      <input name="q" type="text" placeholder="tekstas">
       <input type="submit" value="Ieškoti">
     </form>
     <p>
       <a href="index.html">Į pagrindinį</a>
     </p>
+    <!--mokomes registracijos forma-->
+    <!--<form action="index.html" method="post">
+      <label> Slaptažodis </label>
+      <br />
+      <input type="password" name="" value=""/>
+      <br />
+      <button type="button" name="button"> Registracija </button>
+      <input type="text" maxlength="5" name="" value="" required/>
+    </form>-->
+    <form action="index.html" method="get">
+      <label> Vardas </label>
+      <input type="text" maxlength="5" name="Vardas" value="" required/>
+      <br />
+      <label> Slaptažodis </label>
+      <input type="password" name="kodas" value=""/>
+      <br />
+      <textarea name="name" rows="4" cols="80"></textarea>
+      <br />
+      <input type="date" name="kalendorius" value=""/>
+      <br />
+      <button type="submit" name="button"> Registracija </button>
+    </form>
   </body>
 </html>
