@@ -1,3 +1,20 @@
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: red;
+}
+.zalias-tekstas {
+  color: green;
+}
+
+/* tarpas - protevyje/teve iesko vaiko */
+/* siuo atveju tinka ir proevis - section ir tevas - article */
+/* imame vaika - p is protevio - section */
+section article p {
+  color: blue;
+}
+div h3 {
+  color: pink;
 }

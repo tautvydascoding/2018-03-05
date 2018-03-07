@@ -1,23 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+/* itrauks remelio stori i elemento dezes ploti */
+
+/* --------------- */
+
+body {
+  margin: 0;
+}
+
 h1 {
 text-align: center;
 color: red;
 }
 
+section {
+  width: 30%;
+  float: left;
+  /* dedame i viena eilute: */
+  /* 1) reikia float */
+  /* 2) reikia plocio width */
+  /* 3) nepamirsti nuimti float:
+  A) susikurti "fix-float" class
+  B) html po paskutiniu elementu panaudoti "fix=float" klase */
+  background-color: #a1a1a1;
+  border: 1px solid #000;
+  margin-left: 2.5%;
+  position: relative;
+}
+
+.fix-float {
+  clear: both;
+}
+
+.paskutinis {
+  width: 30%;
+  height: auto;
+}
+
 h2 {
+  text-align: center;
   width: 200px;
   margin: 0;
+  border: 1px solid #666;
   position: absolute;
   top: 0px;
   right: 0px;
-}
-
-section {
-  margin-left: 2%;
-  background-color: #999;
-  border: 1px solid #666;
-  width: 30%;
-  float: left;
-  position: relative;
 }
 
 .uzkandziai {
