@@ -1,41 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+
 h1 {
   font-family: 'Monoton', cursive;
+
   font-size: 59px;
+
   text-align: center;
 }
 
 div.one {
-  width: 45%;
+  width: 30%;
+
   height: auto;
-  border: 2.5px solid grey;
+
+  border-bottom:  3px solid grey;
+  border-left: :  3px solid grey;
+
   background-color: snow;
+
   float: left;
-  margin: 10px;
+
+  margin-left:2.5%;
+
+  position: relative;
 }
 
 div.two {
 
-  width: 35%;
+  width: 30%;
 
   height: auto;
 
-  border: 3px solid green;
+  border-bottom: 3px solid green;
+  border-left: 3px solid green;
 
   background-color: grey;
 
   float:left;
 
-  marging: 15px;
+  margin-left:2.5%;
+
+  position: relative;
 }
 
 div.three {
 
-  width: 60%;
+  width: 30%;
+
   height: auto;
-  border: 3.5px dotted blue;
+
+  border-bottom: 3px dotted blue;
+  border-left: : 3px dotted blue;
+
   background-color: lightblue;
+
   float:left;
-  marging: 22.5px;
+
+margin-left:2.5%;
+
+position: relative;
 
 }
 
@@ -46,16 +72,27 @@ text-align: right;
 
 div.box-top {
   text-align: center;
-  margin-top: 2.5px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
 
 label {
-border-left: 2px solid grey;
+margin: 0;
+position:absolute;
+top: 0;
+right: 0;
+width: 120px;
+text-align: center;
+padding: 2px 2px 2px 2px;
+
+/* border-left: 2px solid grey;
 border-bottom: 2.5px solid grey;
 text-align: center;
 font-weight: bold;
 font-size: 10px;
-padding: 5px 15px ;
+padding: 5px 15px ; */
 
 /* position: absolute; meh .. */
 }
@@ -87,4 +124,18 @@ padding: 5px 15px ;
     max-width:300px;
     margin:0 auto;
     display:block;
+}
+.clearfloat {
+
+  clear:both;
+}
+
+body {
+
+  margin: 0;
+}
+
+.paskutinis {
+
+  margin-right: 2.5%;
 }

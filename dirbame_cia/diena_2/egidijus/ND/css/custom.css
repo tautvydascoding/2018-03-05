@@ -1,3 +1,8 @@
+* {
+	box-sizing: border-box;
+	/*Remelio plotis bus iskaiciuotas i remeliu ploti
+	  remelis bus iskaiciuotas i elemento ploti*/
+}
 p {
 	padding: 0px;
 	margin: 0px;
@@ -5,13 +10,18 @@ p {
 h1 {
 	text-align: center;
 }
+body {
+	margin: 0px;
+}
+
 .menu_box {
 	height: auto;
-	width: 29%;
+	width: 30%;
 	background-color: #878787;
 	border: 3px solid;
 	float: left;
-	margin-left:3%;
+	margin-left:2.5%;
+	position: relative;
 }
 .menu_box p {
 	padding: 12px 25px 12px 25px;
@@ -25,7 +35,7 @@ h1 {
 	background-color: #E89B9C;
 	border-bottom: 3px solid black;
 	border-left: 3px solid black;
-	padding: 2px 20px 2px 20px;
+	padding: 2px 40px 2px 40px;
 	font-size: 18px;
 	display: block;
 	float: right;
@@ -35,7 +45,7 @@ h1 {
 	background-color: #C02E30;
 	border-bottom: 3px solid black;
 	border-left: 3px solid black;
-	padding: 2px 20px 2px 20px;
+	padding: 2px 40px 2px 40px;
 	font-size: 18px;
 	display: block;
 	float: right;
@@ -43,13 +53,27 @@ h1 {
 .white_txt {
 	color: white;
 }
-.menu_sushi {
-	height: auto;
-	background: #D1B86D;
+
+	/* 1) top, right, left veikia tik su position
+	   2) paskutinis boxas padarytas su position: absolute
+	   	  del to aukstis skiriasi*/
+.paskutinis h2 {
+	margin: 0px;
+	background-color: orange;
 	border-bottom: 3px solid black;
 	border-left: 3px solid black;
-	padding: 2px 20px 2px 20px;
+	padding: 2px 40px 2px 40px;
 	font-size: 18px;
-	display: block;
-	float: right;
+	position: absolute;
+	top: 0;
+	right: 0px;
+}
+.paskutinis p {
+	margin-top: 10%;
+}
+.clear_float {
+	clear: both;
+}
+.paskutinis {
+	margin-right: 2.5%;
 }

@@ -1,0 +1,64 @@
+* {
+  box-sizing:  border-box;
+}
+/* remeliai bus iskaiciuoti i elemento ploti, netrukdys plociui */
+h1 {
+  color: red;
+  text-align: center;
+}
+article {
+    width: 30%;
+    float: left;
+    /* dedam i viena eilute
+    1 reik float
+    2 reik plocio "width"
+    3 Nepamirsti nueimti float:
+     A sukurti "fix-float" class
+      B  html po paskutintu elementu, panaudoti "fix-float" */
+
+background-color: #a1a1a1;
+border: solid 1px #000;
+margin-left: 2.5%;
+padding-top: 30px;
+padding-left: 10px;
+padding-right: 10px;
+padding-left: 20px;
+
+}
+
+.fix-float {
+    clear: both;
+}
+body {
+    margin: 0;
+}
+.paskutinis {
+    margin-right: 2.5%;
+}
+h2 {
+    width: 120px;
+    text-align: center;
+    border-bottom: solid 1px #000;
+    border-left: solid 1px #000;
+    margin: 0;
+    /* uzdeti proteviui reletive */
+    position: absolute;
+    top: 0;
+    right: 0px;
+    /* perkelia elementa i desine ir i virsu
+      top = kiek nuo virsaus, right - kiek nuo desines
+      absoliutus eleentai juda tik reletive zonoje*/
+}
+article {
+  position: relative;
+}
+/* absolute ir relative vaiksto kartu */
+.paskutinis h2 {
+  background-color: pink;
+}
+.pirmas h2 {
+  background-color: green;
+  }
+  .antras h2 {
+    background-color: red;
+}
