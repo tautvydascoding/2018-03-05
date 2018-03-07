@@ -1,0 +1,45 @@
+div {
+  text-align: center;
+  width: 19%;
+  background-color: #333;
+  border: solid 2px #333;
+  border-radius: 10px;
+  float: left;
+  margin: 4px;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  font-family: "caviar dreams";
+}
+
+      p {
+        color: white;
+      }
+
+a {
+  color: yellow;
+  font-family: monospace;
+  font-size: 14pt;
+}
+
+
+
+
+.tel {
+  color: rgb(142, 221, 63);
+}
+
+.Dvi {
+  color: yellow;
+}
+
+.Tele {
+  color: orange;
+}
+
+.Vir {
+  color: rgb(235, 255, 0);
+}
+
+.ind {
+  color: rgba(68, 249, 81, 1);
+}

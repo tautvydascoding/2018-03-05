@@ -1,0 +1,82 @@
+article {
+  border: solid 2px #333;
+  padding: 15px;
+}
+
+h2 {
+text-align: center;
+}
+
+
+        .straipsnis1 {
+        background-color: yellow;
+        }
+
+        .straipsnis2 {
+          background-color: purple;
+        }
+
+        .straipsnis3 {
+          background-color: green;
+        }
+
+        .straipsnis4 {
+          background-color: red;
+        }
+
+        .straipsnis5 {
+          background-color: cyan;
+        }
+
+        .straipsnis6 {
+        background-color: magenta;
+        }
+
+        .straipsnis7 {
+        background-color: #444
+        }
+
+        .straipsnis8 {
+        background-color: #888
+        }
+
+        .straipsnis9 {
+        background-color: pink;
+        }
+
+.du {
+  color: white;
+  font-weight: bold;
+}
+
+.trys {
+  color: yellow;
+}
+
+.keturi {
+  color: cyan;
+}
+
+.penki {
+  color: yellow;
+}
+
+.sesi {
+  color: white;
+}
+
+.septyni {
+  color: yellow;
+}
+
+.astuoni {
+  color: cyan;
+}
+
+.devyni {
+  color: green;
+}
+
+.desimt {
+  color: blue;
+}
