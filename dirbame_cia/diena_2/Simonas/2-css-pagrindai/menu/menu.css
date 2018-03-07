@@ -1,21 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+
 h1 {
   font-family: 'Monoton', cursive;
+
   font-size: 59px;
+
   text-align: center;
 }
 
 div.one {
-  width: 45%;
+  width: 30%;
+
   height: auto;
-  border: 2.5px solid grey;
+
+  border: 3px solid grey;
+
   background-color: snow;
+
   float: left;
-  margin: 10px;
+
+  margin-left:2.5%;
 }
 
 div.two {
 
-  width: 35%;
+  width: 30%;
 
   height: auto;
 
@@ -25,17 +37,22 @@ div.two {
 
   float:left;
 
-  marging: 15px;
+  margin-left:2.5%;
 }
 
 div.three {
 
-  width: 60%;
+  width: 30%;
+
   height: auto;
-  border: 3.5px dotted blue;
+
+  border: 3px dotted blue;
+
   background-color: lightblue;
+
   float:left;
-  marging: 22.5px;
+
+margin-left:2.5%;
 
 }
 
@@ -87,4 +104,18 @@ padding: 5px 15px ;
     max-width:300px;
     margin:0 auto;
     display:block;
+}
+.clearfloat {
+
+  clear:both;
+}
+
+body {
+
+  margin: 0;
+}
+
+.paskutinis {
+
+  margin-right: 2.5%;
 }
