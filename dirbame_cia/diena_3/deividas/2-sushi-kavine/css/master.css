@@ -1,0 +1,80 @@
+
+/* remeliai netrukdys plociui
+remeis, bus iskaiiuotas i elemento pastraipas  */
+{box-sizing: border-box;}
+/* jeigu iseina is krastu articalai */
+/*  */
+
+
+
+h1 {
+    color: red;
+    text-align: center;
+}
+article  {
+    width: 30%;
+    float: left;
+
+    /* dedam y veina eilute
+    1) reikia float
+    2) reik plocio"width"
+    3) nepamirsti nuimti float:
+      a) susikurti "fix-float" class
+      b) html po paskutinio elemnto ja panaudot
+      "fix-float"
+      */
+
+      background-color: #a1a1a1;
+      border: solid 1px #000;
+      margin-left: 2.5%;
+
+padding-top: 20px;
+padding-left: 2px;
+padding-right: 2px;
+padding-bottom: 30px;
+}
+
+
+.fix-float {
+  clear: both;
+}
+body {
+  margin: 0;
+}
+
+h2 {
+  width: 120px;
+  text-align: center;
+
+  border-bottom: solid 1px #000;
+  border-left: solid 1px #000;
+
+  margin: 0;
+  /* perkeliam elementa i desine ir virsu */
+position: absolute;
+top: 0;
+right: 0;
+  /*top kiek nuo virsau ; right kiek nuo desines  */
+  /* absoliutus elementai juda tik reletive zonoje */
+}
+article {
+  position: relative;
+/*  relative ir absolute visda kartu nes paskui skraidysim
+per visa ekrana */
+}
+.paskutinis h2 {
+    background-color: yellow;
+}
+.pirmas h2 {
+background-color: pink;
+}
+
+.antras h2 {
+  background: red;
+
+}
+
+
+/* p {
+  margin-top: 40px;
+} */
