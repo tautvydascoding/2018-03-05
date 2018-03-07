@@ -1,0 +1,50 @@
+.text1 {
+  color: red;
+}
+.text2 {
+  color: yellow;
+}
+.text3 {
+  color: blue;
+}
+.text4 {
+  color: orange;
+}
+.text5 {
+  color: green;
+}
+.art1 {
+  border: solid 2px #333;
+  background-color: #ff6666;
+}
+.art2 {
+  border: solid 2px #333;
+  background-color: #ffff99;
+}
+.art3 {
+  border: solid 2px #333;
+  background-color: #99b3ff;
+}
+.art4 {
+  border: solid 2px #333;
+  background-color: #ffc299;
+}
+.art5 {
+  border: solid 2px #333;
+  background-color: #99ff99
+}
+article {
+  margin: 5px;
+}
+p {
+  padding: 5px;
+  top: 0px;
+  right: 0px;
+  margin: 0;
+}
+h2 {
+  padding: 5px;
+  top: 0px;
+  right: 0px;
+  margin: 0;
+}
