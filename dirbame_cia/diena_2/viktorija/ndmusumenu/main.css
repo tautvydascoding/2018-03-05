@@ -1,0 +1,49 @@
+h1 {
+  font-family: monospace;
+  font-size: 40px;
+  text-align: center;
+}
+
+div.box {
+  width: 30%;
+  height: auto;
+  border: 2px solid black;
+  background-color: grey;
+  float: left;
+  margin: 10px;
+}
+
+div.box-text {
+padding: 10px 20px;
+text-align: left;
+}
+
+div.box-top {
+  text-align: right;
+  margin-top: 3px;
+}
+
+label {
+border-left: 2px solid black;
+border-bottom: 2px solid black;
+text-align: center;
+font-weight: bold;
+font-size: 18px;
+padding: 3px 20px ;
+}
+
+.raudona {
+  background-color: red;
+}
+
+.rozine {
+  background-color: pink;
+}
+
+.geltona {
+  background-color: yellow;
+}
+
+.balta {
+  color: white;
+}

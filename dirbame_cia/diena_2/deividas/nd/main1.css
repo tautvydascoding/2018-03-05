@@ -1,0 +1,50 @@
+div.box {
+      width: 30%;
+      height: auto;
+      border: 4px solid blue;
+      background-color: grey;
+      float: left;
+      margin: 10px
+}
+
+div.box-text {
+padding: 10px 20px
+text-align: left;
+
+}
+
+div.box-top{
+  text-align: right;
+  margin-top: 4px;
+
+}
+label {
+  border: 4px solid black;
+  font-weight: bold
+  text-alight: center;
+  font-size: 15px;
+  padding: 3px 20px;
+}
+
+.raudona{
+  background-color: red;
+}
+
+.rozine {
+  background-color: pink;
+}
+.geltona {
+  background-color: yellow;
+}
+.balta {
+  color: white
+}
+.desine {
+  float: right;
+
+}
+
+
+
+
+}

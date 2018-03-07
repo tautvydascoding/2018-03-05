@@ -11,3 +11,8 @@ Instant Eyedropper  - (color picker)  paiima betkuri spalvos koda, kur paspaudi 
 Darbui su nuotraukomis / karpymas:
 GIMP (nemokama Photoshop versija)
 i google "online photoshop" - online nemokama nepilna Phososhop verisija
+
+
+SourceTree: terminala pakeisti i "vim" redaktoriu
+
+git config --global core.editor "vim"

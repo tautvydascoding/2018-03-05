@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <div id="map" style="width: 100%; height:120px"></div>
+  </head>
+  <body>
+        <script>
+          function initMap() {
+            var kauno_akropolis = {lat: 54.891706, lng: 23.919478};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 13,
+              center: kauno_akropolis
+            });
+            var marker = new google.maps.Marker({
+              position: kauno_akropolis,
+              map: map
+            });
+          }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3uYpEDHoNU_2VPnqpFYo9B3HJYN-PU4Q&callback=initMap"
+  type="text/javascript"></script>
+  </body>
+</html>

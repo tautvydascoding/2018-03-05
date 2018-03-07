@@ -1,0 +1,38 @@
+h1 {
+text-align: center;
+color: red;
+}
+
+h2 {
+  width: 200px;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+section {
+  margin-left: 2%;
+  background-color: #999;
+  border: 1px solid #666;
+  width: 30%;
+  float: left;
+  position: relative;
+}
+
+.uzkandziai {
+  background-color: red;
+}
+
+.karsti {
+  background-color: blue;
+}
+
+.desertai {
+  background-color: orange;
+}
+
+p {
+  padding: 20px;
+  padding-top: 28px;
+}
