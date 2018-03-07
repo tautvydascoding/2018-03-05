@@ -23,21 +23,26 @@ div {
 }
 p {
   padding: 2px;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   margin: 0;
 }
 h2 {
   text-align: center;
   padding: 2px;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   margin: 0;
 }
 a {
+  /* text-align: center;
   height: auto;
   width: 30%;
   margin-left: auto;
   margin-right: auto;
-  padding: 5px;
+  padding: 5px; */
+}
+
+div a {
+  text-align: center;
 }

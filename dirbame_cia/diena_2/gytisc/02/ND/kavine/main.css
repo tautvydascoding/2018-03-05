@@ -27,6 +27,7 @@ section {
   border: 1px solid #000;
   margin-left: 2.5%;
   position: relative;
+  padding: 30px 10px 10px 10px;
 }
 
 .fix-float {
@@ -34,33 +35,37 @@ section {
 }
 
 .paskutinis {
-  width: 30%;
-  height: auto;
+  margin-right: 2.5%;
 }
 
 h2 {
-  text-align: center;
-  width: 200px;
   margin: 0;
-  border: 1px solid #666;
+  /* perkeliame i desine ir virsu */
   position: absolute;
+  /* top, left, right, botom neveikia jei nera paosition: absolute; */
   top: 0px;
   right: 0px;
+  /* absoliutus elementai juda tik reletive zonoje */
+  /* proseneliui uzdeti "reletive" */
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  width: 200px;
+  text-align: center;
 }
 
-.uzkandziai {
+.pirmas h2 {
   background-color: red;
 }
 
-.karsti {
+.antras h2 {
   background-color: blue;
 }
 
-.desertai {
+.paskutinis h2 {
   background-color: orange;
 }
 
 p {
-  padding: 20px;
-  padding-top: 28px;
+  margin: 0;
+  padding: 0;
 }
