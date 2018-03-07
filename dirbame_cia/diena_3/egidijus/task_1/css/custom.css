@@ -1,0 +1,88 @@
+/*Flawor style*/
+p, h1, h2, article, body {
+	margin: 0px;
+	padding: 0px;
+}
+article p, article h2 {
+	padding: 5%;
+	text-align: center;
+}
+
+/*Task - 12 articles with different colors 
+and bg-colors */
+.add_border {
+	border: 4px solid black;
+	margin-bottom: 2%;
+}
+.f_cyan {
+	color: cyan;
+}
+.c_crimson {
+	background-color: crimson;
+}
+.f_chocolate {
+	color: chocolate;
+}
+.c_coral {
+	background-color: coral;
+}
+.f_darkblue {
+	color: darkblue;
+}
+.c_darkcyan {
+	background-color: darkcyan;
+}
+.f_darkgreen {
+	color: darkgreen;
+}
+.c_darkmagenta {
+	background-color: darkmagenta;
+}
+.f_darkorchid {
+	color: darkorchid;
+}
+.c_darksalmon {
+	background-color: darksalmon;
+}
+.f_darkslateblue {
+	color: darkslateblue;
+}
+.c_darkslategrey {
+	background-color: darkslategrey;
+}
+.f_darkviolet {
+	color: darkviolet;
+}
+.c_deeppink {
+	background-color: deeppink;
+}
+.f_color1 {
+	color: dodgerblue;
+}
+.c_color1 {
+	background-color: firebrick;
+}
+.f_color2 {
+	color: forestgreen;
+}
+.c_color2 {
+	background-color: gold;
+}
+.f_color3 {
+	color: goldenrod;
+}
+.c_color3 {
+	background-color: grey;
+}
+.f_color4 {
+	color: greenyellow;
+}
+.c_color4 {
+	background-color: indianred;
+}
+.f_color5 {
+	color: indigo;
+}
+.c_color5 {
+	background-color: midnightblue;
+}

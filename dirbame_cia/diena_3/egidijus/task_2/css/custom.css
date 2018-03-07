@@ -1,0 +1,37 @@
+/*Flawor style*/
+.box_custom {
+	text-align: center;
+}
+.box_custom:hover {
+	background-color: #FFDBBD;
+	color: #69360C;
+}
+body {
+	background-color: #7DA0A7;
+}
+
+/*Task - 12 articles with different colors 
+and bg-colors */
+.box_color {
+	height: auto;
+	width: 19%;
+	background-color: #B1C8CD;
+	border: 2px solid rgb();
+	margin-left: 10px;
+	float: left;
+}
+.f_color1 {
+	color: #20B2AA;
+}
+.f_color2 {
+	color: #90EE90;
+}
+.f_color3 {
+	color: #778899;
+}
+.f_color4 {
+	color: #C71585;
+}
+.f_color5 {
+	color: #A52A2A;
+}
