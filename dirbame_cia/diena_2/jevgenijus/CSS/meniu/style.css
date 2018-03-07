@@ -1,1 +1,41 @@
-pradejau
+h1 {
+  text-align: center;
+  font-family: fantasy;
+}
+
+section {
+width: 30%;
+border: 2px solid black;
+font-family: fantasy;
+color: black;
+float: left;
+position: relative;
+left: 20px;
+background-color: #784789;
+margin: 10px;
+}
+
+h2 {
+position: absolute;
+top: -22px;
+right: -2px;
+width: 150px;
+border: 1px solid black;
+
+}
+
+.section1 {
+background-color: yellow;
+}
+.section2 {
+background-color: green;
+}
+.section3 {
+background-color: red;
+}
+
+p {
+  padding: 12px;
+  padding-bottom: 5px;
+  bottom: 0px
+}

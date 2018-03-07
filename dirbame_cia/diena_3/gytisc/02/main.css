@@ -1,0 +1,40 @@
+.text1 {
+  color: red;
+}
+.text2 {
+  color: yellow;
+}
+.text3 {
+  color: blue;
+}
+.text4 {
+  color: orange;
+}
+.text5 {
+  color: green;
+}
+div {
+  width: 19%;
+  float: left;
+  position: relative;
+  border: solid 2px #333;
+  margin: 2px;
+  background-color: #d6d6c2
+}
+p {
+  padding: 2px;
+  top: 0px;
+  right: 0px;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+  padding: 2px;
+  top: 0px;
+  right: 0px;
+  margin: 0;
+}
+a {
+  align-self: center;
+  padding: 5px;
+}
