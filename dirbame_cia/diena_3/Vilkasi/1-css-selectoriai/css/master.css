@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: red;
+}
+
+
+
+
+      .zaliastekstas {
+        color: green;
+      }
+
+p {
+  color: orange;
+}
+
+      section article p {
+        color: blue;
+      }
+
+          section div h3 {
+            color: orange;
+            }
+
+  div h3 {
+    color: pink;
+    }
