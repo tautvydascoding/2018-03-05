@@ -1,0 +1,23 @@
+h1,
+h2,
+h3,
+h4,
+h5{
+  color: red;
+}
+p{
+  color: blue;
+}
+/* iesko protevyje "section" vaiku "p" */
+section article p{
+  color: rgb(0,255, 0);
+}
+section p{
+  color:yellow;
+}
+div h3{
+  color: pink;
+}
+section div h3{
+  color: blue;
+}

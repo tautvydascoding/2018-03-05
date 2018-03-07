@@ -1,0 +1,19 @@
+#antraste{
+  color: pink;
+}
+.raudonas1 {
+  color: blue ;
+}
+h1{
+  color: yellow;
+}
+/* visada laimi zemesnis css tam paciam objektui (h1) lygiuju atveju */
+h1{
+  color:grey;
+}
+.raudonas {
+  background-color: red;
+}
+.didelis {
+  height: 400px;
+}
