@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	padding: 0px;
+	margin: 0px;
+}
+.box_main {
+	background-color: #7F9ABB;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 2%;
+	float: left;
+	text-align: center;
+}
+/* For desktop: */
+.col-1 {width: 30%;}
+.col-2 {width: 30%;}
+.col-3 {width: 30%;}
+
+@media only screen and (max-width: 500px) {
+    col-1 {
+        background-color: lightblue;
+    }
+
+@media only screen and (max-width: 768px) {
+    /* For tablets: */
+    [class*="col-1"] {
+        width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    [class*="col-2"] {
+        width: 100%;
+    }
+}
