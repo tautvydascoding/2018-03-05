@@ -34,10 +34,7 @@ h2 {
   right: 0px;
   margin: 0;
 }
-.kaina {
-  text-align: center;
-  padding: 2px;
-  top: 0px;
-  right: 0px;
-  margin: 0;
+a {
+  align-self: center;
+  padding: 5px;
 }
