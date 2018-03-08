@@ -22,6 +22,11 @@ float: left;
 margin: 1%;
 }
 
+.trecias {
+
+  width: 72%;
+  margin-left: 1%;
+}
 .fixfloat {
 
   clear: both;
