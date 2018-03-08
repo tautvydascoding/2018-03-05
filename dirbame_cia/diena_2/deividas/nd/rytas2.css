@@ -1,0 +1,33 @@
+.melynas{
+  background-color: blue;
+  border: solid black 2px;
+}
+ .vanduo{
+   border: solid black 2px;
+   background-color: grey;
+ }
+.kava {
+  border: solid black 2px;
+  background-color: pink;
+}
+
+.geltona {
+  background-color: yellow;
+  border: solid black 2px;
+}
+.rudas{
+  background-color: #2EFEF7;
+  border: solid black 2px;
+}
+.alus{
+  border: solid black 2px;
+  background-color: green;
+}
+.raudonas {
+  background-color: red;
+  border: solid black 2px;
+}
+.pienas {
+  border: solid black 2px;
+  background-color: #FE2E64;
+}

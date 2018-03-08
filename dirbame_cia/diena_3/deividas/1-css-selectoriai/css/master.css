@@ -1,0 +1,33 @@
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+      color: red;
+}
+
+}
+/* tarpas css iesko protevyje vaiko */
+
+p {
+  color: orange;
+}
+
+
+ section article p {
+   color: blue;
+ }
+
+section div h3{
+  color: red;
+
+  /* laimi sitas nes daugiau turi elementu section divas ir h3 tada */
+}
+
+div h3 {
+  color: pink;
+}
+
+.zalias-tekstas{
+  color: green;
+}

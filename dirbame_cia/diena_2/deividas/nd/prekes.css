@@ -1,0 +1,31 @@
+div.box {
+  width: 18%;
+  height: auto;
+  border: 2px solid #2E2E2E;
+  background-color: grey;
+  float: left;
+  margin: 10px;
+
+}
+.geltona {
+  background-color: #DAA520;
+  border:  1px solid #333;
+}
+
+}
+.dark{
+  border: 1px solid black;
+  float: right;
+}
+.melyna{
+  background-color: #2F4F4F;
+  border:  1px solid #333;
+}
+.zalia{
+  background-color: #483D8B;
+  border:  1px solid #333;
+}
+.ruda geltona {
+  background-color: #D2691E;
+  border: 1px solid black;
+}
