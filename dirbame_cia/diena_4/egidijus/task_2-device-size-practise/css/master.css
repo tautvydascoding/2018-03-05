@@ -1,0 +1,28 @@
+h1, h2, p {
+    margin: 0px; 
+    padding: 0px; 
+    text-align: center;
+}
+.box_custom {
+    height: 100px;
+}
+
+.box_1,
+.box_2,
+.box_4,
+.box_5 {
+    width: 48%;
+    background-color: grey;
+    margin-right: 2%;
+    float: left;
+}
+.box_3 {
+    height: 100px;
+    width: 98%;
+    background-color: orange;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.fix-float {
+    clear: both;
+}
