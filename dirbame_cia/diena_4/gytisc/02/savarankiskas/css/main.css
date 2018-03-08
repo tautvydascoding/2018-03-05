@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+/* --------------- */
+
+body {
+  margin: 0;
+}
+
+div {
+  background-color: #a1a1a1;
+  border: 1px solid #333;
+  height: 100px;
+  margin: 10px 10px 0 10px;
+}
+
+.blokas1,
+.blokas2,
+.blokas4,
+.blokas5 {
+  width: 45%;
+  float: left;
+}
+
+.fix-float {
+  clear: both;
+}
+
+/* ----------tablet-------------- */
+/* ---nuo 768 iki begalyb5es */
+@media (max-width: 768px) {
+  .blokas1,
+  .blokas2 {
+  width: 100%;
+  margin-bottom: 2.5%;
+}
+
+/* ---------mobile---------- */
+@media (max-width: 425px) {
+  .blokas2,
+  .blokas3 {
+    display: none;
+  }
+  .blokas4,
+  .blokas5 {
+  width: 100%;
+  margin-bottom: 2.5%;
+  }
+}
