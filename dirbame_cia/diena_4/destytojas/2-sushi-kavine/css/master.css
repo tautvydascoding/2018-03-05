@@ -65,4 +65,22 @@ article {
     background-color: #7eaaaa;
 }
 
+/* ---------tablet---------------- */
+/* ---nuo 768px iki begalybes---- */
+        /*  aprasyta salyga */
+@media (max-width: 768px) {
+    .paskutinis {
+        width: 95%;
+    }
+}
+/* --------mobile------------ */
+@media (max-width: 425px) {
+    .pirmas,
+    .antras {
+        width: 95%;
+        margin-bottom: 2.5%;
+    }
+}
+
+
 /*  */
