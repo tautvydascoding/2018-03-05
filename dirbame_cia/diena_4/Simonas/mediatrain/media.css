@@ -9,7 +9,7 @@ div {
 
   border: dotted 3px;
   background-color: rgb(45, 129, 17);
-  height: 100px;
+  height: auto;
 }
 
 .pirmas,
@@ -17,9 +17,9 @@ div {
 .ketvirtas,
 .penktas {
 
-width: 50%;
+width: 35%;
 float: left;
-
+margin: 1%;
 }
 
 .fixfloat {
@@ -49,3 +49,5 @@ width: 90%;
   .trecias {
 
   display: none;
+
+}
