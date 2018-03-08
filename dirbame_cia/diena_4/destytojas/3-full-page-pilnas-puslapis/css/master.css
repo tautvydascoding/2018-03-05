@@ -1,0 +1,35 @@
+html {
+    background-color: #c9c9c9;
+}
+body {
+    /* automatinis centravimas horizontalus */
+    /*
+        1) reik "witdh"
+        ! veikia tik i kaire/desine
+    */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+h1 {
+    color: red;
+}
+/* ---------------- */
+.menu-juosta {
+    background-color: pink;
+    height: 80px;
+}
+
+/* -----menu------- */
+nav,
+ul {
+    width: 60%;
+    background-color: orange;
+}
+li {
+    float: left;
+    width: 25%;
+}
+
+/* ---end menu---- */
