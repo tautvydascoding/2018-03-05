@@ -1,0 +1,54 @@
+h1{
+  text-align: center;
+  font-family: Courier;
+}
+article{
+  position: relative;
+  margin: 0;
+  border: solid 1px #000;
+  background-color: grey;
+  width: 94.8%;
+  float: left;
+  margin-left: 2.6%;
+  margin-bottom: 2.6%;
+}
+.fix-float{
+  clear: both;
+}
+.antras{
+  display: none;
+}
+article p{
+  font-family: Courier;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+article h2{
+  font-family: Courier;
+  margin: 0;
+  position: absolute;
+  top:0;
+  right:0;
+  width: 120px;
+  text-align: center;
+}
+.pirmas h2{
+  background-color: pink;
+  border-left: solid 1px #000;
+  border-bottom: solid 1px #000;
+}
+.antras h2{
+  background-color: red;
+  border-left: solid 1px #000;
+  border-bottom: solid 1px #000;
+}
+.trecias h2{
+  background-color: yellow;
+  border-left: solid 1px #000;
+  border-bottom: solid 1px #000;
+}
+body{
+  margin:0;
+}

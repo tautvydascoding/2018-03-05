@@ -1,0 +1,80 @@
+/* cia tam, kad remeliai butu iskaiciuoti, i elemento ploti.
+article 30% with borders ~31% plocio, su sita cmd, iskaiciavus
+article su boarders vis vien uzims 30% ekrano. */
+*{
+  box-sizing: border-box;
+}
+h1  {
+ text-align: center;
+}
+article {
+  width: 30%;
+  border: solid 2px #333;
+/* dedam i viena eilute, reikes 1) float,
+2) widh 3) npeamirsti nuimti float
+sukuriant div class="fix-float",ir in css
+panaudoti jam clear klase (clear both) */
+  /* display: inline-block; */
+  float: left;
+}
+/* float pataisymas */
+.fix-float{
+  clear: both;
+}
+article h2{
+  text-align: center;
+  border-bottom: solid 1px #000;
+  border-left: solid 1px #000;
+}
+article{
+  background-color: grey;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.pirmas h2{
+  background-color: pink;
+}
+.antras h2{
+  background-color: red;
+}
+.trecias h2{
+  background-color: yellow;
+}
+article {
+  margin-left: 2.125%;
+}
+/* isjungiam body 8px atitraukima
+kad margin left ismetytu articles vienodais
+tarpais */
+body{
+  margin:0;
+}
+.trecias{
+  margin-right: 2.125%;
+}
+/* h2{
+  display: inline-block;
+  width: 8%;
+  position: absolute;
+  margin-top: auto;
+  margin-right:auto;
+} */
+h2{
+  width: 120px;
+  margin: 0;
+  /* perkeliam elementa i desini virsu */
+  /* top ir right ir etc neveikia be "absolute" */
+  position: absolute;
+  top:0;
+  right:0;
+   /* h2 skaraido rik relative zonoje, abosiuluts elementai
+   juda tik realetyvioje zonoje */
+}
+article{
+  position: relative;
+}
+/* p{
+  margin-top: 35px;
+} */

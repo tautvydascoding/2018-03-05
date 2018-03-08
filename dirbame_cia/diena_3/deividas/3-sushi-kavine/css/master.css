@@ -1,0 +1,78 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-family: "impact";
+}
+
+.fix-float {
+  clear: both;
+}
+
+body {
+  margin: 0;
+}
+
+article {
+  width: 45%;
+  float: left;
+
+  background-color: grey;
+  border: solid 1px black;
+  margin-left: 2.5%;
+
+padding-top: 20px;
+padding-left: 1px;
+padding-right: 1px;
+padding-bottom: 0px;
+}
+
+article {
+  position: relative;
+}
+
+h2 {
+  position: absolute;
+
+  width: 120px;
+  text-align: center;
+
+border-bottom: solid 1px black;
+border-left: solid 1px black;
+
+  margin: 0;
+
+  top: 0;
+  right: 0;
+}
+
+div article {
+  width: 92.5%;
+  float: left;
+ margin-top: 2.5%;
+
+ position: relative;
+}
+
+h3 {
+  position: absolute;
+  width: 200px;
+  text-align: center;
+
+  border-bottom: solid 1px black;
+  border-left: solid 1px black;
+
+  margin: 0;
+
+  top: 0;
+  right: 0;
+}
+
+.pirmas h2 {
+  background-color: orange;
+}
+.antras h2 {
+  background-color: purple;
+}
+.trecias h3 {
+  background-color: yellow;
+}
