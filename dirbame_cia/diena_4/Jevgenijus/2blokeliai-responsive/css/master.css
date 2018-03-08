@@ -1,0 +1,41 @@
+* {box-sizing: border-box;
+}
+h1 {
+    color: red;
+}
+
+div {
+    border: solid 1px #333;
+    background-color: #a1a1a1;
+    height: 100px;
+
+}
+.pirmas,
+.antras,
+.ketvirtas,
+.penktas {
+    width: 50%;
+    float: left; }
+  /* IDEA: */
+  /* isjungiu float'a */
+.fix-float {
+    clear: both;
+}
+/* tablet */
+@media (max-width: 768px) {
+.pirmas,
+.antras {
+  width: 100%;
+}
+/* mobile */
+@media (max-width: 425px) {
+.ketvirtas,
+.penktas {
+  width: 100%;
+}
+.pirmas,
+.antras {
+ display: none;
+}
+
+}
