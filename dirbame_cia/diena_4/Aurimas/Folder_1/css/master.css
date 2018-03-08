@@ -1,0 +1,89 @@
+* {
+    /* remeliai netrukdys plociui */
+    /* remelis, bus iskaiciuotas i elemento ploti */
+    box-sizing: border-box;
+}
+/* ------------ */
+
+h1 {
+    color: red;
+    text-align: center;
+}
+article {
+    width: 30%;
+    float: left;
+    /* dedame i viena eilute
+    1) reik float
+    2) reik plocio "width"
+    3) Nepamirsti nuimti float:
+        A) susikurti "fix-float" class
+        B) html po paskutintu elementu , panaudoti "fix-float"
+     */
+    background-color: #a1a1a1;
+    border: solid 1px #000;
+    margin-left: 2.5%;
+
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.fix-float {
+    clear: both;
+}
+body {
+    margin: 0;
+}
+.paskutinis {
+    margin-right: 2.5%;
+}
+
+h2 {
+    width: 120px;
+    text-align: center;
+
+    border-bottom: solid 1x #000;
+    border-left: solid 1x #000;
+    margin: 0;
+    /* perkeliam elementa i desine ir virsu */
+    /* uzdeti proteviui "reletive" */
+    position: absolute;
+    top: 0;      /* kiek nuo virsaus */
+    right: 0; /* kiek nuo desines */
+    /* absoliutus elementai reletive zonoje */
+}
+article {
+    position: relative;
+}
+.paskutinis h2 {
+    background-color: pink;
+}
+.pirmas h2 {
+    background-color: #7effd0;
+}
+.antras h2 {
+    background-color: #7eaaaa;
+}
+
+/*-------------------------------Tablets----------------------------------  */
+/* dizainas iki 768px---------------------------------------- */
+@media (max-width: 768px) {
+    .paskutinis {
+      width: 94.8%;
+    }
+      article {
+        width: 46.2%;
+        margin-bottom: 2.6%;
+      }
+
+}
+/* ---------mobile---------- */
+@media (max-width: 425px) {
+  article {
+    width: 94.8%;
+    margin-bottom: 2.6%;
+  }
+  .antras {
+    display:none;
+  }
+}

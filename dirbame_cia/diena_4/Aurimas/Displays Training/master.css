@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+h2 {
+  text-align: center;
+}
+body{
+  margin: 0;
+}
+.pilkas {
+  width:46%;
+  background-color: grey;
+  border: solid 1px #000;
+  margin-bottom: 2.6%;
+  float: left;
+  margin-left: 2.6%;
+  height: 200px;
+}
+@media (min-width:769px) {
+  .fix-float2, .fix-float5 {
+    clear: both;
+  }
+  .block3 {
+    width: 94.6%;
+  }
+}
+
+@media (max-width: 768px) {
+  .pilkas{
+    width: 46%;
+  }
+  .block1{
+    width: 94.6%;
+  }
+  .fix-float3, .fix-float5{
+    clear: both;
+  }
+
+}
+@media (max-width: 425px) {
+  .pilkas{
+    width: 94.6%;
+  }
+  .block2, .block3{
+    width: 46%;
+  }
+  .fix-float3{
+    clear: both;
+  }
+}
