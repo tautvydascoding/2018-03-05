@@ -139,3 +139,41 @@ body {
 
   margin-right: 2.5%;
 }
+
+/* ------------TABLET MEDIA------ */
+
+/* ----------768 > ENDLESS------- */
+
+@media (max-device-width:768px) {
+
+div.one {
+  width: 46%;
+}
+
+div.two {
+
+  width: 46%;
+
+}
+
+div.three {
+
+  width: 95%;
+
+  margin-top: 2%;
+}
+
+/* ---------MOBILE MEDIA--------- */
+
+@media (min-width:320px) {
+
+  div.one,
+  div.two,
+  div.three {
+    width: 95%;
+    margin-bottom: 2%;
+    padding: 3%;
+
+
+
+}
