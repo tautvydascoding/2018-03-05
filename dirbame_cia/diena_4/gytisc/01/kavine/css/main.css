@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+/* itrauks remelio stori i elemento dezes ploti */
+
+/* --------------- */
+
+body {
+  margin: 0;
+}
+
+h1 {
+text-align: center;
+color: red;
+}
+
+section {
+  width: 30%;
+  float: left;
+  /* dedame i viena eilute: */
+  /* 1) reikia float */
+  /* 2) reikia plocio width */
+  /* 3) nepamirsti nuimti float:
+  A) susikurti "fix-float" class
+  B) html po paskutiniu elementu panaudoti "fix=float" klase */
+  background-color: #a1a1a1;
+  border: 1px solid #000;
+  margin-left: 2.5%;
+  position: relative;
+  padding: 30px 10px 10px 10px;
+}
+
+.fix-float {
+  clear: both;
+}
+
+.paskutinis {
+  margin-right: 2.5%;
+}
+
+h2 {
+  margin: 0;
+  /* perkeliame i desine ir virsu */
+  position: absolute;
+  /* top, left, right, botom neveikia jei nera paosition: absolute; */
+  top: 0px;
+  right: 0px;
+  /* absoliutus elementai juda tik reletive zonoje */
+  /* proseneliui uzdeti "reletive" */
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  width: 200px;
+  text-align: center;
+}
+
+.pirmas h2 {
+  background-color: red;
+}
+
+.antras h2 {
+  background-color: blue;
+}
+
+.paskutinis h2 {
+  background-color: orange;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}

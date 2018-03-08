@@ -5,10 +5,11 @@ body {
 .block1 {
   position: absolute;
   top: 0px;
-  bottom: 0px;
+  bottom: 100px;
   left: 0px;
-  width: 200px;
-  color: rgb(51, 93, 25);
+  width: 100px;
+  height: 200px;
+  background-color:rgb(207, 136, 215); 
 }
 
 .block2 {
@@ -17,6 +18,8 @@ body {
   bottom: 0px;
   left: 200px;
   right: 200px;
+  height: 200px;
+  width: 200px;
   background-color: rgb(65, 122, 198);
 }
 
@@ -26,6 +29,8 @@ body {
   bottom: 0px;
   right: 0px;
   width: 200px;
+  height: 200px;
+  background-color:rgb(238, 95, 233);
 }
 
 /* @media only screen
