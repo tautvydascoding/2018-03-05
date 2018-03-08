@@ -54,6 +54,23 @@ li {
     background-color: red;
     width: 40%;
 }
+.paieskos-ivestis {
+    width: 62%;
+    height: 32px;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+.paieska form {
+    padding-top: 32px;
+}
+.mygtukas-ieskoti {
+    border: none;
+    padding: 10px 15px 10px 15px;
+    /* arba */
+    padding: 10px 25px ;
+    background-color: black;
+    color: #fff;
+}
 
 
 
