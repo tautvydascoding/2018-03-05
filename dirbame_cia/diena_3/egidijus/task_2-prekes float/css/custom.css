@@ -1,24 +1,32 @@
 /*Flawor style*/
+body {
+	background-color: #7DA0A7;
+	padding: 0px;
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+	color: beige;
+}
 .box_custom {
+	height: auto;
+	width: 18%;
 	text-align: center;
+	margin-left: 1%;
+	float: left;
 }
 .box_custom:hover {
 	background-color: #FFDBBD;
 	color: #69360C;
 }
-body {
-	background-color: #7DA0A7;
+.paskutinis {
+	margin-right: 1%;
 }
 
 /*Task - 12 articles with different colors 
 and bg-colors */
 .box_color {
-	height: auto;
-	width: 19%;
 	background-color: #B1C8CD;
-	border: 2px solid rgb();
-	margin-left: 10px;
-	float: left;
 }
 .f_color1 {
 	color: #20B2AA;
@@ -34,4 +42,14 @@ and bg-colors */
 }
 .f_color5 {
 	color: #A52A2A;
+}
+.price {
+	padding: 20px 10px 20px 10px;
+	background: #783031;
+}
+.price:hover {
+	background: #3B604F;
+}
+.clear_float {
+	clear: both;
 }
