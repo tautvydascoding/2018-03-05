@@ -1,3 +1,10 @@
+.fix-float {
+    clear: both;
+}
+.mano-float {
+    float: left;
+}
+/* -------------------- */
 html {
     background-color: #c9c9c9;
 }
@@ -22,14 +29,33 @@ h1 {
 }
 
 /* -----menu------- */
-nav,
-ul {
+nav {
     width: 60%;
+}
+ul {
+    width: 100%;
     background-color: orange;
+    height: 53px;
+    margin: 0;
+    padding: 0;
+    padding-top: 28px;
 }
 li {
     float: left;
     width: 25%;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+}
+/* ---end menu---- */
+
+.paieska {
+    background-color: red;
+    width: 40%;
 }
 
-/* ---end menu---- */
+
+
+
+/*  */
