@@ -6,21 +6,25 @@
   clear: both;
 }
 
-.mano-float: {
+.mano-float {
   float: left;
 }
 
 /* --------------- */
+h1,
+h2,
+h3, {
+    font-family: Arial, sans-serif;
+  }
+
 html {
   background-color: #c9c9c9;
 }
 
 body {
   /* automatinis centravimas horizontliai */
-  /*
-    Reikia "widht"
-    viekia tik i kaire/desine
-  */
+  /* 1) Reikia "widht"
+     2) Viekia tik i kaire/desine */
   margin-left: auto;
   margin-right: auto;
   width: 1024px;
@@ -43,7 +47,7 @@ nav {
   width: 60%;
 }
 
-ul {
+nav ul {
   /* background-color: orange; */
   float: left;
   width: 100%;
@@ -53,7 +57,7 @@ ul {
   padding-top: 15px;
 }
 
-li {
+.nav-ul-1 li {
   float: left;
   width: 25%;
   list-style: none;
@@ -68,8 +72,8 @@ li {
   height: 50px;
   width: 40%;
   margin: 0;
-  padding: 0;
-  padding-top: 15px;
+  padding: 15px 0 0 0;
+  /* padding-top: 15px; */
 }
 
 form {
@@ -90,25 +94,67 @@ form {
   background-color: black;
   color: white;
 }
+/* ------menu pabaiga------ */
 
-/* ----------tablet-------------- */
-/* ---nuo 768 iki begalyb5es */
-/* @media (max-width: 768px) {
-  .blokas1,
-  .blokas2 {
-  width: 100%;
-  margin-bottom: 2.5%;
-} */
+/* ---------wraper-------- */
+.wrapper {
+  height: 400px;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
 
-/* ---------mobile---------- */
-/* @media (max-width: 425px) {
-  .blokas2,
-  .blokas3 {
-    display: none;
-  }
-  .blokas4,
-  .blokas5 {
+main {
+  background-color: #FFFFFF;
+  height: inherit;
+  width: 75%;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+article p {
+  padding: 15px 10px 0 10px;
+  margin: 0;
+}
+
+.atricle-last {
+  margin: 0 0 10px 0;
+}
+
+aside {
+  background-color: #FF80FF;
+  width: 24%;
+  height: inherit;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+
+}
+
+.aside-li li {
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #FFFFFF;
+  height: 50px;
   width: 100%;
-  margin-bottom: 2.5%;
-  }
-} */
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+footer p {
+  padding-top: 15px;
+  margin: 0 0 0 10px;
+}
+
+.h2-wraper, .h2-aside {
+  text-align: center;
+  padding: 15px 0 0 0;
+  margin: 0;
+}
+
+h3 {
+  padding: 15px 0 0 10px;
+  margin: 0;
+}

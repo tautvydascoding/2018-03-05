@@ -6,15 +6,20 @@
     <title>Savarankiskas04</title>
     <link rel="stylesheet" href="css/main.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
+
+    @font-face {
+      font-family: "OpenSymbol";
+      src: url("font/CIRCLEN.TTF") format("truetype");
+      }
+    <!-- <link href="font/CIRCLEN.TTF" rel="stylesheet" type="text/css"> -->
 
   <body>
 
     <header>
-      <h1 class="">Header</h1>
+      <h1 class="myFirstFont">Header</h1>
       <section class="menu-juosta">
         <nav class="mano-float">
-          <ul>
+          <ul class="nav-ul-1">
             <li>Home</li>
             <li>Our Team</li>
             <li>Projects</li>
@@ -31,15 +36,53 @@
           </form>
         </div>
       </section>
-
     </header>
 
-    <div class="wrapper">
+    <div class="wrapper mano-float">
+      <main class="mano-float">
+        <article class="">
+          <h2 class="h2-wraper">Article heading</h2>
+          <p class="">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </article>
+
+        <article class="">
+          <h3 class="h3-wraper1">Subsection</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </article>
+
+        <article class="atricle-last">
+          <h3 class="h3-wraper2">Another subsection</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </article>
+        <div class="fix-float"></div>
+      </main>
+
+      <aside class="mano-float">
+        <h2 class="h2-aside">Related</h2>
+        <ul class="aside-li">
+          <li class="">Naujiena1</li>
+          <li class="">Naujiena2</li>
+          <li class="">Naujiena3</li>
+          <li class="">Naujiena4</li>
+          <li class="">Naujiena5</li>
+          <div class="fix-float"></div>
+        </ul>
+      </aside>
 
     </div>
 
+    <footer class="footer mano-float">
+      <p>
+        &copy; Copyright 2018
+      </p>
+    </footer>
     <div class="fix-float"></div>
-
   </body>
 
 </html>
