@@ -116,6 +116,7 @@ background-color: rgb(218, 101, 40);
 
         float: left;
 
+
       }
 
       nav {
@@ -177,7 +178,7 @@ background-color: rgb(218, 101, 40);
 
   background-color: rgb(155, 226, 200);
 
-/* overflow: hidden; hides all content - neveikia*/
+/* overflow: hidden; */
 
 
 
@@ -201,8 +202,8 @@ aside {
   background-color: rgb(104, 252, 163);
 
   width: 20%;
-
-  min-height: 200px;
+/*
+  min-height: 200px; */
 
   margin-left: 5%;
 
@@ -242,4 +243,19 @@ aside.mano-float {
 font-size: 55px;
 
 text-align: center;
+}
+
+
+              /* footer starts */
+
+
+.footeris {
+
+  background-color: rgb(255, 255, 255);
+
+  min-height: 100px;
+
+
+
+
 }
