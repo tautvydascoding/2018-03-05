@@ -11,11 +11,6 @@
 }
 
 /* --------------- */
-h1,
-h2,
-h3, {
-    font-family: CIRCLEN;
-  }
 
 html {
   background-color: #c9c9c9;
@@ -30,11 +25,34 @@ body {
   width: 1024px;
 }
 
+/* @font-face {
+  font-family: circlen;
+  src: url(../font/circlen.ttf),
+  url(../font/circlen.woff),
+  url(../font/circlen.woff2),
+  url(../font/circlen.eot);
+}
+
+h1,
+h2,
+h3 {
+  font-family: circlen;
+} */
+/* fontas paimamas is aplanko. kodas tik css */
+
+h1,
+h2,
+h3 {
+  font-family: Lobster;
+}
+/* fontas paimamas is linko. kodas parasytas html */
+
 h1 {
-  color: red;
+  color: white;
   text-align: center;
+  text-shadow: 0 0 15px black;
   /* margin-left: auto;
-  margin-right: auto; */
+  margin-right: auto; */ /* kitoks lygiiavimo budas */
 }
 
 .menu-juosta {
@@ -98,16 +116,20 @@ form {
 
 /* ---------wraper-------- */
 .wrapper {
-  height: 400px;
+  min-height: 200px;
+  /* height: 400px; */
   margin: 10px 0 0 0;
   padding: 0;
+  /* kad pasleptu automatskai apskaiioto aside auksti */
+  overflow: hidden;
+  /* jei overflow: auto; tuomet aside sone atsiranda sidbar/scroolas */
 }
 
 main {
   background-color: #FFFFFF;
-  height: inherit;
-  width: 75%;
-  margin: 0 10px 0 0;
+  /* height: inherit; */
+  width: 79%;
+  margin: 0 1% 0 0;
   padding: 0;
 }
 
@@ -122,11 +144,14 @@ article p {
 
 aside {
   background-color: #FF80FF;
-  width: 24%;
-  height: inherit;
-  overflow: auto;
+  width: 20%;
+  /* height: inherit; */
   margin: 0;
   padding: 0;
+  /* autmatins aside aukscio uzdejimas */
+  /* !teciui wraper uzdedame owerflow:hiden; */
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;
 
 }
 

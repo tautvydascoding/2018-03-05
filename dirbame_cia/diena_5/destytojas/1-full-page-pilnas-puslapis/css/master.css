@@ -1,0 +1,106 @@
+.fix-float {
+    clear: both;
+}
+.mano-float {
+    float: left;
+}
+/* -------------------- */
+html {
+    background-color: #c9c9c9;
+}
+body {
+    /* automatinis centravimas horizontalus */
+    /*
+        1) reik "witdh"
+        ! veikia tik i kaire/desine
+    */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+h1 {
+    color: red;
+}
+/* ---------------- */
+.menu-juosta {
+    background-color: pink;
+    height: 80px;
+}
+
+/* -----menu------- */
+nav {
+    width: 60%;
+}
+nav ul {
+    width: 100%;
+    background-color: orange;
+    height: 53px;
+    margin: 0;
+    padding: 0;
+    padding-top: 28px;
+}
+nav li {
+    float: left;
+    width: 25%;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+}
+/* ---end menu---- */
+/* --------START paieska---------- */
+.paieska {
+    background-color: red;
+    width: 40%;
+}
+.paieskos-ivestis {
+    width: 62%;
+    height: 32px;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+.paieska form {
+    padding-top: 32px;
+}
+.mygtukas-ieskoti {
+    border: none;
+    padding: 10px 15px 10px 15px;
+    /* arba */
+    padding: 10px 25px ;
+    background-color: black;
+    color: #fff;
+}
+/* ----------end paieska------- */
+
+.wrapper {
+    background-color: yellow;
+    width: 100%;
+    margin-top: 25px;
+
+    /* paslepem dali aside, kuri per aukta */
+    overflow: hidden;
+}
+main {
+    background-color: #fff;
+    width: 78%;
+    min-height: 200px;
+    margin-right: 2%;
+}
+aside {
+    background-color: pink;
+    width: 20%;
+    /* automatinis "aside"  aukscio uzdejimas
+    ! teciui: uzdedam overflow:hidden; */
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+
+
+
+
+
+
+
+
+/*  */
