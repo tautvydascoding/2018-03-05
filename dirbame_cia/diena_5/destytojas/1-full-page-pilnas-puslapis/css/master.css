@@ -18,9 +18,17 @@ body {
     margin-right: auto;
     width: 1024px;
 }
-
+h1,
+h2,
+h3 {
+    font-family: 'Rammetto One','Arial', cursive;
+}
 h1 {
-    color: red;
+    color: white;
+
+    text-align: center;
+    /*  kiek zemyn/aukstyn;  kiek i sona;  koks isblukimas  */
+    text-shadow: 0 0 15px black;
 }
 /* ---------------- */
 .menu-juosta {
@@ -97,7 +105,10 @@ aside {
 }
 
 
-
+footer {
+    background-color: #fff;
+    min-height: 100px;
+}
 
 
 
