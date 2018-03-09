@@ -1,0 +1,100 @@
+.fix-float {
+    clear: both;
+}
+.mano-float {
+  float: left;
+}
+/* ---------------- */
+html {
+  background-color: #a9a9a9; }
+  body {
+/* automatinis centravimas */
+/* reikia pločio "width" - veikia tik i kaire/desine */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+h1,
+h2,
+h3 {
+    font-family: 'Lobster', cursive; }
+h1 {
+        color: white;
+    text-align: center;
+    /* kiek zemyn/aukstyn, kiek i sona, koks isblukimas */
+    text-shadow: 0 0 15px black;
+  }
+.menu-juosta {
+    background-color: #FF80FF;
+    height: 80px;
+}
+/* menu */
+nav {
+  width: 60%;
+}
+nav ul {
+  width: 100%;
+  background-color: orange;
+  height: 53px;
+  margin: 0;
+  padding: 0;
+  padding-top: 28px;
+}
+nav li {
+  float: left;
+  width: 25%;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+}
+/* end menu */
+/* Paieska start */
+.paieska {
+  background-color: red;
+  width: 40%;
+}
+.paieskosivestis {
+  width: 70%;
+  height: 32px;
+  padding-left: 20px;
+  margin-left: 30px;
+}
+.paieska form {
+  padding-top: 32px;
+}
+.mygtukas-ieskoti {
+  border: none;
+  padding: 10px 15px 10px 15px;
+  /* arba */
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+}
+  /* End paieska */
+.wrapper {
+  background-color: yellow;
+  width: 100%;
+  margin-top: 20px;
+  /* kad pasleptu automatiskai apskaiciuoto aukscio dali */
+  overflow: hidden;
+}
+main {
+  background-color: #fff;
+  width: 75%;
+  min-height: 200px;
+  margin-right: 2%;
+  padding: 15px;
+}
+aside {
+  background-color: pink;
+  width: 20%;
+  /* automatinis aside aukscio uzdejimas
+  !teciui uzdedam overflow:hidden; */
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;
+}
+footer {
+  background-color: red;
+  min-height: 100px;
+}
