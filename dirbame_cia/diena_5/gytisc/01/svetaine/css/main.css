@@ -25,7 +25,7 @@ body {
   width: 1024px;
 }
 
-/* @font-face {
+@font-face {
   font-family: circlen;
   src: url(../font/circlen.ttf),
   url(../font/circlen.woff),
@@ -37,8 +37,8 @@ h1,
 h2,
 h3 {
   font-family: circlen;
-} */
-/* fontas paimamas is aplanko. kodas tik css */
+}
+/* fontas paimamas is aplanko. kodas tik css
 
 h1,
 h2,
