@@ -12,6 +12,10 @@ p {
   text-align: center;
 }
 
+body {
+  margin: 0;
+}
+
 .blokas1,
 .blokas2,
 .blokas4,
@@ -24,6 +28,7 @@ p {
 .fix-float {
   clear: both;
 }
+
 
 /* Tablet  */
 @media (max-width: 768px) {
