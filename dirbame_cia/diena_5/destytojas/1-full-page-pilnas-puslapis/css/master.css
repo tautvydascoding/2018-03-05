@@ -32,7 +32,7 @@ h1 {
 nav {
     width: 60%;
 }
-ul {
+nav ul {
     width: 100%;
     background-color: orange;
     height: 53px;
@@ -40,7 +40,7 @@ ul {
     padding: 0;
     padding-top: 28px;
 }
-li {
+nav li {
     float: left;
     width: 25%;
     list-style: none;
@@ -77,17 +77,27 @@ li {
     background-color: yellow;
     width: 100%;
     margin-top: 25px;
+
+    /* paslepem dali aside, kuri per aukta */
+    overflow: hidden;
 }
 main {
     background-color: #fff;
-    width: 80%;
+    width: 78%;
     min-height: 200px;
+    margin-right: 2%;
 }
 aside {
     background-color: pink;
     width: 20%;
-    height: 200px;
+    /* automatinis "aside"  aukscio uzdejimas
+    ! teciui: uzdedam overflow:hidden; */
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
 }
+
+
+
 
 
 
