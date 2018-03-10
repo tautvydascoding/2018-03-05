@@ -1,0 +1,116 @@
+.fix-float {
+    clear: both;
+}
+.mano-float {
+    float: left;
+}
+/* -------------------- */
+html {
+    background-color: grey;
+}
+body {
+    /* automatinis centravimas horizontalus */
+    /*
+        1) reik "witdh"
+        ! veikia tik i kaire/desine
+    */
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+/* ---------------- */
+.menu-juosta {
+    background-color: pink;
+    height: 80px;
+}
+
+/* -----menu------- */
+nav {
+    width: 60%;
+}
+ul {
+    width: 100%;
+    /* background-color: orange; */
+    height: 53px;
+    margin: 0;
+    padding: 0;
+    padding-top: 28px;
+}
+li {
+    float: left;
+    width: 25%;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+}
+/* ---end menu---- */
+
+.paieska {
+    /* background-color: red; */
+    width: 40%;
+}
+.paieskos-ivestis {
+    width: 62%;
+    height: 32px;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+.paieska form {
+    padding-top: 32px;
+}
+.mygtukas-ieskoti {
+    border: none;
+    padding: 10px 15px 10px 15px;
+    /* arba */
+    padding: 10px 25px ;
+    background-color: black;
+    color: #fff;
+}
+
+
+
+
+/* -------wrapper start---------- */
+.wrapper{
+  margin-top: 1%;
+  overflow:hidden;
+/* background-color: yellow; */
+}
+main{
+  background-color: white;
+  width: 79%;
+  min-height: 300px;
+
+
+}
+aside{
+  background-color: pink;
+  width: 20%;
+  margin-left: 1%;
+  /* darom automatini aside aukscio isskaiciavima */
+  /* teciui uzdedad overflow:hiddenl */
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;x
+  /* done */
+}
+
+.fix-float{
+  clear: both;
+}
+/*------------------end wrapper-------- */
+footer{
+  margin-top: 1%;
+  background-color: white;
+  height: 60px;
+  text-align:left;
+  padding-top: 18px;
+  padding-left: 1%;
+}
+/* --------end footer--------------- */

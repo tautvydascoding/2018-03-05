@@ -1,0 +1,33 @@
+
+.header{
+  height: 10vh;
+  background-color: rgb(11, 246, 84);
+}
+.main{
+  /* margin-bottom: 1vh;
+  margin-top: 1vh; */
+  height: 78vh;
+  background-color: rgb(200, 200, 200);
+}
+.footer{
+  height:10vh;
+  background-color: rgb(110,0, 110);
+}
+.nav{
+  /* margin:1vh; */
+  margin-left: 1vh;
+  margin-right: 1vh;
+  height: 78vh;
+  background-color: rgb(100, 200, 100);
+}
+.ads{
+  /* margin-bottom: : 1vh;
+  margin-top: 1vh; */
+  background-color: grey;
+  height: 78vh;
+  background-color: rgb(200, 200, 200);
+}
+.wrapper{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}

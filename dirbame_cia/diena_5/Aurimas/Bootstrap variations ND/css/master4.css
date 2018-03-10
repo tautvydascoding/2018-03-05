@@ -1,0 +1,27 @@
+.header{
+  height: 10vh;
+  background-color: rgba(0, 88, 80, 0.98);
+}
+.main{
+  height: 78vh;
+  background-color: rgba(95, 0, 80, 0.98);
+  margin-top: 1vh;
+}
+.ads{
+  background-color: rgba(95, 88, 80, 0.98);
+  height: 44vh;
+  margin-top: 1vh;
+}
+.nav{
+  height: 44vh;
+  margin-top: 1vh;
+  background-color: rgba(95, 88, 80, 0.98);
+}
+.footer{
+  height: 10vh;
+  margin-top: 1vh;
+  background-color: rgba(95, 88, 80, 0.98);
+}
+.wrapper{
+  margin-left: 1vh;
+}
