@@ -1,0 +1,36 @@
+
+
+.header {
+  height: 100px;
+  background-color: #6fb925;
+}
+
+.nav {
+  height: 510px;
+  background-color: #35a892;
+}
+
+.article {
+  height: 400px;
+  background-color: #da5555;
+}
+
+.ads {
+  height: 400px;
+  background-color: #ab9c7a;
+  margin-left: 10px;
+}
+
+.footer{
+  height: 100px;
+  background-color: #e4e218;
+  margin-top: 10px;
+}
+
+.main {
+  margin-top: 10px;
+}
+
+.mainas {
+  margin-left: 10px;
+}
