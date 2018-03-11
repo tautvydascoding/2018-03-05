@@ -1,0 +1,159 @@
+.fix-float {
+  clear: both;
+}
+.mano-float {
+  float: left;
+}
+html {
+  background-color: #b4b4b4;
+}
+
+body {
+    /*automatinis centravimas  horizantalus*/
+    /*  1) reik "witdh"
+      ! veikia tik horizantaliai (i kaire/desine)
+      */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+/* -------------------- */
+.menu-juosta {
+   background-color: #FF80FF;
+   height: 80px;
+}
+/* ----menu----  */
+nav {
+  width: 60%;
+}
+
+}
+ul  {
+
+   width: 100%;
+   background-color: red;
+   height: 53px;
+   margin: 0;
+   padding: 0;
+   padding-top: 28px;
+
+
+}
+
+li {
+   float: left;
+   width: 25%;
+   list-style: none;
+   text-transform: uppercase;
+   font-size: 28px;
+   text-align: center;
+
+}
+
+/*----end menu----- */
+
+.paieska {
+
+  width: 40%;
+
+
+}
+.paieskos-ivestis {
+ width: 62%;
+ height: 32px;
+ padding-left: 20px;
+ margin-left: 30px;
+}
+.paieska form {
+    padding-top: 20px;
+}
+
+.mygtukas-ieskoti {
+  border: none;
+  padding: 10px 15px 10px 15px;
+  /* arba padding: 10px 15px; */
+  padding: 10px 25px;
+  background-color: black;
+  color: white;
+
+}
+/*---- wraperis ----*/
+.wrapper {
+  width: 80%;
+  float: left;
+  background-color: white;
+
+}
+article h2 {
+  text-align: center;
+}
+
+p {
+  padding-left: 5px;
+}
+article h3,
+h2 {
+  padding-left: 5px;
+
+}
+
+/* ----end wraperis---*/
+
+/*----aside----  */
+aside {
+  width: 12%;
+  background-color: #FF80FF;
+  position: absolute;
+  right: 249px;
+  top: 179px;
+  height: 84%;
+
+}
+
+.side-bar {
+  width: 100%;
+  height: auto;
+  margin: 5px;
+  padding: 0;
+}
+
+.side-bar li {
+  float: none;
+  width: 90%;
+  list-style: unset;
+  text-transform: capitalize;
+  font-size: 15px;
+  text-align: left;
+  padding: 6px;
+}
+
+.side {
+  padding: 15px 10px 10px 25px;
+}
+
+/*----footeris starts----*/
+footer {
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 54%;
+    margin-left: 250px;
+    margin-bottom: 150px;
+
+
+}
+
+footer p {
+  padding-top: 25px;
+  padding-left: 25px;
+  font-size: 10px;
+}

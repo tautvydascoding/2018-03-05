@@ -1,0 +1,25 @@
+.aukstis-100 {
+   height: 100px;
+}
+.aukstis-200 {
+   height: 200px;
+}
+.aukstis-300 {
+   height: 300px;
+}
+.aukstis-500 {
+   height: 500px;
+ }
+
+.aukstis-400 {
+  height:400px
+}
+
+article, nav, aside {
+margin: 5px;
+
+}
+
+.wrapper-antras {
+  margin-left: 10px;
+}
