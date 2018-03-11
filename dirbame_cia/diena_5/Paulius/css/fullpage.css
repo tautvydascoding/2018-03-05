@@ -1,0 +1,19 @@
+h1{
+    color: indigo;
+}
+
+.container-fluid{
+    background-color: red;
+}
+.container{
+  background-color: blue;
+}
+
+div{
+  height: 200px;
+
+}
+
+nav{
+  height: 200px;
+}
