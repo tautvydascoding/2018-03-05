@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <!-- reikalinga kad prisitaikantis dizainas veiktu tvarkingai -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
+        <!-- galimos klaidos -->
+        <!-- blogas kelias iki failo -->
+        <!-- "/" ne i ta puse -->
+        <!-- neuzdarete ">" -->
+        <link rel="stylesheet" href="css/master.css">
+        <!-- !!!! VISSA MANO CSS failas pats zemiausias -->
+    </head>
+
+    <body>
+
+      <div class="container">
+        <!-- order-10 stulpeliu rikiavimas nuo maziausio iki didziausio
+      pagal "order" numeri -->
+        <div class="row">
+          <div class="col-4 bg-danger order-10 aukstis-200">
+            1
+          </div>
+
+          <div class="col-4 bg-info order-5 aukstis-200">
+            2
+          </div>
+
+          <div class="col-4 bg-warning order-3 aukstis-200">
+            3
+          </div>
+        </div>
+
+<!-- offset panaudojimas - atstumimas nuo kaires (per stulpeliu skaiciu) -->
+
+<div class="row">
+  <div class="col-4  offset-4 bg-warning aukstis-200">
+      mokausi offset
+  </div>
+</div>
+
+
+<!-- float right  -->
+<!-- no-gutters nuo "row" nuima margin ir nuo "col" nuima padding  -->
+<div class="row   no-gutters ">
+  <div class="col-12">
+      <!-- w-25 width: 25% w-50 w-100 -->
+    <div class=" w-25 float-right bg-info aukstis-200">
+      mokausi float right
+    </div>
+    <!-- clearfix isjungia float -->
+    <div class="clearfix"> </div>
+  </div>
+
+</div>
+
+<!-- responsive images - prisitaikantys paveiklsiukai -->
+
+<div class=" mt-5 row">
+  <div class="col-12 bg-light">
+  <img  class="img-fluid" src="header.jpg" alt="antrastes paveiksliukas" >
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <!--end container  -->
+      </div>
+
+
+
+        <!-- bootstrap4 -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <!-- !!! jQuery "slim" yra nepilna versija ir jQuery kai kurios komandos neveikia, reiktu isisdeti kita jQuery  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- !!! mano js failas visada zemiausias -->
+        <script type="text/javascript" src="main.js"> </script>
+    </body>
+</html>
