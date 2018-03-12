@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>js</title>
         <!-- reikalinga kad prisitaikantis dizainas veiktu tvarkingai -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,7 +17,50 @@
 
     <body>
 
-        <h1> MOkomes </h1>
+        <h1> Mokomes </h1>
+
+        <div class="container">
+<!-- order stulpeliu rikivimas, kuo didesnis order skaicius, tuo pirmesnis stulpelis -->
+          <div class="row">
+            <div class="col-4 order-20 bg-danger aukstis-200">
+              1
+            </div>
+
+            <div class="col-4 order-5 bg-warning aukstis-200">
+              2
+            </div>
+
+            <div class="col-4 order-11 bg-info aukstis-200">
+              3
+            </div>
+            </div>
+<!-- offset panaudojimas - atstumimas nuo kaires - offseto numeris atstumimas nuo kaires -->
+            <div class="row">
+              <div class="col-4 offset-4 bg-info aukstis-200">
+                Mokausi offset
+              </div>
+            </div>
+            <!-- loat right -->
+            <!--no-gutters - nuo "row" nuima margin ir nuo "col" nuema padding  -->
+<div class="row no-gutters">
+  <div class="col-12">
+    <!-- w-25 widht-25% w-50 w-100 -->
+  <div class="w-25 float-right bg-danger aukstis-200">
+    mokausi float-right
+  </div>
+    <div class="clearfix"
+</div>
+<!-- clearfix - isjungia float -->
+</div>
+  <!-- Responsive images - prisitaikantis paveiksliukai -->
+  <div class="row">
+    <div class="col-6 bg-light">
+      <img class="img-fluid" src="header.jpg" alt="paveiksliukas">
+
+    </div>
+  </div>
+        </div>
+
 
 
 

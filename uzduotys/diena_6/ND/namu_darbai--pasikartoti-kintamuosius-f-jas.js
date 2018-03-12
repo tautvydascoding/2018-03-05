@@ -14,7 +14,7 @@
 
 //  02 UZDUOTIS
 // sukurti funkcijas:
-// printName()  printLName(), printClass() ,
+// printName()  printLastName(), printClass() ,
 // kurios atspausdina i konsole pirmos uzduoties kintamuosius
 
 
