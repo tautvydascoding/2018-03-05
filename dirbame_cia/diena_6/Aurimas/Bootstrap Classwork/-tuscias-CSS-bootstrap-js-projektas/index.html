@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap pagrindai</title>
+        <!-- reikalinga kad prisitaikantis dizainas veiktu tvarkingai -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
+        <!-- galimos klaidos -->
+        <!-- blogas kelias iki failo -->
+        <!-- "/" ne i ta puse -->
+        <!-- neuzdarete ">" -->
+        <link rel="stylesheet" href="css/master.css">
+        <!-- !!!! VISSA MANO CSS failas pats zemiausias -->
+    </head>
+
+    <body>
+<!-- mokinomes ORDER komanda, stulpeliu rikiavimas, visu default value yra 0 -->
+        <h1> Mokomes </h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-4 bg-success aukstis-200 order-8">
+              1
+            </div>
+            <div class="col-4 bg-warning aukstis-200 order-0">
+              2
+            </div>
+            <div class="col bg-info aukstis-200 order-1">
+              3
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-4 atst  bg-danger aukstis-200 offset-2">
+              offset
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="col-12 aukstis-200 bg-success ">
+              <div class="bg-info aukstis-200 float-right w-25 ">
+                  Let's FLY
+              </div>
+              <div class="clearfix"></div>
+            </div>
+
+          </div>
+        </div>
+        <!-- prisitaikantys paveiksliukai -->
+        <!--mt 1 2 3 4 5 ->.... margin-top  -->
+        <div class="row mt-1">
+          <div class="col ">
+            <img class="img-fluid" src="./aXxZ7Nd_460s.jpg" alt="Morse">
+
+          </div>
+
+        </div>
+
+
+        <!-- bootstrap4 -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <!-- !!! jQuery "slim" yra nepilna versija ir jQuery kai kurios komandos neveikia, reiktu isisdeti kita jQuery  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- !!! mano js failas visada zemiausias -->
+        <script type="text/javascript" src="main.js"> </script>
+    </body>
+</html>

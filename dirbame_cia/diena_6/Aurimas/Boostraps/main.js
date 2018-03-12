@@ -77,7 +77,7 @@ daugyba(12,5);
 // F-ja kuri paskaiciuoja trikampio ilgaja krastine (Pitagoro teorema)
 // pitagoroTeorema(x, y)      x*x + y*y
 function pitagoras (a,b){
-  var ilgoji= Math.sqrt((Math.pow(a,2) + Math.pow(b,2)));
+  var ilgoji= Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
   console.log("Ilgoji trikampio krastine: ", ilgoji);
 }
 pitagoras(6,8);
