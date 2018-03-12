@@ -113,3 +113,106 @@ pitagoras(10,20);
 // pasikartoti paskutines 2 exercies !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!♥♥♥♥♥♥
 //==========================KOMANDINE (3-4h) Bootstrap && GIT=================
 // ant lentos
+
+
+// namu darbai darbeliai
+
+
+                                        // ==============patarimai==========
+                                        // reiksme  - kintamasis  / variable
+                                        // "reiksme" - tekstas/ reiksme/ value
+                                        // reiksme() - f-jos paleidimas
+                                        // =============================
+
+
+                                        // ===================pasikartoti  F-jas===================
+                                        //  01 UZDUOTIS
+                                        // sukurti 3 Globalius kintamuosius:  vardas , pavarde, klase   (ir jiems priskirti reiksmes):
+                                        // atspausdinti visus kintamuosius
+
+                                        var vardas ="egidijus" ;
+
+                                        var pavarde ="dragunas" ;
+
+                                        var klase = 12;
+
+
+                                        console.log("vardas",vardas,"pavarde",pavarde,"klase",klase); {
+
+                                        }
+
+
+
+
+                                        //  02 UZDUOTIS
+                                        // sukurti funkcijas:
+                                        // printName()  printLName(), printClass() ,
+                                        // kurios atspausdina i konsole pirmos uzduoties kintamuosius
+
+
+                                        function printName(q) {
+
+                                          console.log("vardas:",q+";");
+                                        }
+
+                                        printName(vardas);
+
+                                        function printLName(w) {
+
+                                          console.log("pavarde",w+";");
+                                        }
+
+                                        printLName(pavarde);
+
+                                        function printClass(e) {
+                                        console.log("klase",typeof(e)+";");
+                                        }
+                                        printClass(klase);
+
+
+                                        alert('I CAN SEE YOU');
+
+                                        alert('ENOUGH LOOKING AT MY JS!');
+
+
+                                        alert('Seriously enough ♥ :*');
+
+
+
+
+
+
+
+
+
+                                        //  03 UZDUOTIS
+                                        // parasyti f-ja printVardasPavardeKlase(name, lname, klase)
+                                        // kuria iskviesti 3 kartus su skirtingais zmoniu vardasi ir pavardem
+
+
+                                        function printVardasPavardeKlase(name,lname,klase) {
+                                          console.log("vardas:",name+";","pavarde:",lname+";","klase:",klase+";");
+
+                                          }
+
+                                          printVardasPavardeKlase("egidijus","dragunas","astunta");
+                                            printVardasPavardeKlase("svetlana","nelaboji","eleventh");
+                                              printVardasPavardeKlase("ricardo","cialiao","10");
+
+
+
+                                        // =====================CSS Flex=========================
+
+                                        // 1) suzaisti CSS Frog game      CHECK*
+
+                                        // =====================JS zaidimas=========================
+
+                                        // suzaisti JS zaidima Code Combat
+
+
+                                        // *CHECK*
+
+
+
+                                        //
+                                        // some training
