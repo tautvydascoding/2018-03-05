@@ -165,7 +165,7 @@ pitagoras(10,20);
                                         printLName(pavarde);
 
                                         function printClass(e) {
-                                        console.log("klase",typeof(e)+";");
+                                        console.log("klase",e+";");
                                         }
                                         printClass(klase);
 
