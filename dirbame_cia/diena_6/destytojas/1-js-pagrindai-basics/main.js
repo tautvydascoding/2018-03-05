@@ -58,11 +58,25 @@ printVardasPavardeAmzius();
 //  3 UZDUOTIS
 // sukurti funkcija "printMetinisPajamuDydis()" ,
 // kuri  atspausdina i konsole suma 12 atlyginimu (vienas atlyginimas yra lygus "uzduotis 1" kintamajam - "atlyginimas")
-
+function printMetinisPajamuDydis() {
+    var suma = atlyginimas * 12;
+    console.log(  "metines pajamos: ", suma );
+}
+printMetinisPajamuDydis();
 
 //  4 UZDUOTIS
 // A) sukurti kintamuosius:  salis, miestas, adresas, pastoKodas
 // B) sukurti f-ja "printAddressData()",  kuri atspausdina i konsole visus siuos kintamuosius
+var salis = "Brazilija";
+var miestas = "Rio";
+var adresas = "Kemes 13";
+var pastoKodas = 56456;
+
+function printAddressData() {
+    console.log( salis, miestas, adresas, pastoKodas);
+}
+printAddressData();  // f-jos iskvietimas
+
 
 // ---- advance-----
 //  5 UZDUOTIS
@@ -70,13 +84,24 @@ printVardasPavardeAmzius();
 //  kuri atspausdina i konsole "x" reiksmes
 // iskviesti f-ja ir vietoj x irasyti koki nors teksta pvz: printTekstas( "Jokubo istorijos");
 
+function printTekstas( x ) {  // x - laikinas kintamasis. jis bus sunaikintas, f-jai baigus darba
+    console.log(  x );
+}
+printTekstas(  " Labas Raudonkepure. Neik i miska. " );
+printTekstas(  " Viso gero " );
+
+
 // 6 UZDUOTIS
 // sukurti f-ja, kuri sudaugina du  paduotus skaicius "daugyba(x, y)"
-
+function daugyba( x1 , x2 ) {
+    var atsakymas = x1 * x2;
+    console.log( "sudauginus ", x1 , " ir ", x2, " gauname : ", atsakymas);
+}
+daugyba( 2, 0);
 
 // 7 UZDUOTIS
 // F-ja kuri paskaiciuoja trikampio ilgaja krastine (Pitagoro teorema)
-// pitagoroTeorema(x, y)      x*x + y*y
+// pitagoroTeorema(x, y)      x*x + y*y  - ir istraukti sakni   Math.sqrt(  suma );
 
 //==========================KOMANDINE (3-4h) Bootstrap && GIT=================
 // ant lentos
