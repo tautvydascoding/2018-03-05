@@ -29,13 +29,30 @@ sveikintis();
 //  1 UZDUOTIS
 // sukurti kintamuosius (ir jiems priskirti reiksmes):
 // vardas, pavarde, amzius, atlyginimas
+var vardas = 'Tomas';
+var pavarde = "Tomauskis";
+var amzius = 19;
+var atlyginimas = 569.90;
+
+console.log( vardas, pavarde, amzius, atlyginimas );
+// ARBA
+console.log( "vardas: ", vardas, " pavarde: ", pavarde, " amzius: ", amzius, " atlyginimas: ", atlyginimas );
+// arba "+" sudeda tekstus/string
+
 
 // teo:
-//  typeof( k ); f-ja kuri isveda kintamojo tipa
-
+//  typeof( k )  f-ja kuri isveda kintamojo tipa
+console.log(  typeof( atlyginimas )   );
 
 //  2 UZDUOTIS
 // sukurti funkcija "printVardasPavardeAmzius()" , kuri atspausdina i konsole pirmos uzduoties kintamuosius
+
+function printVardasPavardeAmzius() {
+    console.log( "=== Vardas: ", vardas, " pavarde: ", pavarde, " amzius: ", amzius, " atlyginimas: ", atlyginimas );
+}
+printVardasPavardeAmzius();
+printVardasPavardeAmzius();
+printVardasPavardeAmzius();
 
 
 //  3 UZDUOTIS
