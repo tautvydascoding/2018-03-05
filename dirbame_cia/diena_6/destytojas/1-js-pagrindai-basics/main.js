@@ -103,5 +103,13 @@ daugyba( 2, 0);
 // F-ja kuri paskaiciuoja trikampio ilgaja krastine (Pitagoro teorema)
 // pitagoroTeorema(x, y)      x*x + y*y  - ir istraukti sakni   Math.sqrt(  suma );
 
+function pitagoroTeorema(x, y)  {
+    var tarpinis = x*x + y*y;
+    var z = Math.sqrt( tarpinis );
+    console.log( "z yra: ", z );
+}
+pitagoroTeorema(3, 4);
+
+
 //==========================KOMANDINE (3-4h) Bootstrap && GIT=================
 // ant lentos
