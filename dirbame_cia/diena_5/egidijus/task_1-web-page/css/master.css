@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgrey;
+}
+.body_content {
+    height: auto;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-size: 120px;
+    margin: 40px 0px;
+    text-shadow: 5px 5px 15px black;
+}
+h2 {
+    text-align: center;
+}
+h4 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 80px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    list-style: none;
+    float: left;
+    height: auto;
+    width: 25%;
+    text-align: center;
+}
+a {
+    text-decoration: none; 
+    color: white;
+    font-size: 24px;
+    display: block;
+    padding: 29px 10px 29px;
+}
+a:hover {
+    box-shadow: 0px 0px 0px 5px;
+    background-color: darkblue;
+    font-weight: bolder;
+}
+
+header {
+
+}
+header h1 {
+    text-align: center;
+}
+
+.nav_bar {
+    height: 80px;
+    width: 70%;
+    float: left;
+}
+.search_bar {
+    height: 80px;
+    width: 30%;
+    float: right;
+    /*background-color: black;*/
+}
+
+/*forma searchui */
+form {
+    width: 80%;
+    /*margin: 29px 10px 29px;*/
+    margin-top: 25px;
+    margin-bottom: 29px;
+    margin-left: auto;
+    margin-right: auto;
+}
+form input {
+    margin-left: 8px;
+}
+.btn-input {
+    padding: 5px;
+}
+.btn-search {
+    padding: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+/* pabaiga */
+.nav {
+    height: 80px;
+    width: 100%;
+    background-color: #65799b;
+}
+.footer {
+    height: 120px;
+    width: 100%;
+    background-color: #65799b;
+    margin-top: 2%;
+    padding: 30px 60px;
+}
+.clear_float {
+    clear: both;
+}
+
+/*---Wrapper kontinentas---*/
+.wrapper {
+        /*--paslepem dali aside elemento;*/
+    overflow: hidden;
+    margin-top: 2%;
+}
+.content {
+    min-height: 400px;
+    width: 74%;
+    background-color: white;
+    float: left;
+    margin-right: 2%;
+    background-color: white;
+    padding: 50px;
+}
+.side_bar {
+    width: 24%;
+    background-color: #65799b;
+    float: left;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+.clear_footer {
+    clear: both;
+}
