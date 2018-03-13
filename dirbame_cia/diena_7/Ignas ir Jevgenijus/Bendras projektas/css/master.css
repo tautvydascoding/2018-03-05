@@ -1,9 +1,52 @@
 h1 {
-    color: red;
+    text-align: center;
+    color: #c9c9c9;
+
 }
+
+li {
+  float: left;
+  margin-left: 20px;
+  margin-top: 35px;
+  font-size: 22px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 200px;
+  padding: 0;
+}
+
+p {
+  padding-top: 10px;
+  text-align: justify;
+}
+
+img {
+  height: 80px;
+}
+
+nav {
+  float: left;
+}
+
+header {
+  background-color: #373737;
+}
+
+h3 {
+margin-top:
+text-decoration-line: underline;
+}
+
 .aukstis-100 {
     height: 100px;
 }
+.aukstis-150{
+  height: 150px;
+}
+
 .aukstis-200 {
     height: 200px;
 }
@@ -14,5 +57,64 @@ h1 {
     height: 500px;
 }
 
+.mano-float {
+  float: left;
+  position: relative;
+}
 
-/* paveiksliukai Jevgenijus */
+.fix-float{
+  clear: both;
+}
+
+.vidurinis {
+  max-width: 100%;
+  height: auto;
+}
+
+.audi-logo {
+  float: left;
+  margin-top: 27px;
+  margin-left: 40px;
+  height: 45%;
+}
+
+.reklama {
+  background-image: url(../images/vidurinis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sonas {
+  background-color: #373737;
+  background-image: url(../images/audia1.png);
+  background-repeat: no-repeat;
+  background-size: 75%;
+}
+
+.quatro1 {
+  background-image: url(../images/quatro1.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  transform: scaleX(-1);
+}
+
+.audi3 {
+  background-image: url(../images/audi3.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  margin-bottom: 40px;
+  margin-right: 80px
+}
+
+.mygtukas {
+  margin-left: 580px;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: black;
+  color: #afafaf;
+  border: none;
+
+}
