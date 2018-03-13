@@ -27,6 +27,11 @@
 	height: 600px;
 }
 .bg-pic {
-	background-size: 100% 100%; 
+	background-size: 100%; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-image: url(https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/eichenwalde-screenshot-003.png);
+}
+.btn-size {
+	padding: 50px 100px;
 }
