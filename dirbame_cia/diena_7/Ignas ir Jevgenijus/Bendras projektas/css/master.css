@@ -1,12 +1,15 @@
 h1 {
     text-align: center;
+    color: #c9c9c9;
+
 }
 
 li {
   float: left;
   margin-left: 20px;
-  margin-top: 75px;
-  font-size: 30px;
+  margin-top: 35px;
+  font-size: 22px;
+  color: white;
 }
 
 ul {
@@ -16,7 +19,7 @@ ul {
 }
 
 p {
-  padding-top: 35px;
+  padding-top: 10px;
   text-align: justify;
 }
 
@@ -29,7 +32,12 @@ nav {
 }
 
 header {
-  background-color: #d6d6d6;
+  background-color: #373737;
+}
+
+h3 {
+margin-top:
+text-decoration-line: underline;
 }
 
 .aukstis-100 {
@@ -65,26 +73,48 @@ header {
 
 .audi-logo {
   float: left;
-  margin-top: 30px;
+  margin-top: 27px;
   margin-left: 40px;
+  height: 45%;
 }
 
 .reklama {
   background-image: url(../images/vidurinis.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .sonas {
-  background-image: url(../images/audi.jpg);
+  background-color: #373737;
+  background-image: url(../images/audia1.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 75%;
+}
+
+.quatro1 {
+  background-image: url(../images/quatro1.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  transform: scaleX(-1);
+}
+
+.audi3 {
+  background-image: url(../images/audi3.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  margin-bottom: 40px;
+  margin-right: 80px
 }
 
 .mygtukas {
-  margin-left: 600px;
-  margin-top: 150px;
+  margin-left: 580px;
+  margin-top: 100px;
+  padding: 20px;
   background-color: black;
-  color: white;
+  color: #afafaf;
   border: none;
+
 }
