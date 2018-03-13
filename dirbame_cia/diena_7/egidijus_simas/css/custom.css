@@ -13,7 +13,7 @@
 .main{
   background-color: rgb(156, 192, 235);
 }
-.row{
+.row0{
   border-bottom: double 3px #000;
 }
 .ads1{
@@ -83,12 +83,12 @@
 .nav button a{
   text-decoration: none;
   color: white;
-=======
 }
 
 .Statistics, .Rankings , .Updates p {
 
   text-align: wrap;
+}
 
 
 
@@ -146,8 +146,7 @@
 
 
 
-
-
+/* GG MDFKING G */
 /* Egidijaus */
 body {
 	background-color: ivory;
@@ -188,7 +187,7 @@ body {
 	height: 400px;
 }
 .bg-pic {
-	background-size: 100%; 
+	background-size: 100%;
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-image: url(https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/eichenwalde-screenshot-003.png);
