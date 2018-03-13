@@ -23,8 +23,16 @@ printKaina( 100.05 );
 // suskaiciuoti pazymiu vidurki (pazymius sukurti f-jos viduje) 5, 10 , 8 , 6 , 8  (ir atspausdintu vidurki)
 
 function pazymiuVidurkis() {
-
+    var x1 = 5;
+    var x2 = 10;
+    var x3 = 8;
+    var x4= 6;
+    var x5 = 8;
+    var vidurkis =    (x1 + x2 + x3 + x4 + x5) / 5  ;
+    console.log("--------skaiciuoju vidurki----------");
+    console.log( "vidurkis ( 5, 10 , 8 , 6 , 8) yra: ", vidurkis  );
 }
+pazymiuVidurkis();
 
 // 1.1 UZDUOTIS
 // parasyti f-ja "pazymiuVidurkis1(x1, x2, x3, x4, x5)", kuriai galima paduoti 5 kintamuosius,
