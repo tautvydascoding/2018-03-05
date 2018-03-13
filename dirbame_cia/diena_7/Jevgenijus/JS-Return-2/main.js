@@ -71,9 +71,15 @@ console.log(xx);
 // parasyti f-ja "getVardasPavarde()", kuri turi "return" zodeli ir grazina varda ir pavarde i iskveitimo vieta.
 // sukurti kintamaji   "pavarde" Tomauskas, vardas - Antanas
 // patikrinti ar veikia f-ja
+function getVardasPavarde() {
+  var vardas= "Kamile";
+  var pavarde= "Kamiliauskaite";
+  var tekstas= vardas + " " + pavarde;
+  return tekstas;
+}
+console.log(getVardasPavarde() );
 
-
-// TEKSTO SUDEJIMAS!!!
+// TEKSTO SUDEJIMAS!!! ---------------------------------
 var istorija = "Ejo i miska Jonukas";
 var istorijosTesinys = "Ji buvo stora, bet norejo suliekneti";
 
@@ -84,7 +90,7 @@ var miestas ="Kaunas";
 var salis = "Lietuva";
 var tekstas = salis + " " + miestas + salis + salis+ miestas;
 console.log(tekstas);
-
+// ------------------------------------------
 // 4 UZDUOTIS
 // A) sukurti h1 su tekstu viduje  (HTML faile)
 // B) sukurti f-ja "getH1ElementoAukstis(), kuri su "return" grazina surenderinto h1 elemento auksti
