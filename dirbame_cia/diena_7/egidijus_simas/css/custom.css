@@ -37,3 +37,100 @@ h2 {
 	background-size: 100% 100%;
 	background-image: url(https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/eichenwalde-screenshot-003.png);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Egidijaus */
+.no-padding {
+	padding: 0px;
+	margin: 0px;
+}
+.m-top-20 {
+	margin-top: 20px;
+}
+.m-bottom-20 {
+	margin-bottom: 20px;
+}
+.m-top-bottom-40 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.absolute {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.relative {
+	position: relative;
+}
+.cont-high-800 {
+	height: 600px;
+}
+.bg-pic {
+	background-size: 100%; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/eichenwalde-screenshot-003.png);
+}
+.btn-size {
+	padding: 50px 100px;
+
