@@ -1,0 +1,136 @@
+h2 {
+    color: rgb(38, 203, 151);
+    text-align: center;
+
+}
+
+.antrase p {
+
+  text-align: wrap;
+
+}
+
+.background {
+   background-image: url("https://entuity.com/wp-content/uploads/2016/08/dff3e0f4b125f572250a40d8612ad0ae_blizzard-illgaming-overwatch-clipart-logo_1920-1080.jpg");
+   background-size: 1529px;
+    width: 1529px;
+    height: 1529px;
+    border: 2px solid;
+    color: snow;
+   background-repeat: no-repeat;
+
+}
+/* nupies mygtuko centra centre */
+
+.relative {
+  position:relative;
+  height: 750px;
+}
+.absolute{
+
+  position:absolute;
+  transform: translate(-50%,-50%);
+  top:50%;
+  left:50%;
+}
+.bg-pic {
+	background-size: 100% 100%;
+	background-image: url(https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/eichenwalde-screenshot-003.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Egidijaus */
+.no-padding {
+	padding: 0px;
+	margin: 0px;
+}
+.m-top-20 {
+	margin-top: 20px;
+}
+.m-bottom-20 {
+	margin-bottom: 20px;
+}
+.m-top-bottom-40 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.absolute {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.relative {
+	position: relative;
+}
+.cont-high-800 {
+	height: 600px;
+}
+.bg-pic {
+	background-size: 100%; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/eichenwalde-screenshot-003.png);
+}
+.btn-size {
+	padding: 50px 100px;
+
