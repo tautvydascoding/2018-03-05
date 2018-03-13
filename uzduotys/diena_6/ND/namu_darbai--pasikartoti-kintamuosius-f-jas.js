@@ -20,7 +20,11 @@
 
 //  03 UZDUOTIS
 // parasyti f-ja printVardasPavardeKlase(name, lname, klase)
-// kuria iskviesti 3 kartus su skirtingais zmoniu vardasi ir pavardem
+// kuria iskviesti 3 kartus su skirtingais zmoniu vardais ir pavardem
+// pvz:
+// printVardasPavardeKlase( 'Tomas', 'Tomulis', 12);
+// printVardasPavardeKlase( 'Jonas', 'Jokautas', 7);
+// printVardasPavardeKlase( 'Perta', 'Akute', 8);
 
 // =====================CSS Flex=========================
 
