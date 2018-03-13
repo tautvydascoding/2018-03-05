@@ -1,5 +1,5 @@
 h1 {
-    color: blue;
+  font-family: 'Lato', sans-serif;
 }
 .aukstis-100 {
     height: 100px;
@@ -12,4 +12,76 @@ h1 {
 }
 .aukstis-500 {
     height: 500px;
+}
+
+/*----Galerijos---*/
+.galerija-container {
+  background-color: #F7F2E0;
+}
+
+.galerija-h1,
+.galerija-h2 {
+margin-top: 30px;
+text-align: center;
+}
+
+.galerija-img {
+  width: 200px;
+  height: 200px;
+  margin-left: 80px;
+}
+
+.galerija-col {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.reklama {
+  background-image: url(http://www.pauksciai.lt/upl/pauksciai/juodgalve-sniegena81.jpg);
+}
+
+.button-galerija {
+  padding: 10px 80px;
+  font-size: 20px;
+  text-align: center;
+  border: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.mygtukas {
+  position: relative;
+  background-color: #F6D8CE;
+}
+
+.galerija-h2 {
+font-family: 'Lato', sans-serif;
+}
+
+.galerija-p {
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  font-family: 'Lato', sans-serif;
+}
+
+footer {
+  background-color: #F6D8CE;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.galerija-ul {
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.galerija-logo {
+  width: 50px;
+  height: 50px;
 }
