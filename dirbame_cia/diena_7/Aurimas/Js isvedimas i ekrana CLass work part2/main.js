@@ -126,15 +126,18 @@ console.log("Pazymiu vidurkis:",atsakymastik+";");
 // ####
 // #####
 // ######
-for (var i = 0; i < 5; i++) {
+for (var i = 0; i < 6; i++) {
     var a=0;
-    while (a<=i) {
-
-       console.log("#");
-        a=a+1;
+    var c="#";
+    while (a<i) {
+      c=c+"#";
+      a=a+1;
     }
-    console.log("\n");
+    console.log(c);
 }
+
+
+
 
 //=========== =KOMANDINE (3-4h) Bootstrap && GIT=================
 // ant lentos
