@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .h1-main{
     color: black;
     margin-left: auto;
@@ -83,4 +84,16 @@
 .index-nav button a{
   text-decoration: none;
   color: white;
+=======
+h2 {
+    color: rgb(38, 203, 151);
+    text-align: center;
+
+}
+
+.antrase p {
+
+  text-align: wrap;
+
+>>>>>>> fc902d922248ddff04456c1ec667daa015fb0639
 }
