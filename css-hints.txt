@@ -33,11 +33,11 @@ elemento centravimas
 
      float: left;
      width: 100px;
-	/* panaudojus float - reik po joi naujimo 
+	/* panaudojus float - reik po jo naudojimo 
   	<div class="clear-float"> </div>
 	.clear-float {
   		clear: both;
-		content: ‘’;
+		content: '';
 	}
  ---------------------------------------
 
@@ -65,7 +65,7 @@ aside {
                 </div>
             </section>
 
-// ===============per visa auksti ir desineje  background-img===========================
+// ===============per visa auksti ir desineje  background-img=========== 
 
     background-image: url(../assets/background.jpg); 
     background-position-y: center;
