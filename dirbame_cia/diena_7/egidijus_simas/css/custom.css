@@ -32,3 +32,7 @@ h2 {
   top:50%;
   left:50%;
 }
+.bg-pic {
+	background-size: 100% 100%;
+	background-image: url(https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/eichenwalde-screenshot-003.png);
+}
