@@ -135,8 +135,16 @@ for (var i = 0; i < 6; i++) {
     }
     console.log(c);
 }
+console.error("----------------------------- ");
+var c="#";
+for (var i = 0; i < 6; i++) {
+      console.log(c);
+      c=c+"#";
+}
 
-
+for (var i = 0; i < 10; i++) {
+  console.log("Tomas");
+}
 
 
 //=========== =KOMANDINE (3-4h) Bootstrap && GIT=================
