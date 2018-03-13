@@ -1,0 +1,42 @@
+* {box-sizing: border-box;}
+h1 {
+    color:indigo;
+text-align: center;
+                    }
+
+article {
+          width: 30%;
+          float: left;
+          background-color: #b4b4b4;
+          border: solid 1px #000;
+          margin-left: 2.5%;
+          margin-bottom: 2.5%;
+
+}
+
+h2 {
+          width: 120px;
+          text-align: center;
+          border-bottom: solid 1px #000;
+          border-left: solid 1px #000;
+          margin-left: 2.5%;
+          margin: 0;
+          float: right;
+}
+
+p{
+    margin: 0;
+  }
+
+.Sausis h2{background-color: blue;}
+.Vasaris h2{background-color: blueviolet;}
+.Kovas h2{background-color: brown;}
+.Balandis h2{background-color: burlywood;}
+.Geguze h2{background-color: cadetblue;}
+.Birzelis h2{background-color: chartreuse;}
+.Liepa h2{background-color: chocolate;}
+.Rugpjutis h2{background-color: coral;}
+.Rugsejis h2{background-color: cornflowerblue;}
+.Spalis h2{background-color: cornsilk;}
+.Lapkritis h2{background-color: crimson;}
+.Gruodis h2{background-color: cyan;}
