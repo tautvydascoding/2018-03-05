@@ -38,7 +38,7 @@ pazymiuVidurkis();
 // parasyti f-ja "pazymiuVidurkis1(x1, x2, x3, x4, x5)", kuriai galima paduoti 5 kintamuosius,
 // kuri apskaiciuoja vidurki is paduotu 5 menesiu pazymiu
 // suskaiciuoti pazymiu vidurki, 5, 10 , 8 , 6 , 8  (ir atspausdintu vidurki)
-function pazymiuVidurkis(vardas, x1, x2, x3, x4, x5) {
+function pazymiuVidurkis1(vardas, x1, x2, x3, x4, x5) {
     var vidurkis =    (x1 + x2 + x3 + x4 + x5) / 5  ;
     console.log("--------skaiciuoju vidurki----------");
     console.log( vardas, " vidurkis yra: ", vidurkis  );
@@ -57,12 +57,46 @@ pazymiuVidurkis1("Tautvydo", 2, 6, 10, 4, 9 ); // As
 // C) iskviesti ir patikrinti ar veikia f-ja getVardas()
 // pvz.: var xx = getVardas();   console.log( xx );
 
+function getVardas() {
+    var vardas = "Povilas";
+    return vardas;
+}
+console.log(   getVardas()   );
+// arba
+ var xx = getVardas(); //Povilas
+console.log(  xx  );
+
+
+
+
+var istorija = " Raudonkepure, pikta ejo i miska.";
+var istorijosTesinys = " JI buvo pikta, nes ryte neturejo sausiu pusryciu";
+
+var ilgaIstorija = istorija + istorijosTesinys;
+console.log( ilgaIstorija  );
+
+var miestas = "kaunas";
+var salis = "Lietuva";
+var tekstas = salis + " " + miestas + salis + salis;
+console.log( tekstas );
+
+
 // 3 UZDUOTIS
 // parasyti f-ja "getVardasPavarde()",
 // A) f-jos viduje - sukurti kintamuosius "pavarde" Tomauskas, vardas - Antanas
 // B) f-jos viduje ideti "return" komanda , kuri  grazina varda ir pavarde "vardas+pavarde"
 // C) iskviesti ir patikrinti ar veikia f-ja getVardasPavarde()
 // pvz.: var yy = getVardasPavarde();   console.log( yy );
+function getVardasPavarde() {
+    var pavarde = 'Tomauskas';
+    var vardas = 'Antanas';
+    var tekstas = vardas + " " + pavarde;
+    return tekstas;
+}
+console.log(    getVardasPavarde()   );
+// arba
+var tt = getVardasPavarde();
+console.log(  tt );
 
 //--------------sunkesnis------------------------
 
