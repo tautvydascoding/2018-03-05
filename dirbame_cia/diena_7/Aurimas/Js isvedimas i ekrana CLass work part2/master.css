@@ -1,0 +1,24 @@
+#Opa{
+  background-color: blue;
+    color: red;
+    height:100px;
+    width: 300px;
+}
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+/* body{
+  background-image: url(http://www.freehdimages.in/uploads/large/1600x900-hd-wallpapers-free-download.jpg);
+  width: 100vh;
+  height: 100vh;
+
+} */
