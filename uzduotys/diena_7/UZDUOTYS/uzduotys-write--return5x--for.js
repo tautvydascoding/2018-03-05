@@ -47,14 +47,20 @@ document.getElementById("manoDiv").style.height = "500px"; 		// change the heigh
 //=====================RETURN==================
 
 // 2 UZDUOTIS
-// parasyti f-ja "getVardas()", kuri turi "return" zodeli ir grazina varda i iskveitimo vieta.
-// sukurti kintamaji "vardas" Tomas
-// patikrinti ar veikia f-ja
+// parasyti f-ja "getVardas()",
+// A) f-jos viduje - sukurti kintamaji "vardas" Tomas
+// B) f-jos viduje ideti "return" komanda , kuri  grazina "vardas" kintamaji
+// C) iskviesti ir patikrinti ar veikia f-ja getVardas()
+// pvz.: var xx = getVardas();   console.log( xx );
 
 // 3 UZDUOTIS
-// parasyti f-ja "getVardasPavarde()", kuri turi "return" zodeli ir grazina varda ir pavarde i iskveitimo vieta.
-// sukurti kintamaji   "pavarde" Tomauskas, vardas - Antanas
-// patikrinti ar veikia f-ja
+// parasyti f-ja "getVardasPavarde()",
+// A) f-jos viduje - sukurti kintamuosius "pavarde" Tomauskas, vardas - Antanas
+// B) f-jos viduje ideti "return" komanda , kuri  grazina varda ir pavarde "vardas+pavarde"
+// C) iskviesti ir patikrinti ar veikia f-ja getVardasPavarde()
+// pvz.: var yy = getVardasPavarde();   console.log( yy );
+
+//--------------sunkesnis------------------------
 
 // 4 UZDUOTIS
 // A) sukurti h1 su tekstu viduje  (HTML faile)
