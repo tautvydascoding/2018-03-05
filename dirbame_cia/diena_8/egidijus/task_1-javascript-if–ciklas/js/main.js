@@ -17,28 +17,30 @@ for (var i = 0; i <= 50; i++) {
 // 1.2 UZDUOTIS
 // isvesti 50 kartu zodi "<h2> Azuolas</h2> " i <article> elementa su  innerHTML pagalba
 
-var  printX = "<img src='https://yt3.ggpht.com/a-/AJLlDp2Do4pBX02AkUQabnOB95G_6Y_Br6x-hcV9SQ=s88-mo-c-c0xffffffff-rj-k-no" alt="youtube avatar">';'; //Stringas - paprastas tekstas
-for (var i = 0; i <= 50; i++) {
-	//document.write(tekstas);
-	//arba
-	document.querySelector('section').innerHTML += tekstas;
+function printX( xxx ) {
+    // document.write(   xxx   );
+    // arba
+    document.querySelector('section').innerHTML   +=   xxx;
 }
 // 2.1 UZDUOTIS
 // sukurti f-ja "printX(xx)" i browser langa (panaudojanti document.write arba innerHTML)
-for (var i = 0; i <= 5; i++) {
-	printX("<b> Miskas <b>");
-}
+var log1 = '<img src="https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/icon-portrait.png">';
+var log2 = '<img src="https://d1u1mce87gyfbn.cloudfront.net/hero/genji/icon-portrait.png">';
+var log3 = '<img src="https://d1u1mce87gyfbn.cloudfront.net/hero/mei/icon-portrait.png">';
+var log4 = '<img src="https://d1u1mce87gyfbn.cloudfront.net/hero/mei/icon-portrait.png">';
+var log5 = '<img src="https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/icon-portrait.png">';
+var log6 = '<img src="https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/icon-portrait.png">';
+var mass = [log1, log2, log3, log4, log5, log6];
 
-
-// // 2.2 UZDUOTIS
-// // paleisti f-ja "printX(xx)" 100 kartu
-for (var i = - 0; i <= 5; i++) {
-	printX('paveikslelius');
-}
-
+// for (var i = 0; i < 12 ; i++) {
+//     printX( log1 );
+// }
 // 2.3 UZDUOTIS
 // paleisti f-ja "printX(xx)" 12 kartu ir atspausdinti <img ...
 // skirtingius paveikslelius
+for (var i = - 0; i <= 5; i++) {
+	printX(mass[i]);
+}
 
 // 4 UZDUOTIS
 // A) sukurti f-jas piestiEilute(x); spausdintiStulpeli(x);
