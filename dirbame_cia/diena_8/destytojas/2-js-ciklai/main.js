@@ -1,3 +1,6 @@
+console.log( " Labas ");
+
+
 //==============TEORIJA ++ / -- ==========
     // var x = 10;
     // x = x + 1;  // x = 11
@@ -8,18 +11,30 @@
     // x *= 3;   // x = x * 3;
 
 //=============FOR   LOOP====================
-// teo:  https://www.w3schools.com/js/js_loop_for.asp
-//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
 
 // 1 UZDUOTIS
 // isvesti 50 kartu zodi "Azuolas" i konsole  (! bandant tai padaryti, atsiras skaicius 50)
 
+for (var i = 0; i < 50; i++) {
+    console.log( " Azuolas " + i   );
+}
+
 // 1.2 UZDUOTIS
 // isvesti 50 kartu zodi "<h2> Azuolas</h2> " i <article> elementa su  innerHTML pagalba
+
+var tekstas = "<article class='bg-info'>    <h2> Azuolas</h2>  </article>";  // cia paprastas tekstas
+
+for (var i = 0; i < 20; i++) {
+    // document.write(   tekstas   );
+    // arba
+    document.querySelector('section').innerHTML   +=   tekstas;
+}
 
 // 2.1 UZDUOTIS
 // sukurti f-ja "printX(xx)", kuri atspasudina paduota teksta i browser langa (panaudojanti document.write arba innerHTML)
 // pvz.: printX(  "<h1> Sveiki</h1>")
+
+
 
 // 2.2 UZDUOTIS
 // paleisti f-ja "printX(xx)" 100 kartu
