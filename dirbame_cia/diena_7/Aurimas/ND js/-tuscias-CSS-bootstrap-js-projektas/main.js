@@ -30,9 +30,11 @@ for (var i = 0; i < 51; i=i+2) {
    console.log(i+"-as"+" vardas: "+name+";");
 }
 
-for (var i = 0; i <51; i++) {
-  
-}
+// for (var i = 0; i <51; i=i+2) {
+//   var name="Tomas";
+//
+//
+// }
 
 
 // function getvardas(){
