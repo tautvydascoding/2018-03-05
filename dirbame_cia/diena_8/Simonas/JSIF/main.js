@@ -4,6 +4,7 @@ console.log( " Labas ");
 //     // jei true
 //     //
 //     //
+
 // } else {
 //     // jei false
 // }
@@ -70,8 +71,21 @@ else {
 // var age = 24;
 // gapal ji, turesiem isvesti tam tikra reklamos teksta
 
+var age = 5;
+if (age <=7) {
+  console.log("Pliusines varles, Milkyway Giveaway");
+} else if (age <=14) {
+  console.log("Mini telefoniukai");
+} else if  (age <=18) {
+  console.log("new music app babe");
+} else if (age <=24) {
+  console.log("TAPK SAUKTINIU PACAN");
+} else if (age <65) {
+  console.log("Pensijos kaupimas gramps push me");
+} else if (age >=65) {
+  console.log("Kelione i Japonija, Milkyway Giveaway");
+}
 
-// Salygos:
 
 // iki 7 metu
 // "Pliusines varles"
@@ -92,6 +106,19 @@ else {
 // sunkesne:
 // iki 7 metu ir nuo 65 metu papildomai isvesti "Sokoladiniai zuikuciai 20% nuolaida"
 
+
+var name1="Tomas";
+var name2="Paulius";
+var name3="Airidas";
+
+if (name1 =="Tomas" && name2 =="Paulius" && name3 =="Airidas") {
+  console.log("Masinoms 10% nuolaidos");
+}else if (name2) {
+  console.log("Buitinei technikai 30%");
+}else if (name3) {
+  console.log("5% nuolaida kelionems");
+
+}
 
 
 // 2 UZDUOTIS

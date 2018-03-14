@@ -16,15 +16,25 @@ console.log( " Labas ");
 // pvz.:
 
 var namelist= ["Matilda", "Darmantas", "Karigailė","Klemensas", "Lukrecija","Tautas", "Tautgintė","Lionginas","Julijonas", "Vaidotas", "Norvaldė","Henrika", "Norvilė","Tautginė","Raigardas","Adeira", "Adelaina", "Adelšoda", "Airilė", "Airistėja", "Alkimena","Amaris", "Amija", "Anisa", "Aramėja", "Astilija", "Atinuke", "Damajanti", "Domila", "Edina", "Eglina", "Egvilina", "Eilina", "Eivija", "Erolina", "Ezekielė", "Feličija", "Fortūnė", "Gudeira", "Gvena", "Heda", "Ijonela", "Ilisa", "Imogen", "Isla", "Ivetė", "Kristabelė", "Lagerta", "Lavinia", "Leora", "Lyrika", "Maisa", "Maitane", "Meivė", "Milaja"];
+
+
 for (var i=1; i < 51; i=i+2) {
   var name=namelist[i];
   console.log(i+"-as"+" vardas: "+name+";");
 }
+
+
 console.log("======================================");
 for (var i = 0; i < 51; i=i+2) {
    var name=namelist[i];
    console.log(i+"-as"+" vardas: "+name+";");
 }
+
+// for (var i = 0; i <51; i=i+2) {
+//   var name="Tomas";
+//
+//
+// }
 
 
 // function getvardas(){

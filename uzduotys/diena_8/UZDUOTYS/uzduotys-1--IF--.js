@@ -1,5 +1,9 @@
 // =================if  teorija====================
+// if (condition) {
+//     block of code to be executed if the condition is true
+// }
 
+// Ar SALYGA YRA TIESA???    Ar true ?
 // if (salyga) {
 //     // jei true
 //     //
@@ -77,7 +81,8 @@
 
 
 // 2 UZDUOTIS
-// sukurti 3 vardus "Tomas", "Paulius", "Airidas"
+// sukurti 3 kintamuosius  "Tomas", "Paulius", "Airidas"
+// isvesti TIK viena is pranesimu:
 // kai "if"-ui padauodame Toma - isvesti "Masinoms 10% nuolaida"
 // kai "if"-ui padauodame Pauliu - isvesti "Buitinei technikai  30% nuolaida"
 // kai "if"-ui padauodame bet ka kita - isvesti "5% nuolaida kelionems"
