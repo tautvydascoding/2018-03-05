@@ -111,7 +111,12 @@ console.log("H1 aukstis yra:",getH1ElementoAukstis()+"px;");
 // 4.1 UZDUOTIS
 // parasyti f-ja, kuri turi "return" zodeli.
 // "getPazymiuVidurkis2(x1, x2, x3, x4, x5)"  f-ja apskaiciuoja vidurki is paduotu 5 menesiu pazymiu (ir grazina atsakyma i iskvietimo vieta! "return atskymas;")
-
+function getPazymiuVidurkis2(x1,x2,x3,x4,x5){
+  var atsakymas=(x1 + x2 + x3 + x4 + x5)/5;
+  return atsakymas;
+}
+var atsakymas=getPazymiuVidurkis2(8,10,8,5,6);
+console.log("Pazymiu vidurkis:",atsakymas);
 
 
 // =================FOR intro  ======================
