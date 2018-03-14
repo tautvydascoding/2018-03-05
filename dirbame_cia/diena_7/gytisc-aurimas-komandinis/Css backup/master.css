@@ -1,0 +1,92 @@
+.h1-main{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    font-family: 'Abril Fatface';
+}
+.h2-main{
+  color: black;
+  font-family: 'Abril Fatface';
+  text-align: center;
+  border-bottom: solid 2px #000;
+}
+.main1{
+  background-color: rgb(211, 211, 211);
+}
+.row1{
+  border-bottom: solid 4px #000;
+}
+.reklama1{
+  background-image: url(http://cars--reviews.com/images/audi-ad/audi-ad-37.jpg);
+  height: 40vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-image: no-repeat;
+  background-position: center;
+}
+.reklama01{
+  height: 100%;
+}
+.index-header{
+  position: relative;
+  height: 15vh;
+  background-color: rgb(13, 13, 13);
+  border-top: solid 2px white;
+}
+.index-nav{
+  margin-top: 1.5vh;
+  margin-left: 1vh;
+}
+.logo1{
+  height: 50px;
+  width: 125px;
+}
+.logo2{
+  height: 14vh;
+  width: 28vh;
+  position: absolute;
+  top:0;
+  right:0;
+}
+.but1, .but2{
+  color: white;
+  background-color: black;
+  border: solid 2px white;
+  margin-left:0.5vh;
+  margin-top: 4vh;
+  text-decoration: none;
+}
+.but3{
+  color: white;
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  border: solid 2px white;
+  position: absolute;
+  top:50%;
+  right: 50%;
+  transform: translate(50%,-50%);
+  text-decoration: none;
+}
+.article1{
+  justify-content: space-between;
+  margin-top: 1vh;
+  align-items: center;
+  height: inherit;
+}
+.article2{
+  justify-content: center;
+}
+.article3{
+  justify-content: flex-end;
+}
+.index-nav button a{
+  text-decoration: none;
+  color: white;
+}
+h2{
+    color: rgb(38, 203, 151);
+    text-align: center;
+}

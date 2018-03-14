@@ -4,7 +4,12 @@
 
 html    {background-color: #b4b4b4;}
 h1      {color: red;
-        text-align: center;}
+        text-align: center;
+        text-shadow: 0px 0px 30px black;}
+h3{
+    text-align: center;
+    color:indigo;
+}
 
           /* automatinis centravimas*/
 body    { width: 1024px;        /* reik "width" */
@@ -14,7 +19,7 @@ body    { width: 1024px;        /* reik "width" */
           /* ----------- */
 
 .menu-juosta{
-      background-color: indigo;
+      background-color: lime;
       height: 80px;  }
 
     /*--- Menu li --- */
@@ -22,10 +27,10 @@ body    { width: 1024px;        /* reik "width" */
 nav{width: 60%;}  /*pc gali nezinoti koks plotis
                     delto jis yra dedamas, viska tikrint per inspect*/
 
-ul  {
+nav ul  {
     height: 80px;
     width: 100%;
-    background-color: yellow;
+    background-color: lime;
     margin: 0;
     padding: 0;
     padding-top: 24px;
@@ -33,7 +38,7 @@ ul  {
   }
 
 
-  li  {
+nav li  {
       float: left;
       width: 25%;
       list-style: none;
@@ -72,3 +77,53 @@ ul  {
               background-color: black;
               color: white;
 }
+
+
+/*--------------end header----------*/
+
+.wrapper{
+        background-color: #b4b4b4;
+        width: 100%;
+        margin-top: 15px;
+
+        /*dedama kartu su paddingbottom ir marginbottom 9999 komandomis*/
+        overflow: hidden;}
+
+main{
+      background-color: white;
+      width: 78%;
+      min-height: 200px;
+      margin-right: 2%;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+
+aside{
+      background-color: greenyellow;
+      width: 20%;
+      /*-------*/
+      padding-bottom: 999999999px;
+      margin-bottom: -999999999px;
+      /*automatinis asside aukscio judejimas*/
+
+     /*---teciui uzdedam overflow hidden*/
+}
+
+footer{
+      background-color: aqua;
+      height: 60px;
+      text-align: center;
+
+      }
+
+h1,
+h2,
+h3{font-family: 'Pacifico', cursive;
+  text-align: center;   }
+
+
+ul{
+font-family: 'Luckiest Guy', cursive;}
+
+.footer{font-family: 'Butcherman', cursive;
+color: black;}
