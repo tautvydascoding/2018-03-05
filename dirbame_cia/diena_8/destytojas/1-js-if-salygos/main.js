@@ -66,12 +66,16 @@ if (  vardas1 == "Tomas" && vardas2 == "Karolis"  ) {
 // D)
 // Patikrinti ar bent vienas is vardu "Tomas"
 //    || - arba
-
+var vardas1 = "Tomas";
+var vardas2 = "Simas";
+if (  vardas1 == "Tomas" || vardas2 == "Tomas") {
+    console.log(" kazkuris is vardu yra  \"Tomas\"    \\ \\     \n  \n \n a ");
+}
 
 // 1 UZDUOTIS
 // turesime vartotojo amziu
 // var age = 24;
-// gapal ji, turesiem isvesti tam tikra reklamos teksta
+// gapal ji, turesime isvesti tam tikra VIENA reklamos teksta
 
 
 // Salygos:
@@ -95,6 +99,23 @@ if (  vardas1 == "Tomas" && vardas2 == "Karolis"  ) {
 // "kelione i Bristona"
 // sunkesne:
 // iki 7 metu ir nuo 65 metu papildomai isvesti "Sokoladiniai zuikuciai 20% nuolaida"
+var age = 14;
+if ( age <= 7 || age > 65) {
+    console.log("Sokoladiniai zuikuciai 20% nuolaida");
+    if (age <= 7) {
+        console.log( "Pliusines varles");
+    }else {  // virs 65
+        console.log( "kelione i Bristona");
+    }
+} else if ( age > 7) {
+    console.log( "Mini telefonai" );
+} else if ( age > 7) {
+    console.log( "sitas niekad niekad nesuveiks" );
+} else if ( age > 21) {
+    console.log( "new Music App" );
+}
+
+
 
 
 
