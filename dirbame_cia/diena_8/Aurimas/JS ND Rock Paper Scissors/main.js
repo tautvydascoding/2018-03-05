@@ -10,26 +10,26 @@ var Pap="Paper";
 var choices=[Roc,Sci,Pap];
 
 function game(x) {
-  var rndnum=Math.floor(Math.random() * (2-0+1)+0); //random number generator: cia 2- norima max reiksme, 0 norima min reiksme intervalo is kurio rinks random reiksmes.
-  var pcch=choices[rndnum];
-  if (x=="Rock" && pcch=="Rock") {
-    console.warn("You picked:",x+"; so it's a draw, because pc picked:",pcch+" as well;");
-  } else { if (x=="Rock" && pcch=="Scissors") {
-    console.log("You picked:",x+"; and WON!, because pc picked:",pcch+"; and Rock crushes Scissors;");
-  } else { if (x=="Rock" && pcch=="Paper") {
-    console.error("You picked:",x+"; and lost, because pc picked:",pcch+"; and Paper covers the Rock;");
-  } else { if (x=="Scissors" && pcch=="Rock") {
-    console.error("You picked:",x+"; and lost, because pc picked:",pcch+"; and Rock crushes Scissors;");
-  } else { if (x=="Scissors" && pcch=="Paper") {
-    console.log("You picked:",x+"; and WON!, because pc picked:",pcch+"; and Scissors cut Paper;");
-  } else { if (x=="Scissors" && pcch=="Scissors") {
-    console.warn("You picked:",x+"; so it's a draw, because pc picked:",pcch+" as well;");
-  } else { if (x=="Paper" && pcch=="Scissors") {
-    console.error("You picked:",x+"; and lost, because pc picked:",pcch+"; and Scissors cut Paper;");
-  } else { if (x=="Paper" && pcch=="Paper") {
-    console.warn("You picked:",x+"; so it's a draw, because pc picked:",pcch+" as well;");
-  } else { if (x=="Paper" && pcch=="Rock") {
-    console.log("You picked:",x+"; and WON!, because pc picked:",pcch+"; and Paper covers the Rock;");
+  var RandomNumber=Math.floor(Math.random() * (2-0+1)+0); //random number generator: cia 2- norima max reiksme, 0 norima min reiksme intervalo is kurio rinks random reiksmes.
+  var PcChoice=choices[RandomNumber];                         //var rndnum=Math.floor(Math.random() * (max-min+1)+min)
+  if (x=="Rock" && PcChoice=="Rock") {
+    console.warn("You picked:",x+"; so it's a draw, because pc picked:",PcChoice+" as well;");
+  } else { if (x=="Rock" && PcChoice=="Scissors") {
+    console.log("You picked:",x+"; and WON!, because pc picked:",PcChoice+"; and Rock crushes Scissors;");
+  } else { if (x=="Rock" && PcChoice=="Paper") {
+    console.error("You picked:",x+"; and lost, because pc picked:",PcChoice+"; and Paper covers the Rock;");
+  } else { if (x=="Scissors" && PcChoice=="Rock") {
+    console.error("You picked:",x+"; and lost, because pc picked:",PcChoice+"; and Rock crushes Scissors;");
+  } else { if (x=="Scissors" && PcChoice=="Paper") {
+    console.log("You picked:",x+"; and WON!, because pc picked:",PcChoice+"; and Scissors cut Paper;");
+  } else { if (x=="Scissors" && PcChoice=="Scissors") {
+    console.warn("You picked:",x+"; so it's a draw, because pc picked:",PcChoice+" as well;");
+  } else { if (x=="Paper" && PcChoice=="Scissors") {
+    console.error("You picked:",x+"; and lost, because pc picked:",PcChoice+"; and Scissors cut Paper;");
+  } else { if (x=="Paper" && PcChoice=="Paper") {
+    console.warn("You picked:",x+"; so it's a draw, because pc picked:",PcChoice+" as well;");
+  } else { if (x=="Paper" && PcChoice=="Rock") {
+    console.log("You picked:",x+"; and WON!, because pc picked:",PcChoice+"; and Paper covers the Rock;");
   }
   }
   }
