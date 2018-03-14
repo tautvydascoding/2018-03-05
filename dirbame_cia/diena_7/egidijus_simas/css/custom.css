@@ -195,3 +195,13 @@ body {
 .btn-size {
 	padding: 20px 60px;
 }
+.e_button {
+	padding:20px 35px;
+	color: ivory;
+}
+.e_button:hover {
+	background-color: #17a2b8;
+}
+.pic-inline {
+	height: 30px;
+}
