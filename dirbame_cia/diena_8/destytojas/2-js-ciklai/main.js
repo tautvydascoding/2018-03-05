@@ -64,8 +64,27 @@ for (var i = 0; i < 12 ; i++) {
 
  piestiEilute(40);
 console.log('vardas |  pavarde | amzius');
-piestiEilute(40);
+piestiEilute(30);
 spausdintiStulpeli(15);
+
+// var txt = "-";
+// var ilgis = 40;
+// for (var i = 0; i < ilgis; i++) {
+//     txt = txt + '-';
+// }
+// console.log( txt );
+
+
+function piestiEilute( eilutesIlgis ) {
+    var txt = "-";
+    for (var i = 0; i < eilutesIlgis; i++) {
+        txt = txt + '-';
+    }
+    console.log( txt );
+}
+piestiEilute(25);
+piestiEilute(35);
+piestiEilute(45);
 
 /*
 ----------------------------
