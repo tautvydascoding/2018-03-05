@@ -86,10 +86,10 @@
   text-decoration: none;
   color: white;
 }
-h2{
+/* h2{
     color: rgb(38, 203, 151);
     text-align: center;
-}
+} */
 /* ---------------------------------------------------- */
 nav {
   background-color: black;
@@ -179,4 +179,11 @@ a, .audi {
 
 .galanth2 {
   border-bottom: solid 2px #000;
+}
+.galanth1h2{
+  color: black;
+  font-family: 'Abril Fatface';
+  text-align: center;
+  border-bottom: solid 2px #000;
+
 }
