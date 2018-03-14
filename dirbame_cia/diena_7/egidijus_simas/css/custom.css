@@ -93,6 +93,17 @@
 
 
 
+.row-header {
+  height: 200px;
+}
+.col-bg {
+  background-size: 100%;
+  background-size:cover;
+    background-image: url(http://hdqwalls.com/wallpapers/overwatch-game-all-heroes.jpg)
+}
+.hovy:hover {
+  background-color: ivory;
+}
 
 
 
@@ -146,7 +157,6 @@
 
 
 
-/* GG MDFKING G */
 /* Egidijaus */
 body {
 	background-color: ivory;
