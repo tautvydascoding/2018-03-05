@@ -117,6 +117,7 @@ text-decoration-line: underline;
   color: #afafaf;
   border: none;
 
+<<<<<<< HEAD
 }
 
 /* Jevgenijaus dalis :D */
@@ -131,4 +132,18 @@ text-decoration-line: underline;
 }
 .str {
   text-align: center;
+}
+.gallery-p {
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 50px;
+}
+footer {
+  background-color: #373737;
+}
+
+=======
+>>>>>>> 9dea7569bce8fbd8543727b869b8dec54fae24e3
 }

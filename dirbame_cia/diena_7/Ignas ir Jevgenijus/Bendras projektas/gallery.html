@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Galerija</title>
+        <title>Gallery</title>
         <!-- reikalinga kad prisitaikantis dizainas veiktu tvarkingai -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -24,11 +24,27 @@
 
   <body>
 
+    <div class="container">
+      <header class="header row">
+        <nav class="col-10 aukstis-100 mano-float">
+
+<img class="audi-logo"src="images/audi-logo-white.png" alt="">
+
+            <ul class="">
+              <li><a href="Home.html"></a>HOME </li>
+              <li><a href="Gallery.html"></a>GALLERY</li>
+            </ul>
+
+</nav>
+
+        </div>
+
+      </header> <!--baigiasi header-->
 <!-- Ideti headeri!!!!!!!!! -->
 
     <div class="container">
       <div class="row">
-        <div class="col aukstis-200">
+        <div class="col aukstis-100">
           <h1> Galerry </h1>
         </div>
       </div>
@@ -72,16 +88,19 @@
       </div>
     </div>
 
-<div class="container-fluid">
-  <div class="row">
-    <img class="col reklama aukstis-300">
-    </div>
-  </div>
+    <div class="container-fluid">
+      <div class="row bg-warning aukstis-300 mt-5">
+        <div class="reklama col-12">
+          <input class="mygtukas" type="submit" name="" value="Register">
+          <input class="mygtukas" type="submit" name="" value="Klausti">
+        </div>
+        </div>
+        </div>
 
 
   <article class="str">
     <h3>ANTRAŠTĖ</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <p class="gallery-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
     </p>
   </article>
@@ -89,18 +108,11 @@
 
 <!-- Footerio pradžia -->
 <footer class="row">
-<ul>
-<li><a href="index.html">Home</a></li>
-<br>
-<br>
-<li><a href="gallery.html">Gallery</a></li>
-<li>
-<br>
-<br>
-<img class="audi-logo" src="images/audi-logo.png" height="50px" width="80px">
-</li>
-</ul>
-</footer>
+  <div class="col aukstis-200 mano-float">
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="gallery.html">GALLERY</a></li>
+  <img class="audi-logo fix-float" src="images/audi-logo-white.png" alt="Logotipas">
+  </div>
 <!-- Footerio pabaiga -->
 
 
