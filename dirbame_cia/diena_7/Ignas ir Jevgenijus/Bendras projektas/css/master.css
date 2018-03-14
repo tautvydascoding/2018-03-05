@@ -9,7 +9,7 @@ li {
   margin-left: 20px;
   margin-top: 35px;
   font-size: 22px;
-  color: white;
+  text-decoration: none;
 }
 
 ul {
@@ -20,7 +20,8 @@ ul {
 
 p {
   padding-top: 10px;
-  text-align: justify;
+  text-align: left;
+
 }
 
 img {
@@ -39,6 +40,11 @@ h3 {
 margin-top:
 text-decoration-line: underline;
 }
+
+a {
+  color: white;
+}
+
 
 .aukstis-100 {
     height: 100px;
