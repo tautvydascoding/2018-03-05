@@ -1,7 +1,11 @@
 //==============TEORIJA ++ / -- ==========
     // var x = 10;
     // x = x + 1;  // x = 11
-    // x += 1;     // x = x + 1;
+    // x += 5;    // x = x + 5;
+    // x++;       // x = x + 1;
+    //
+    // x--;      // x = x - 1;
+    // x *= 3;   // x = x * 3;
 
 //=============FOR   LOOP====================
 // teo:  https://www.w3schools.com/js/js_loop_for.asp
@@ -14,7 +18,8 @@
 // isvesti 50 kartu zodi "<h2> Azuolas</h2> " i <article> elementa su  innerHTML pagalba
 
 // 2.1 UZDUOTIS
-// sukurti f-ja "printX(xx)" i browser langa (panaudojanti document.write arba innerHTML)
+// sukurti f-ja "printX(xx)", kuri atspasudina paduota teksta i browser langa (panaudojanti document.write arba innerHTML)
+// pvz.: printX(  "<h1> Sveiki</h1>")
 
 // 2.2 UZDUOTIS
 // paleisti f-ja "printX(xx)" 100 kartu

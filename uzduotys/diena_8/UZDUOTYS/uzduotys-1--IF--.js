@@ -1,5 +1,9 @@
 // =================if  teorija====================
+// if (condition) {
+//     block of code to be executed if the condition is true
+// }
 
+// Ar SALYGA YRA TIESA???    Ar true ?
 // if (salyga) {
 //     // jei true
 //     //
@@ -26,6 +30,12 @@
 // } else {
 //     // ?
 // }
+// var age = 9;
+// if ( age > 5) {
+//    console.log( "suveike" );
+// } else if ( age > 5) {
+//    console.log( "sitas niekad niekad nesuveiks" );
+// }
 
 //=============IF====================
 // 0 UZDUOTIS
@@ -50,7 +60,7 @@
 // 1 UZDUOTIS
 // turesime vartotojo amziu
 // var age = 24;
-// gapal ji, turesiem isvesti tam tikra reklamos teksta
+// gapal ji, turesime isvesti tam tikra VIENA reklamos teksta
 
 
 // Salygos:
@@ -73,11 +83,3 @@
 // "kelione i Bristona"
 // sunkesne:
 // iki 7 metu ir nuo 65 metu papildomai isvesti "Sokoladiniai zuikuciai 20% nuolaida"
-
-
-
-// 2 UZDUOTIS
-// sukurti 3 vardus "Tomas", "Paulius", "Airidas"
-// kai "if"-ui padauodame Toma - isvesti "Masinoms 10% nuolaida"
-// kai "if"-ui padauodame Pauliu - isvesti "Buitinei technikai  30% nuolaida"
-// kai "if"-ui padauodame bet ka kita - isvesti "5% nuolaida kelionems"
