@@ -33,19 +33,39 @@ for (var i = 0; i < 20; i++) {
 // 2.1 UZDUOTIS
 // sukurti f-ja "printX(xx)", kuri atspasudina paduota teksta i browser langa (panaudojanti document.write arba innerHTML)
 // pvz.: printX(  "<h1> Sveiki</h1>")
-
-
+function printX( xxx ) {
+    // document.write(   xxx   );
+    // arba
+    document.querySelector('section').innerHTML   +=   xxx;
+}
+// printX(" Karolis 88 ");
 
 // 2.2 UZDUOTIS
 // paleisti f-ja "printX(xx)" 100 kartu
+for (var i = 0; i < 100; i++) {
+     printX(" <b> Labas <b> ");
+}
 
 // 2.3 UZDUOTIS
 // paleisti f-ja "printX(xx)" 12 kartu ir atspausdinti <img ...
 // skirtingius paveikslelius
+var paveiksliukas = ' <img src="1.jpg" alt="">  ';
+
+// for (var i = 0; i < 12 ; i++) {
+//      printX( paveiksliukas  );
+// }
+for (var i = 0; i < 12 ; i++) {
+    document.write( paveiksliukas );
+}
 
 // 4 UZDUOTIS
-// A) sukurti f-jas piestiEilute(x); spausdintiStulpeli(x);
+// A) sukurti f-jas piestiEilute(sk); spausdintiStulpeli(sk);
 // B) nupiesti tuscia lentele paleidiznat f-jas (  antrastine eilute "vardas |  pavarde | amzius" - teks isvesti be f-jos)
+
+ piestiEilute(40);
+console.log('vardas |  pavarde | amzius');
+piestiEilute(40);
+spausdintiStulpeli(15);
 
 /*
 ----------------------------
