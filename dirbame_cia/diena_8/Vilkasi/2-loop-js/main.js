@@ -58,12 +58,23 @@ for (var i = 0; i <12 ; i++) {
 // 4 UZDUOTIS
 // A) sukurti f-jas piestiEilute(x); spausdintiStulpeli(x);
 // B) nupiesti tuscia lentele paleidiznat f-jas (  antrastine eilute "vardas |  pavarde | amzius" - teks isvesti be f-jos)
+// var txt = "-";
+// var ilgis = 40;
+// for (var i = 0; i < 40; i++) {
+//   txt = txt + "-";
+// }
+//
+// console.log(txt);
 
-function piestiEilute(x) {
-  for (var i = 0; i < 1; i++) {
-
-  }
+function piestiEilute ( eilutesIlgis ) {
+  var txt = "-";
+  for (var i = 0; i < eilutesIlgis; i++) {
+  txt = txt + "-";
 }
+  console.log(txt);
+}
+
+piestiEilute(20);
 
 /*
 ----------------------------
