@@ -17,20 +17,24 @@ for (var i = 0; i <= 50; i++) {
 // 1.2 UZDUOTIS
 // isvesti 50 kartu zodi "<h2> Azuolas</h2> " i <article> elementa su  innerHTML pagalba
 
-var  tekstas = "<article class='bg-info'> <h2>Azuolas</h2> </article>"; //Stringas - paprastas tekstas
-for (var i = 0; i <= 750; i++) {
+var  printX = "<img src='https://yt3.ggpht.com/a-/AJLlDp2Do4pBX02AkUQabnOB95G_6Y_Br6x-hcV9SQ=s88-mo-c-c0xffffffff-rj-k-no" alt="youtube avatar">';'; //Stringas - paprastas tekstas
+for (var i = 0; i <= 50; i++) {
 	//document.write(tekstas);
 	//arba
 	document.querySelector('section').innerHTML += tekstas;
 }
-
 // 2.1 UZDUOTIS
 // sukurti f-ja "printX(xx)" i browser langa (panaudojanti document.write arba innerHTML)
+for (var i = 0; i <= 5; i++) {
+	printX("<b> Miskas <b>");
+}
 
 
-
-// 2.2 UZDUOTIS
-// paleisti f-ja "printX(xx)" 100 kartu
+// // 2.2 UZDUOTIS
+// // paleisti f-ja "printX(xx)" 100 kartu
+for (var i = - 0; i <= 5; i++) {
+	printX('paveikslelius');
+}
 
 // 2.3 UZDUOTIS
 // paleisti f-ja "printX(xx)" 12 kartu ir atspausdinti <img ...
