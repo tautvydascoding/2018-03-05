@@ -16,15 +16,14 @@
 // alert("Viso");
 // var ivestasTekstas = prompt("Ivestkite savo varda");
 // console.log(ivestasTekstas);
-
-document.querySelector('h1').innerHTML += " <b>Antraste</b>";
+// document.querySelector('h1').innerHTML = " <b>Antraste</b>";
 
 //----Elemento duomenys--------
 // auksto paemimas:
-var aukstis = document.getElementById('manoDiv').clientHeight;   // clientHeight includes the height and vertical padding.
-var aukstis = document.getElementById('manoDiv').offsetHeight;  //  offsetHeight includes the height, vertical padding, and vertical borders.
-aukscio nustatymas:
-document.getElementById("manoDiv").style.height = "500px"; 		// change the height of a <div> element:
+// var aukstis = document.getElementById('manoDiv').clientHeight;   // clientHeight includes the height and vertical padding.
+// var aukstis = document.getElementById('manoDiv').offsetHeight;  //  offsetHeight includes the height, vertical padding, and vertical borders.
+// aukscio nustatymas:
+// document.getElementById("manoDiv").style.height = "500px"; 		// change the height of a <div> element:
 
 //=====================PASIKARTOJIMAS==================
 
@@ -47,20 +46,14 @@ document.getElementById("manoDiv").style.height = "500px"; 		// change the heigh
 //=====================RETURN==================
 
 // 2 UZDUOTIS
-// parasyti f-ja "getVardas()",
-// A) f-jos viduje - sukurti kintamaji "vardas" Tomas
-// B) f-jos viduje ideti "return" komanda , kuri  grazina "vardas" kintamaji
-// C) iskviesti ir patikrinti ar veikia f-ja getVardas()
-// pvz.: var xx = getVardas();   console.log( xx );
+// parasyti f-ja "getVardas()", kuri turi "return" zodeli ir grazina varda i iskveitimo vieta.
+// sukurti kintamaji "vardas" Tomas
+// patikrinti ar veikia f-ja
 
 // 3 UZDUOTIS
-// parasyti f-ja "getVardasPavarde()",
-// A) f-jos viduje - sukurti kintamuosius "pavarde" Tomauskas, vardas - Antanas
-// B) f-jos viduje ideti "return" komanda , kuri  grazina varda ir pavarde "vardas+pavarde"
-// C) iskviesti ir patikrinti ar veikia f-ja getVardasPavarde()
-// pvz.: var yy = getVardasPavarde();   console.log( yy );
-
-//--------------sunkesnis------------------------
+// parasyti f-ja "getVardasPavarde()", kuri turi "return" zodeli ir grazina varda ir pavarde i iskveitimo vieta.
+// sukurti kintamaji   "pavarde" Tomauskas, vardas - Antanas
+// patikrinti ar veikia f-ja
 
 // 4 UZDUOTIS
 // A) sukurti h1 su tekstu viduje  (HTML faile)
@@ -77,12 +70,6 @@ document.getElementById("manoDiv").style.height = "500px"; 		// change the heigh
 
 // 1 UZDUOTIS
 // naudojant FOR cikla, atspausdinti  "#" tiek, kad gautusi trikampio vaizdas
-// #
-// ##
-// ###
-// ####
-// #####
-// ######
 
 //=========== =KOMANDINE (3-4h) Bootstrap && GIT=================
 // ant lentos

@@ -1,0 +1,56 @@
+* {box-sizing: border-box;}
+/*remeliai netrukdys plociui, remelis bus
+iskaiciuotas i elemento ploty*/
+
+h1 {color: red;
+  text-align: center;}
+
+  article{
+    position: relative;
+    width: 30%;
+    float:left;
+
+
+    /* dedame i viena eilute
+    1.reik float
+    2.reik width
+    3.nepamirsti nuimti float:
+        a. susikurti "fix-float" class
+        b. html faile ja panaudoti po paskutinto
+          elemento irasyti "<div class="fix-float">       </div>" */
+
+          background-color: #a1a1a1;
+          border: solid 1px #000;
+          margin-left: 2.5%;            } /*padaro tarpus tarp article*/
+
+
+  h2{
+      width: 120px;  /* kokio plocio h2 heading */
+      text-align: center; /* kurioj vietoje rodys teksta blokelyje*/
+      float:right;
+      border: solid 1px #000; /* uzdeda bordery*/
+      margin-left: 2.5%;
+      margin:0;
+      position: absolute; /*absoliutus elementai juda tik relative zonoje*/
+      top: 0; /* per kiek nuo virsaus bus pasistumes tavo blokelis*/
+      right: 0px; /* per kiek px bus pasistumes tavo blokelis*/
+                            }
+
+
+      /*panaikinam borderius, prilimpa prie virsaus*/
+      /*uzdeti proteviui relative*/
+
+
+
+
+
+
+  .trecias h2 {background-color: pink;}
+  .antras h2 {background-color: blue;}
+  .pirmas h2 {background-color: indigo;}
+
+
+
+
+
+  .fix-float{clear: both;}

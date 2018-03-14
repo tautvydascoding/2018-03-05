@@ -1,93 +1,41 @@
-/* vakare ikelta */
+h2 {
+    color: rgb(38, 203, 151);
+    text-align: center;
 
-.h2-main{
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80px;
-}
-.h3-main{
-  text-align: center;
-  border-bottom: dashed 3px #000;
-}
-.main{
-  background-color: rgb(156, 192, 235);
-}
-.row0{
-  border-bottom: double 3px #000;
-}
-.ads1{
-  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIGMDUEK4S2N1496699695461.jpg);
-  height: 30vh;
-  width: 100%;
-  position: relative;
-  background-size: cover;
-  background-image: no-repeat;
-  background-position: center;
-}
-.reklama01{
-  height: 100%;
-}
-.header{
-  position: relative;
-  height: 15vh;
-  background-color: rgb(255, 200, 200);
-  border-top: solid 2px white;
-}
-.nav{
-  margin-top: 3vh;
-  margin-left: 1vh;
-}
-.logo0{
-  height: 50px;
-  width: 125px;
-}
-.logo1{
-  height: 15vh;
-  width: 30vh;
-  position: absolute;
-  top:0;
-  right:0;
-}
-.btn1, .btn2{
-  color: white;
-  background-color: rgb(156, 156, 156);
-  border: solid 2px white;
-  margin-left:0.5vh;
-  margin-top: 4vh;
-  text-decoration: none;
-}
-.btn3{
-  color: white;
-  height: 40px;
-  width: 100px;
-  background-color: black;
-  border: solid 2px white;
-  position: absolute;
-  top:50%;
-  right: 50%;
-  transform: translate(50%,-50%);
-}
-.article0{
-  justify-content: space-between;
-  margin-top: 1vh;
-  align-items: center;
-  height: inherit;
-}
-.article1{
-  justify-content: center;
-}
-.article2{
-  justify-content: flex-end;
-}
-.nav button a{
-  text-decoration: none;
-  color: white;
 }
 
-.Statistics, .Rankings , .Updates p {
+.antrase p {
 
   text-align: wrap;
+
+}
+
+.background {
+   background-image: url("https://entuity.com/wp-content/uploads/2016/08/dff3e0f4b125f572250a40d8612ad0ae_blizzard-illgaming-overwatch-clipart-logo_1920-1080.jpg");
+   background-size: 1529px;
+    width: 1529px;
+    height: 1529px;
+    border: 2px solid;
+    color: snow;
+   background-repeat: no-repeat;
+
+}
+/* nupies mygtuko centra centre */
+
+.relative {
+  position:relative;
+  height: 750px;
+}
+.absolute{
+
+  position:absolute;
+  transform: translate(-50%,-50%);
+  top:50%;
+  left:50%;
+}
+.bg-pic {
+	background-size: 100% 100%;
+	background-image: url(https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/eichenwalde-screenshot-003.png);
 }
 
 
@@ -146,62 +94,43 @@
 
 
 
-/* GG MDFKING G */
+
+
+
+
 /* Egidijaus */
-body {
-	background-color: ivory;
-}
-.e_center_margin {
-	margin-left: auto;
-	margin-right: auto;
-}
-.e_h2 {
-	font-size: 90px;
-	color: #222222;
-	padding: 40px;
-}
 .no-padding {
 	padding: 0px;
 	margin: 0px;
 }
-.m-top-40 {
-	margin-top: 40px;
+.m-top-20 {
+	margin-top: 20px;
 }
-.m-bottom-40 {
-	margin-bottom: 40px;
+.m-bottom-20 {
+	margin-bottom: 20px;
 }
 .m-top-bottom-40 {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
-.e_absolute {
+.absolute {
 	position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.e_relative {
+.relative {
 	position: relative;
 }
-.cont-high-400 {
-	height: 400px;
+.cont-high-800 {
+	height: 600px;
 }
 .bg-pic {
-	background-size: 100%;
-	background-size:cover;
+	background-size: 100%; 
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-image: url(https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/eichenwalde-screenshot-003.png);
 }
 .btn-size {
-	padding: 20px 60px;
-}
-.e_button {
-	padding:20px 35px;
-	color: ivory;
-}
-.e_button:hover {
-	background-color: #17a2b8;
-}
-.pic-inline {
-	height: 30px;
-}
+	padding: 50px 100px;
+

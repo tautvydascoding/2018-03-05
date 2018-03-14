@@ -7,7 +7,8 @@
 
 
 //  2 UZDUOTIS
-// sukurti funkcija "printVardasPavardeAmzius()" , kuri atspausdina i konsole pirmos uzduoties kintamuosius
+// sukurti funkcija "printVardasPavardeAmzius()" ,
+//kuri atspausdina i konsole pirmos uzduoties kintamuosius//
 
 
 //  3 UZDUOTIS
