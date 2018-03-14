@@ -1,7 +1,7 @@
+console.log( " Labas ");
+
+
 // =================if  teorija====================
-// if (condition) {
-//     block of code to be executed if the condition is true
-// }
 
 // Ar SALYGA YRA TIESA???    Ar true ?
 // if (salyga) {
@@ -39,16 +39,33 @@
 // jeigu vardai sutampa, i konsole pranesti apie tai
 // jeigu vardai nesutampa - parasysi "vardai yra skirtingi"
 
+var vardas1 = 'Tomas';
+var vardas2 = 'Antanas';
+
+if ( vardas1 == vardas2) {
+    console.log( " vardai sutampa: ", vardas1, vardas2);
+} else {
+    console.log( "vardai skirtingi ", vardas1, vardas2);
+}
+
 // B)
 // Papildomai patikrinti uzdavini A.
 // Jeigu vardas1 yra "Tomas" - pasisveikinti su juo
 
+if ( vardas1 == "Tomas") {
+    console.log(  "Labas Tomai");
+}
+
 // C)
 // Patikrinti ar varda1 yra "Tomas", IR butinai vardas2  yra "Karolis"
+// && - IR
+if (  vardas1 == "Tomas" && vardas2 == "Karolis"  ) {
+    console.log( 'vienas varsas Tomas, o kitas Karolis');
+}
 
 // D)
 // Patikrinti ar bent vienas is vardu "Tomas"
-// || - arba
+//    || - arba
 
 
 // 1 UZDUOTIS
@@ -58,6 +75,7 @@
 
 
 // Salygos:
+// var age = 15;
 
 // iki 7 metu
 // "Pliusines varles"
