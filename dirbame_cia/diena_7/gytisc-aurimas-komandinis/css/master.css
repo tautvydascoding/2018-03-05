@@ -167,9 +167,9 @@ a, .audi {
   height: 20px;
 }
 
-h1, h2 {
+.galanth1h2 {
   text-align: center;
   font-family: "Abril Fatface";
-  /* border-bottom: solid 2px #000; */
   color: black;
+  border-bottom: solid 2px #000;
 }
