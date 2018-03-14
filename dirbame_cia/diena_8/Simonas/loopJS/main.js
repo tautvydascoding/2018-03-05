@@ -26,18 +26,36 @@ document.querySelector('footer').innerHTML += tekstas;
 }
 // 2.1 UZDUOTIS
 // sukurti f-ja "printX(xx)" i browser langa (panaudojanti document.write arba innerHTML)
-
+// printX (" Lansbergis 88 ");
+// }
 // 2.2 UZDUOTIS
 // paleisti f-ja "printX(xx)" 100 kartu
+for (var i = 0; i < 100; i++){
+  printX ("<b>Miskas</b>");
+}
 
 // 2.3 UZDUOTIS
 // paleisti f-ja "printX(xx)" 12 kartu ir atspausdinti <img ...
 // skirtingius paveikslelius
+var logo = '<img src="http://cha.lt/wp-content/uploads/2014/12/11647010-R3L8T8D-900-2.jpg" alt="fox"'; {
+for (var i = 0; i < 12; i++);
+document.write(logo);
+}
+// }
+
+//
+// function addTheImage() {
+//     var img = document.createElement('img');
+//     img.src = "http://cha.lt/wp-content/uploads/2014/12/11647010-R3L8T8D-900-2.jpg"; }
 
 // 4 UZDUOTIS
 // A) sukurti f-jas piestiEilute(x); spausdintiStulpeli(x);
 // B) nupiesti tuscia lentele paleidiznat f-jas (  antrastine eilute "vardas |  pavarde | amzius" - teks isvesti be f-jos)
 
+piestiEilute(40);
+console.log('vardas | pavarde | amzius');
+piestiEilute(40);
+spausdintiStulpeli(15);
 /*
 ----------------------------
 vardas |  pavarde | amzius
