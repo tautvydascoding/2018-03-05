@@ -28,3 +28,8 @@ console.log(vardai);
 
 delete vardai[2]; //istirina 2 elementa/stalciaus turini (palieka stalciu, istitrina tik turini)
 console.log(vardai);
+
+// kopijuoja masyva
+// nuo 2 iki 4
+var dalisVardu = vardai.slice( 2, 4);
+console.log( "kopija", "dalisVardu");
