@@ -25,4 +25,40 @@ console.log(vardai);
 delete vardai[2]; //ištrina "2" elementą/stalciaus turinį (pati stalciu palieka, o istrina tik jo turinį)
 console.log(vardai);
 
-vardai.shift(); // sukuria stalciu ir ji ideda priekyje masyvo
+vardai.unshift("as priekyje"); // sukuria stalciu ir ji ideda priekyje masyvo
+
+
+//lenght -ilgis
+var masyvoIlgis = vardai.lenght;
+vardai[masyvoIlgis] = "Paskutinis vardas";
+// arba
+// vardai.push( "Paskutinis vardas su Push" );
+console.log(masyvoIlgis);
+
+// Masyvo vidurys
+
+vardai[20] = "azuolas";
+console.log(vardai);
+
+vardai.splice(10); //istriname nuo 10 visus likusius
+console.log(vardai);
+
+// iterpimas; 1 - kur iterpti; 0 - kiek istrinti
+vardai.splice( 1, 0, "statine medaus", "pieno", "batono");
+console.log(vardai);
+
+// kopijuoja masyva
+// nuo 2 iki 4
+var dalisVardu = vardai.splice(2, 4);
+console.log("kopija", dalisVardu);
+
+// -------- kas butu jeigu darom masyvo kopijuoja
+var x = vardai;
+console.log( "x:", x );
+console.log( "vardai", vardai);
+
+// istriname 3 ir 4
+delete x[3];
+delete x[4];
+console.log( "x:", x );
+console.log( "vardai", vardai);
