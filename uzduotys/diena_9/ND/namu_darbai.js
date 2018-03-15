@@ -9,7 +9,12 @@
 // ) isisvesti orginalu masyva - ir pasitikrinti ar nesugadinom jo , keisdami kopija
 // ) prijungti kopijos masyva prie orginalo masyvos galo
 
-
+// 5.
+// sukurti masyva
+// masyvas = ['petras', 'karolis', dainius];
+// nenaudojant "unshift()", o naudojant "for" cikla
+// A. paslinkti visus stalcius , kad atlaisvetu "0"-tas
+// B.  iterpti "Tomas" varda  - i masyvo prieki ("0"-ta stalciu)
 
 // 6. sukurti du masyvus (skirtingus)
 // naudojant for cikla sujungti juos, kas antra elementa
