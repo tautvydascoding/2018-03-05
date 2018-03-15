@@ -74,12 +74,18 @@ console.log( "masyvas:", masyvas);
 
 for (var i = 0; i < 50;   i++) {
     masyvas[ i + 1 ] = 3;    // "i"   - vis dideja po viena
-    i++; 
+    i++;
 }
 console.log( "masyvas:", masyvas);
 
 // 5.3: kas 5-ta ^ masyvo elementa pakeisti i "9"
 // [1, 3, 1, 3, 9, 3, 1, 3, 1, 9, ....
+
+for (var i = 0; i < 50;   i= i + 5) {
+    masyvas[ i + 4 ] = 9;    // "i"   - vis dideja po viena
+}
+console.log( "masyvas:", masyvas);
+
 
 
 //=============bootstrap---sm-md-lg-xl (30-60m)==========
