@@ -104,12 +104,14 @@ console.log(  "Freidos pavarde yra: ",  lastNames[37] );
 // 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
 var ieskomiZmones = [2, 16, 17, 18, 19, 25];
 
+for (var i = 0; i < ieskomiZmones.length; i++) {
+     console.log( "vardas pavarde:", names[i], lastNames[i] );
+}
 
 
 
-// var a = Math.random(); // 0 - 1
-// if ( a <= 0.1) {
-//     console.log("laimejai");
-// }
-
-ieskomiZmones = [2, 16, 17, 18, 19, 25];
+var a = Math.random(); // 0 - 1
+if ( a <= 0.5) {
+    console.log("laimejai");
+}
+console.log("burtu skaicius:", a );
