@@ -63,8 +63,6 @@ pvzsk[12]=13;
 pvzsk[13]=13;
 pvzsk[14]=13;
 
-// naudojant for cikla sujungti juos, kas antra elementa
-// [pirmo masyvo, antro masyvo, pirmo masyvo, antro masyvo , ...]
 console.log("Pirmasis masyvas:\n",pvzsk);
 var pvzraid=[];
 pvzraid[0]="Labas";
@@ -73,12 +71,14 @@ pvzraid[2]="Kaip";
 pvzraid[3]="Tau";
 pvzraid[4]="Sekas?";
 console.log("Antrasis masyvas:\n",pvzraid);
+// naudojant for cikla sujungti juos, kas antra elementa
+// [pirmo masyvo, antro masyvo, pirmo masyvo, antro masyvo , ...]
 var ilg1 = pvzsk.length;
 console.log("Pirmojo masyvo ilgis:",ilg1);
 var ilg2 = pvzraid.length;
-console.log("Antrojo masyvo ilgis",ilg2);
-if (ilg1>=ilg2) {
-  var ilg=ilg1;
+console.log("Antrojo masyvo ilgis:",ilg2);
+if (ilg1>=ilg2) {  //is sitos salygos suzinome, kurio masyvo ilgis yra didesnis, ir ji prisiskiriame ilg.
+  var ilg=ilg1;     // veliau panaudosim ilg skaiciu aprasant ciklu kartojimu kieki.
 }else {
   ilg=ilg2;
 }
@@ -87,7 +87,7 @@ if (ilg1>=ilg2) {
 var jungtinis=[];
 var tarp1=[];
 var tarp2=[];
-// var tarp3=[];
+var tarp3=[];
 for (var i = 0; i <= ilg; i+=2){
   tarp1[0]=pvzsk[i];
   // console.log(tarp1[i]);
@@ -106,7 +106,7 @@ for (var i = 0; i < jungtinis.length; i++) {
     newjungtinis=jungtinis.slice(0,jungtinis.length);
     i--; //kadangi pasikeicia array ilgis ([0as-AA, 1as-BB, 2-undefined,3-undefined,4-undefined]) iskirpus i=2 lieka
         // [0as- AA,1as- BB,2as-undefined,3-undefined], o sekanti tikrinama reksme bus i+1, ty 2+1=3, lieka prasoktas naujo array 2as elementas
-        // del atlikus "kirpima" sumaziname i reiksme 1, kad nepraleistume nepatikrine, nei vieno naujai perdelioto masyvo elemento.
+        // del to atlikus "kirpima" sumaziname i reiksme 1, kad nepraleistume nepatikrine, nei vieno naujai perdelioto masyvo elemento.
   }
 }
 console.log("Galutinis jungtinis masyvas pataisytas: ",newjungtinis);
@@ -133,3 +133,12 @@ for (var i = 0; i < sunkesnis.length/2; i++) {
   sunkesnis[sunkesnis.length-i-1]=laikin;
 }
 console.log("apkeistas masyvas:", sunkesnis);
+
+console.log("====================sort bandymai======================");
+
+console.log("Nesutvarkytas masyvas:\n",sunkesnis);
+console.log("Sutvarkytas pagal default (pagal string): ",sunkesnis.sort());
+console.log("Nesutvarkytas masyvas, sudarytas is sk: \n",pvzsk);
+console.log("Masyvo el laikomi string tipo, kad ir kokie jie yra, ir rusiuojami pagal tai: \n",pvzsk.sort());
+var kkk=pvzsk.sort(function(x,y){return(x - y)});
+console.log("Surusiuotas skaiciu masyvas:\n",kkk);
