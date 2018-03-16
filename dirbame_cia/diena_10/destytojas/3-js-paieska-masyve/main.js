@@ -25,14 +25,28 @@ var ilgis = names.length;
 console.log( "vardu skaicius:" + ilgis );
 
 var nr = 0;
+var ieskome = "Rico";
+
 for (var i = 0; i <  names.length; i++) {
     // tikrinu ar stalcius yra "Rico"
-    if (  names[i] == "Rico" ) {
+    if (  names[i] == ieskome ) {
         console.log("Raudau Rico", nr, i );
     }
     nr++;
 }
 
+function ieskotiVienoVardo() {
+    var ieskome = "Rico";
+
+    for (var i = 0; i <  names.length; i++) {
+        // tikrinu ar stalcius yra "Rico"
+        if (  names[i] == ieskome ) {
+            console.log("Raudau pirmaji Rico",  i );
+            break;
+        }
+    }
+}
+ieskotiVienoVardo();
 
 // 1B) papildyti ^: jeigu tokio vardo neranda, isvesti VIENĄ pranesima "Nepavyko rasti...Bandykite kita zodi"
 
