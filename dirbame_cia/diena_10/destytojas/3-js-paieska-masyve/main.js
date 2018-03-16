@@ -36,7 +36,7 @@ for (var i = 0; i <  names.length; i++) {
 }
 
 function ieskotiVienoVardo() {
-    var ieskome = "Rico";
+    var ieskome = "Rico----";
 
     for (var i = 0; i <  names.length; i++) {
         // tikrinu ar stalcius yra "Rico"
@@ -49,6 +49,28 @@ function ieskotiVienoVardo() {
 ieskotiVienoVardo();
 
 // 1B) papildyti ^: jeigu tokio vardo neranda, isvesti VIENĄ pranesima "Nepavyko rasti...Bandykite kita zodi"
+
+function ieskotiVienoVardo222() {
+    var ieskome = "Rico";  // local
+    var arRadau = "neradau";      // local   "neradau"
+    for (var i = 0; i <  names.length; i++) {
+        // tikrinu ar stalcius yra "Rico"
+        if (  names[i] == ieskome ) {
+            console.log("Raudau pirmaji Rico",  i );
+            arRadau = "suradau"; // "radau"
+            break;
+        }
+    }
+
+
+    // tikriname ar pavyko rasti
+    if (arRadau == "neradau") { // "neradau"
+        console.log( " nepavyko rasti ");
+    } else {
+        console.log( " suradau ");
+    }
+}
+ieskotiVienoVardo222();
 
 
 // 2 UZDUOTIS (f-ja iekom stalciaus)
