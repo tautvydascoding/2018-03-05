@@ -25,12 +25,12 @@ var ilgis = names.length;
 console.log( "vardu skaicius:" + ilgis );
 
 var nr = 0;
-var ieskome = "Rico";
+var ieskome = "Freida";
 
 for (var i = 0; i <  names.length; i++) {
     // tikrinu ar stalcius yra "Rico"
     if (  names[i] == ieskome ) {
-        console.log("Raudau Rico", nr, i );
+        console.log("Raudau " + ieskome, nr, i );
     }
     nr++;
 }
@@ -49,8 +49,21 @@ function ieskotiVienoVardo() {
 ieskotiVienoVardo();
 // 1A ----
     var atlyginimas = 500;
+    var arPasikeite = false;
     // UZDUOTIS
     // A) patikrinti ar 'atlyginimas' padidejo. Jeigu padidejo pranesti. jeigu nepasikeite - irgi pranesti
+    atlyginimas += 100;  // atlyginimas = atlyginimas + 100;
+    if ( atlyginimas > 500) {
+         arPasikeite = true;  // taip - pasikeite
+    } else {
+         arPasikeite = false; // nepasikeite
+    }
+
+    if ( arPasikeite == true) {
+        console.log(  "atlyginimas, kazkiek padidejo \n " );
+    } else {
+        console.log( "atlyginimas, neapsikeite ");
+    }
     // B) padidinti 'atlyginimas' vienu simtu. Ir vel patikrinti ar 'atlyginimas' padidejo
 
 
@@ -86,8 +99,13 @@ ieskotiVienoVardo222();
 
 // uzduots:----------------------------
 // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
+console.log(  "Freidos pavarde yra: ",  lastNames[37] );
 // 4) rasti visu zmoniu vardu "Rico" pavardes
 // 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
+var ieskomiZmones = [2, 16, 17, 18, 19, 25];
+
+
+
 
 // var a = Math.random(); // 0 - 1
 // if ( a <= 0.1) {

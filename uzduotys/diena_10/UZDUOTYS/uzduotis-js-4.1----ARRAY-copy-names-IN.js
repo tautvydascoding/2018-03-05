@@ -12,9 +12,15 @@ var arr2b = arr1.concat(  );   // Becomes arr2b = ['a', 'b', 'c'] - deep copy
 // 1A) surasti vardu masyve, kelintas zmogus yra "Rico" (surasti pirmaji; sunkes- surasti visus riko)
 // 1A ----
     var atlyginimas = 500;
+    var arPasikeite = false;
     // UZDUOTIS
-    // A) patikrinti ar 'atlyginimas' padidejo. Jeigu padidejo pranesti. jeigu nepasikeite - irgi pranesti
-    // B) padidinti 'atlyginimas' vienu simtu. Ir vel patikrinti ar 'atlyginimas' padidejo
+    // A) patikrinti ar 'atlyginimas' padidejo ir panaudoti kintamaji 'arPasikeite'.rementis siuo kintamuoju, isvesti pranesima -" atlyginimas pasikeite" arba 'atlyginimas toks pats'
+    atlyginimas += 100;  // atlyginimas = atlyginimas + 100;
+    if ( atlyginimas > 500) {
+
+    } else {
+
+    }
 
 
 // 1B) papildyti ^: jeigu tokio vardo neranda, isvesti VIENĄ pranesima "Nepavyko rasti...Bandykite kita zodi"
