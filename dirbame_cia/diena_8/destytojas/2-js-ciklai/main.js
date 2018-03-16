@@ -62,10 +62,10 @@ for (var i = 0; i < 12 ; i++) {
 // A) sukurti f-jas piestiEilute(sk); spausdintiStulpeli(sk);
 // B) nupiesti tuscia lentele paleidiznat f-jas (  antrastine eilute "vardas |  pavarde | amzius" - teks isvesti be f-jos)
 
- piestiEilute(40);
-console.log('vardas |  pavarde | amzius');
-piestiEilute(30);
-spausdintiStulpeli(15);
+//  piestiEilute(40);
+// console.log('vardas |  pavarde | amzius');
+// piestiEilute(30);
+// spausdintiStulpeli(15);
 
 // var txt = "-";
 // var ilgis = 40;

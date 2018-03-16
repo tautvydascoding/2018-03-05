@@ -56,6 +56,43 @@ game(Pap);
 game(Pap);
 game(Pap);
 
+console.log(Math.random()); //reiksmes nuo 0.00000 iki 1.00000, bet kadangi... exlusive to 1 and inclusive to 0 it makes it range from 0.00000 to 0.999999 - correct
+// console.log(Math.random());
+console.log(Math.floor(Math.random())); //picks min integer so from 1.9 =1; 0.87 =0; etc.
+// console.log(Math.floor(Math.random()));
+// console.log(Math.floor(Math.random()));
+// console.log(Math.floor(Math.random()));
+console.log((Math.random()*5)); //picks random from 0.0000 to 4.9999
+// console.log((Math.random()*5));
+// console.log((Math.random()*5));
+// console.log((Math.random()*5));
+// console.log((Math.random()*5));
+console.log(Math.floor(Math.random()*(5))); //picks random from 0 1 2 3 4 1.9999999 (! 1.9=1..1.2222=1 etc, as for 5? ONLY NONE) to even the chance:
+console.log(Math.floor(Math.random()*(5+1))); //5 also get higher chance to be picked as it's  range now is: 5.9999=5;
+// console.log(Math.floor(Math.random()*(5+1)+3));
+// console.log(Math.floor(Math.random()*(5+1)+3));
+// console.log(Math.floor(Math.random()*(5+1)+3));
+// console.log(Math.floor(Math.random()*(5+1)+3));
+// console.log(Math.floor(Math.random()*(5+1)+3));
+console.log("================================== ");
+console.log(Math.floor(Math.random()*(7-3+1))); //would generate numbers from 0.0000 to 4.99999
+// console.log(Math.floor(Math.random()*(7-3+1)));
+// console.log(Math.floor(Math.random()*(7-3+1)));
+// console.log(Math.floor(Math.random()*(7-3+1)));
+console.log("================================== ");
+console.log(Math.floor(Math.random()*(7+1)+min));   //it would generate numbers from min to 8+min
+// console.log(Math.floor(Math.random()*(7+1)+3));  // 3.0000 (0+min, thats why this number is responsible for min value) to 10.99999
+// console.log(Math.floor(Math.random()*(7+1)+3));  // but doing this also increase the max wanted value, we wanted max 7.9999 but adding min makes max 10.99999 to fix this:
+// console.log(Math.floor(Math.random()*(7+1)+3));
+console.log("================================== ");
+console.log(Math.floor(Math.random()*(7-3+1)+3)); // we subbtract min from wanted max value as we will increase it by min later on, this way:
+// console.log(Math.floor(Math.random()*(7-3+1)+3)); this function will generate values from 3.0000 to 7.9999 and so, its general form can be written as:
+// console.log(Math.floor(Math.random()*(7-3+1)+3));   IDEA randomintegergenrator=Math.floor(Math.random()+(max-min+1)+min);
+// console.log(Math.floor(Math.random()*(7-3+1)+3));
+
+
+
+
 
 // pasikartoti antradieni
 // parasyti f-ja "getPelnas(pajamos, mokesciai, mokesciai2)", kuri apskaiciuoja pelna is  paduotu pajamu atimdama paduotus mokescius, ir poto vel atimdama mokescius2

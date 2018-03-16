@@ -20,12 +20,13 @@ var x = getVardas1();   // arba  console.log(  getVardas1() );
 console.log( getVardas1() );
 
 // 2
-var name = "kazys"
+
 function setVardas2(name) {
     vardas = name + "2";
+    console.log((vardas));
 }
 setVardas2("antanas"); // !!!! sugalvoti vis kita zodi
-console.log(setVardas2("vardas"));
+setVardas2("petras");
 // 3
 var vardas = "alus"
 function getVardas3() {
@@ -37,7 +38,21 @@ console.log( getVardas3()  );
 // 4
 function setVardas4(name) {
    vardas = name + "4";
+   console.log(vardas);
 }
-setVardas2("juozas"); // sugalvoti vis kita zodi
-
+setVardas4("juozas"); // sugalvoti vis kita zodi
+setVardas4("stalas")
 // 5
+
+var vardas = "medis"
+function getVardas5() {
+  return vardas + "5";
+}
+console.log(getVardas5());
+
+function setVardas6(name) {
+  vardas = name + "6";
+  console.log(vardas);
+}
+setVardas6("sienas");
+setVardas6("kava");
