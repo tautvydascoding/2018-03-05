@@ -1,3 +1,6 @@
+console.log( " Labas ");
+
+
 
 
 
@@ -7,6 +10,13 @@
 // funkcijoje sukurti kintamaji: var vardas = "Tomas"
 // kuri  atspausdina i konsole  kintamaji "vardas"
 // iskviesti f-ja
+function printDuomenys() {
+    var vardas = "Tomas";  // local kintamasis (jis isnyks kai f-ja bais darba)
+    console.log( "vardas yra:", vardas);
+}
+printDuomenys();
+
+// console.log( "vardas uz f-jos:", vardas );
 
 //   UZDUOTIS  B
 //  dabar, pabandykite po f-ja (uz jos ribu) i konsole atspausdinti kintamaji "vardas"
@@ -16,49 +26,39 @@
 
 
 //================local && global=========
-//var x = "x global";
-//function testLocalVar() {
-//    var y = "y local";
-//    z = "z global";
-//    console.log("x", x);
-//    console.log("y", y);
-//    console.log("z", z);
-//}
-//testLocalVar();
-//console.log("x", x);
-//console.log("z", z);
-//console.log("y", y);  // error - 1)   nes sukurtas f-jos viduje 2) sukurtas su "var"
+var x = "x global";
+
+function testLocalVar() {
+   var y = "y local";
+   z = "z global";
+   console.log("x", x);
+   console.log("y", y);
+   console.log("z", z);
+}
+testLocalVar();
+
+// console.log("x", x);
+// console.log("z", z);
+// console.log("y", y);  // error - 1)   nes sukurtas f-jos viduje 2) sukurtas su "var"
 
 //------
  // UZDUOTIS
- // A) sukurti kintamaji var kakis = "juodas"
+ // A) sukurti kintamaji var katinas = "juodas"
  // B) sukurti f-ja
- // C) sukurti f-jos viduje kintamaji var kakis = "baltas"
+ // C) sukurti f-jos viduje kintamaji var katinas = "baltas"
  // D) atspauzdinti abu f-jos viduje
  // E) atspauzdinti  uz f-jos
 
- // var katinas = "juodas";   //global
- //
- // function test2() {
- //     var katinas = "baltas";  // local
- //    console.log("1 katinas:", katinas);
- //    console.log("2 this.katinas - f-jos viduje: ",  this.katinas);    // this - pasiekia ~global kintamuosius (tavo tecio kintamuosius)
- // }
- // test2();
- //
- // console.log("3 katinas:", katinas);
+ var katinas = "juodas";   //global
 
-//==========================
+ function test2() {
+     var katinas = "baltas";  // local
+    console.log("1 katinas:", katinas);
+    console.log("2 this.katinas - f-jos viduje: ",  this.katinas);    // this - pasiekia ~global kintamuosius (tavo tecio kintamuosius)
+ }
+ test2();
 
- // var xx = 10; // global
- //
- // function isvesti( xx ) {  // xx - (local) naujas issigalvotas LAIKINAS  kintamasis
- //     xx = 20;  // local
- //     console.log( "1. xx:", xx);
- //     console.log( "2. this.xx:",   this.xx);
- // }
- // console.log( "3. xx:", xx);
-
+ console.log("3 katinas:", katinas);
 
  //======================
  // var vardas = "Jonas";   // global - kintamasis
@@ -67,6 +67,17 @@
  //     console.log("this.vardas - f-jos viduje: ",  this.vardas);    // this - pasiekia ~global kintamuosius (tavo tecio kintamuosius)
  // }
  // myName("PETRAS");
+
+ // ====================
+ var xx = 10; // global
+
+ function isvesti( xx ) {  // xx - (local) naujas issigalvotas LAIKINAS  kintamasis
+     xx = 20;  // local
+     console.log( "1. xx:", xx);
+     console.log( "2. this.xx:",   this.xx);
+ }
+ console.log( "3. xx:", xx);
+
 //======================TEKSTO ISVEDIMAS===============
 
 
