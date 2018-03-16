@@ -6,10 +6,17 @@ var arr1 = ['a', 'b', 'c'];  // Becomes arr1 = ['a', 'b', 'c']
 var arr2a = arr1.slice(0);   // Becomes arr2a = ['a', 'b', 'c'] - deep copy
 var arr2b = arr1.concat(  );   // Becomes arr2b = ['a', 'b', 'c'] - deep copy
 // ================= ========= ======== ========
- 
+
 
 // UZDUOTIS
 // 1A) surasti vardu masyve, kelintas zmogus yra "Rico" (surasti pirmaji; sunkes- surasti visus riko)
+// 1A ----
+    var atlyginimas = 500;
+    // UZDUOTIS
+    // A) patikrinti ar 'atlyginimas' padidejo. Jeigu padidejo pranesti. jeigu nepasikeite - irgi pranesti
+    // B) padidinti 'atlyginimas' vienu simtu. Ir vel patikrinti ar 'atlyginimas' padidejo
+
+
 // 1B) papildyti ^: jeigu tokio vardo neranda, isvesti VIENĄ pranesima "Nepavyko rasti...Bandykite kita zodi"
 
 

@@ -47,6 +47,13 @@ function ieskotiVienoVardo() {
     }
 }
 ieskotiVienoVardo();
+// 1A ----
+    var atlyginimas = 500;
+    // UZDUOTIS
+    // A) patikrinti ar 'atlyginimas' padidejo. Jeigu padidejo pranesti. jeigu nepasikeite - irgi pranesti
+    // B) padidinti 'atlyginimas' vienu simtu. Ir vel patikrinti ar 'atlyginimas' padidejo
+
+
 
 // 1B) papildyti ^: jeigu tokio vardo neranda, isvesti VIENĄ pranesima "Nepavyko rasti...Bandykite kita zodi"
 
