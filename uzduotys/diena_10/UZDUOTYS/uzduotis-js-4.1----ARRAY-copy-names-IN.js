@@ -6,10 +6,7 @@ var arr1 = ['a', 'b', 'c'];  // Becomes arr1 = ['a', 'b', 'c']
 var arr2a = arr1.slice(0);   // Becomes arr2a = ['a', 'b', 'c'] - deep copy
 var arr2b = arr1.concat(  );   // Becomes arr2b = ['a', 'b', 'c'] - deep copy
 // ================= ========= ======== ========
-
-
-
-
+ 
 
 // UZDUOTIS
 // 1A) surasti vardu masyve, kelintas zmogus yra "Rico" (surasti pirmaji; sunkes- surasti visus riko)

@@ -1,4 +1,11 @@
 console.log( " Labas ");
+// UZDUOTIS
+// HTML FAILE sukurti 3 straipsnius.
+// B) kiekvienas straipnsnis sudarytas is antrastes "h2" ir paragrafo "p"
+// C) ant pirmo "p" uzdeti klase "straipsnis-1"
+
+// UZDUOTIS
+// 
 
 var aprasymas = document.querySelector(  '.straipsnis-1' );  // Ne array, o vienas elementas
 console.log(  aprasymas  );
