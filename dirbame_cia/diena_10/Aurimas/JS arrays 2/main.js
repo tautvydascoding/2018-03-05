@@ -75,28 +75,30 @@ var k=0;
 var nr=0;
 var temp=[];
 var p=0;
+var nem=[];
 // sukurti f-ja rastiKiekElementaiPasiakrtoja(masyvas), to find the most frequent item of an array
 function rastiKiekElementaiPasiakrtoja(x){
-  for ( k = 0; k < x.length; k++) { //issirikiuojam masyva didejimo tvarka, kad butu paprasciau dirbti;
-    for ( j = 0; j < x.length; j++) {
-      if (x[j]>=x[j+1]) {
-        var y=x[j];
-        x[j]=x[j+1];
-        x[j+1]=y;
+  nem=x.slice(0,x.length);
+  for ( k = 0; k < nem.length; k++) { //issirikiuojam masyva didejimo tvarka, kad butu paprasciau dirbti;
+    for ( j = 0; j < nem.length; j++) {
+      if (nem[j]>=nem[j+1]) {
+        var y=nem[j];
+        nem[j]=nem[j+1];
+        nem[j+1]=y;
       }
     }
   }
-  console.log("Pertvarkytas masyvas: ",x);
-  for ( i = 0; i < x.length; i++) {
+  console.log("Pertvarkytas masyvas: ",nem);
+  for ( i = 0; i < nem.length; i++) {
     var c=0; //butinai sitoje vietoje vel prisiskiriam c =0, tam jog kai dabar skaiciuosim sekancia, jau x[i+1] reiksme, c vel butu lygus 0, o ne pries tai buvusio el x[i] pasikartojimu skaiciui.
-    for ( j = 0; j < x.length; j++) {
-      if (x[i]==x[j]) {
+    for ( j = 0; j < nem.length; j++) {
+      if (nem[i]==nem[j]) {
         c++; //kiekviena karta, kai funkcija ras elementa lygu sau, c=c+1, ty, praejus visa cikla, zinosim, kiek kartu pasikartojo el x[i]
       }
     }
     a[i]=c; //sudarom masyva, kuriam priskiriam visu patikrintu elemntu pasikartojimu skaiciu (t.y. a=[c (x[i] el pasikarojimai),c (x[i+1]),c (x[i+2]) ,c,c,c,c,c,c....]
-   if (x[i]!==x[i+1]) {
-     console.log(x[i]+"-El. pasikartojo tiek kartu: ",a[i]+";");
+   if (nem[i]!==nem[i+1]) {
+     console.log(nem[i]+"-El. pasikartojo tiek kartu: ",a[i]+";");
    }
   }
   for ( k = 0; k < a.length; k++) {
@@ -106,12 +108,12 @@ function rastiKiekElementaiPasiakrtoja(x){
     }
   }
   for (var k = 0; k < a.length; k++) {
-    if (max==a[k] && x[k]!==x[k+1] ) {
+    if (max==a[k] && nem[k]!==nem[k+1] ) {
       p++;    //
       if (p==1) {
-        console.log("Dazniausiai pasikartojo el:",x[nr]+",ir jis pasikartojo tiek kartu:",max+";");
+        console.log("Dazniausiai pasikartojo el:",nem[nr]+",ir jis pasikartojo tiek kartu:",max+";");
       }else {
-        console.log("Taip pat "+max+" kartus pasikartojo skaicius: "+x[k]+";");
+        console.log("Taip pat "+max+" kartus pasikartojo skaicius: "+nem[k]+";");
       }
     }
   }
@@ -120,7 +122,7 @@ function rastiKiekElementaiPasiakrtoja(x){
 }
 var randomnumbers= [0.5,4,7,8,2,5,1,1,1,2,2,5,8,2,1,6,6,6,88,1,1,5,2,5,5,5,2,84,11,55,77];
 rastiKiekElementaiPasiakrtoja(randomnumbers);
-
+console.log("orginalus masyvas",randomnumbers);
 
 
 
@@ -132,15 +134,16 @@ console.log("===============================================================");
 var karpymui=[1,2,3,4,5,6,9,8,7,3,2,1,4,5,6,9,8,77,1,5,3,1,5,4,2,0,2,2,1];
 // sukurti f-ja kuri pasalina besikartojancias reiksmes (remove duplicate items from an array )
 function removeduplicate(x){
-  for ( i = 0; i < x.length; i++) {
-    for ( var k = 0; k < x.length; k++) {
-      if (x[i]==x[k+1]) {
-        x.splice(k+1,1);
+  var nema=x.slice(0,x.length);
+  for ( i = 0; i < nema.length; i++) {
+    for ( var k = 0; k < nema.length; k++) {
+      if (nema[i]==nema[k+1]) {
+        nema.splice(k+1,1);
       }
     }
   }
 
-  console.log("Iskarpytas masyvas, be pasikartojanciu reiksmiu:", x);
+  console.log("Iskarpytas masyvas, be pasikartojanciu reiksmiu:", nema);
 }
-console.log("Orginalus masyvas:", karpymui);
 removeduplicate(karpymui);
+console.log("Orginalus masyvas:", karpymui);
