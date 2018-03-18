@@ -1,10 +1,9 @@
-// rimta
-// 1 kursime nauja masyva uzpildyta, atsitiktiniais skaiciais nuo 50 - 200 (pagamintomis datalemis per diena)
+// UZDUOTIS
+//   sukurti nauja masyva: uzpildyta atsitiktiniais skaiciais nuo 50 - 200 (pagamintomis datalemis per diena)
 
 
 
 //======================TEKSTO ISVEDIMAS i DOM===============
-
 
 //  1.1 UZDUOTIS
 //  sukurti funkcija "printAntraste(x)" ,
