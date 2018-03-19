@@ -21,10 +21,7 @@ elmAside.appendChild(elmText);
 //=============
 //  objekto (Node) idejimas i HTML
 var elmH1 =  document.querySelector("h1");
+  // tetis elemet'o (h1), kurio atzvilgiu        kaIdeti     KienoAtzvilgiu (pries ka)
 document.body.insertBefore(elmAside, elmH1);
 // document.body.appendChild(elmAside);
 //==============
-
-
-
-  

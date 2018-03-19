@@ -36,10 +36,19 @@ $( "article > p" ).css( myCSS );
 
 // keliu elementu select'as (select h1 and h2 elements)
 $( "h1, h2" ).css( "background", "black" );
-$( "h1" ).css().add( "h2" ).css( "background", "yellow" );
+// protevis ieskomasis
+$( "header   h1" ).css( "background", "black" );
+//arba
+$( "header" ).css( "color", "red" ).find( "h1" ).css( "color", "green" );  // note: find(...) - iesko elemento viduje selected item
+// arba
+// ka    kurIeskoti
+$( "h1", "header" ).css( "background", "black" );
+
+$( "h1" ).css("color", "black").add( "h2" ).css( "background", "yellow" );
 
 // paveiks paskutini is li elementu
 $( "li" ).last().css( "background", "yellow" );
+$( "li:last").css( "background", "yellow" );
 // $( "li:last" ).addClass( "selected highlight" );
 $( "p:even" )
 //$( "p:eq(1)" ); // pirmas
@@ -58,13 +67,20 @@ $( "header" ).css( "color", "red" ).find( "h1" ).css( "color", "green" );  // no
 // note: $("input[type='email']").attr('value') // will return value from DOM/HTML.
 
 // brolius ir seses Isskyrus h2 pati
- 
- 
 
-$("body h2").siblings().css({"color": "red", "border": "2px solid red"});
-h2 brolius kurie yra "p", bet nera h2 ar kiti
-$("h2").siblings("p").css({"color": "orange", "border": "2px solid red"});
-sekanti brolini elementa
-$("h2").next().css({"color": "red", "border": "2px solid red"});
-$("h2").nextAll();
-$("h2").nextUntil("h6"); // !!! tik su elementais, su class neveiks 
+// <section>
+//     <h2>aaaa</h2>
+//
+//     <p> bbbb </p>
+//     <a href=''> ccc </a>
+//     <button>  ddd </button>
+// </section>
+//
+//
+// $("body h2").siblings().css({"color": "red", "border": "2px solid red"});
+// //h2 brolius kurie yra "p", bet nera h2 ar kiti
+// $("h2").siblings("p").css({"color": "orange", "border": "2px solid red"});
+// sekanti brolini elementa
+// $("h2").next().css({"color": "red", "border": "2px solid red"});
+// $("h2").nextAll();
+// $("h2").nextUntil("h6"); // !!! tik su elementais, su class neveiks
