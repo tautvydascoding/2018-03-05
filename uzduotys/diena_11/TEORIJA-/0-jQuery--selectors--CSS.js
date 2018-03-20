@@ -21,17 +21,17 @@ var myCSS = {
 $( "article > p" ).css( myCSS );
 
 // advance: get curent width and height
-// $( 'p' ).css(
-//     {
-// 	  width: function( index, value ) {
-// 		console.log("curent width:" + value);
-// 		return parseFloat( value ) * 1.2;
-// 	  },
-// 	  height: function( index, value ) {
-// 		console.log("curent height: " + value);
-// 		return parseFloat( value ) * 1.2;
-//   }
-// });
+$( 'p' ).css(
+    {
+	  width: function( index, value ) {
+		console.log("curent width:" + value);
+		return parseFloat( value ) * 1.2;
+	  },
+	  height: function( index, value ) {
+		console.log("curent height: " + value);
+		return parseFloat( value ) * 1.2;
+  }
+});
 // //=============selectors kaip CSS=========
 
 // keliu elementu select'as (select h1 and h2 elements)
@@ -68,6 +68,17 @@ $( "header" ).css( "color", "red" ).find( "h1" ).css( "color", "green" );  // no
 
 // brolius ir seses Isskyrus h2 pati
 
+<<<<<<< HEAD
+
+
+$("body h2").siblings().css({"color": "red", "border": "2px solid red"});
+h2 brolius kurie yra "p", bet nera h2 ar kiti
+$("h2").siblings("p").css({"color": "orange", "border": "2px solid red"});
+sekanti brolini elementa
+$("h2").next().css({"color": "red", "border": "2px solid red"});
+$("h2").nextAll();
+$("h2").nextUntil("h6"); // !!! tik su elementais, su class neveiks
+=======
 // <section>
 //     <h2>aaaa</h2>
 //
@@ -84,3 +95,4 @@ $( "header" ).css( "color", "red" ).find( "h1" ).css( "color", "green" );  // no
 // $("h2").next().css({"color": "red", "border": "2px solid red"});
 // $("h2").nextAll();
 // $("h2").nextUntil("h6"); // !!! tik su elementais, su class neveiks
+>>>>>>> 9ec44974a5d767c3e9af3baea97465191bebdd34
