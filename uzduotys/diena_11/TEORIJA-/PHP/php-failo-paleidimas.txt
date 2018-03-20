@@ -1,0 +1,5 @@
+
+// 1. isujungti MAMP
+// 2. susikurti faila su .php galune
+// 3. <?php   programuoti atsidarius php
+// 4. narsykleje rasyti: localhost:80  80-jusu port'as
