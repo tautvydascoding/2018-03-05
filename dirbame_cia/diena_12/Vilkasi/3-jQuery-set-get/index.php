@@ -17,17 +17,40 @@
 
     <body>
 
-        <h1> MOkomes </h1>
+        <!-- <h1> 1 MOkomes </h1>
+        <h2> <strong> 2 MOkomes </strong> </h2>
+        <h3> 3 MOkomes </h3>
+        <h4> 4 MOkomes </h5>
+        <h5> 5 MOkomes </h5> -->
 
-        <?php
-          //1. isijungti MAMP
-          //2. susikurti faila su .php galune
-          //3. <?php  programuoti atsidarius php
-          //4. narsykleje rasyti : localhost: 8888
+        <h1>Isijunk konsole</h1>
+        <h1>Isijunk konsole</h1>
+        <h1>Isijunk konsole</h1>
+
+        <h2> 1. h2 Isijunk konsole</h2>
+        <h2> 2. h2 Isijunk konsole</h2>
+        <h2> 3. h2 Isijunk konsole</h2>
+
+         <section>
+             <h2> 1. h2 Isijunk konsole</h2>
+             <h2> 2. h2 Isijunk konsole</h2>
+             <h2> 3. h2 Isijunk konsole</h2>
+             <h2> 4. h2 Isijunk konsole</h2>
+         </section>
+
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li class=reklama>Gallery</li>
+            <li>Contact</li>
+        </ul>
         
-          print("Sveiki");
+        <form action="#" method="post" >
+          <input type="text" name="vardas" value="" placeholder="Jusu vardas">
+          <input type="text" name="pastas" value="" placeholder="Jusu el.pastas">
+        </form>
 
-         ?>
+
 
 
 

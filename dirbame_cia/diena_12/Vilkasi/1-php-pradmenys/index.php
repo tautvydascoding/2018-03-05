@@ -17,17 +17,42 @@
 
     <body>
 
-        <h1> MOkomes </h1>
-
         <?php
-          //1. isijungti MAMP
-          //2. susikurti faila su .php galune
-          //3. <?php  programuoti atsidarius php
-          //4. narsykleje rasyti : localhost: 8888
-        
-          print("Sveiki");
+              $antraste = "Mokomes PHP";
+              echo "<h1> $antraste </h1>";
+
+              $vardas = "Tomas";
+              $amzius = 6;
+              $arVedes = false;
 
          ?>
+         <section>
+           <?php
+           echo "<p> mano vardas: $vardas,<br> man yra: $amzius metai<br>vedybinis statusas: $arVedes </p>";
+           echo '<p> mano vardas: $vardas, man yra: $amzius metai </p>';
+
+           $vardas2 = $vardas;
+           $vardas3 = &$vardas; //nusikopina is RAM atminties
+
+           function pakeistiVarda($naujasVardas){
+             $vardas = $naujasVardas;
+           }
+           echo "vardas pries pakeitima: $vardas <br/>";
+           pakeistiVarda('Aloyzas');
+           echo "vardas po pakeitimo $vardas <br/>";
+
+           function pakeistiVarda2(&$senasVardas){ //globalus kintamasis
+             $senasVardas = 'Aloyzas';
+           }
+
+           echo "vardas pries pakeitima: $vardas <br/>";
+           pakeistiVarda2( $vardas, 'Aloyzas');
+           echo "vardas po pakeitimo $vardas <br/>";
+
+            ?>
+         </section>
+
+
 
 
 
