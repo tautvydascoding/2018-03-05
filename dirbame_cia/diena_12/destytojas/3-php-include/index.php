@@ -1,5 +1,7 @@
 <?php
-     include('head.php');
-     include('main.php');
-     include( 'footer.php' );
+     require_once('head.php');
+     include_once('main.php'); 
+     require_once( 'footer.php' );
+
+
  ?>
