@@ -10,7 +10,7 @@
   </head>
 <body>
 
-<h1>Miskas</h1>
+<h1>Miskas2</h1>
 
 <?php 
 echo "miskas";
