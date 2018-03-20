@@ -35,10 +35,7 @@ navbuttons ul li {
   background-color: #000000;
   opacity: .7;
   font-size: 16px;
-  border: 2px 0 2px 0;
-  border-color: #000000;
 }
-
 navbuttons ul li a {
   color: #FFFFFF;
   text-decoration: none;
@@ -100,3 +97,5 @@ nav, aside, .btn {
 @media query {
 
 }
+
+/* image slider */
