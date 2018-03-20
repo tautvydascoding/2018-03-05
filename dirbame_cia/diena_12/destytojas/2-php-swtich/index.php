@@ -27,6 +27,28 @@
           // "BMW" - atspausdinti "Susimastykite apie greiti ir vairavimo kultura"
           // "opel" - atspausdinti "Susimastykite apie naujus priedus"
 
+          $vardas = '   aUdi ';
+          $vardas =  trim( $vardas );   // pasaliname " " , tab, ir kitus spec. simbolius
+          $vardas =  strtolower( $vardas ); // paverciam mazosiomis raidem
+
+          switch ( strtolower(trim( $vardas )) ) {
+          // switch ( $vardas ) {
+              case 'audi':
+                            echo  "11Susimastykite apie variklio prieziura ";
+                  break;
+              case 'audi':
+                            echo  "sitas neikad nesuveiks ";
+                  break;
+              case 'bmw':
+                            echo  "Susimastykite apie greiti ir vairavimo kultura";
+                  break;
+              case 'opel':
+                            echo "Susimastykite apie naujus priedus";
+                  break;
+              default:
+                         echo "Tokiai: $vardas markei patarimu neturime";
+                  break;
+          }
 
 
          ?>
