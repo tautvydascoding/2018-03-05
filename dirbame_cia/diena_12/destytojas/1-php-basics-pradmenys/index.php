@@ -20,9 +20,41 @@
         <?php
                 $antraste = "Mokomes PHP";
                 echo "<h1>  $antraste </h1>";
+
+                $vardas = 'Petras';  // String
+                $pavarde = 'Petraitis';
+                $amzius = 66;      // integer
+                $arVedes = false;  // boolean
          ?>
+         <section>
+             <?php
+                    echo "Sveiki, $vardas. Norejau jus pasveikinti su $amzius gimtadiniu <br>";
+                    // viengubose kabutese
+                    echo 'Sveiki, $vardas. Norejau jus pasveikinti su $amzius gimtadiniu <br>';
+
+                    $vardas2 = $vardas;
+                    $vardas3 = &$vardas;  //
+
+                    function pakeistiVarda( $naujasVardas ) { // $naujasVardas - naujas laikinas local
+                        $vardas = $naujasVardas;  // $vardas - naujas laikinas local
+                    }
+                    echo   "vardas pries pakeitima  $vardas <br />";
+                    pakeistiVarda( 'Kazimieras');
+                    echo   "vardas po pakeitimo  $vardas <br />";
 
 
+                    // & kintamuju panaudojimas
+                    function pakeistiVarda2( &$senasVardas ) { // globalus kintamas
+                        $senasVardas =  'Kazimieras';
+                    }
+
+                    echo   "vardas pries pakeitima  $vardas <br />";
+                    pakeistiVarda2( $vardas);
+                    echo   "vardas po pakeitimo  $vardas <br />";
+
+                    //
+              ?>
+         </section>
 
         <!-- bootstrap4 -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
