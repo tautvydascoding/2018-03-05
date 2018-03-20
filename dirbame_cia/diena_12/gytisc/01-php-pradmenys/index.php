@@ -17,17 +17,40 @@
 
     <body>
 
-        <h1> MOkomes </h1>
-
         <?php
-          // 1. sujungti DOMNamedNodeMap
-          // 2. susikurti faila su .php galune
-          // <?php programuot
-          print("sveiki <br />");
-          print("sveiki <br />");
-          print("sveiki <br />");
-          echo "sveiki vel <br / />";
-        ?>
+          $antraste = "Mokomes PHP";
+          echo "<h1> $antraste </h1>";
+
+          $vardas = "Tomas";
+          $pavarde = "Thomson";
+          $amzius = 25;
+          $arVedes = false;
+         ?>
+
+         <section>
+           <?php
+              echo "Sveiki $vardas. Norejau jus pasveikinti su $amzius gimtadieniu <br />";
+              // viengubose kabutese
+              echo 'Sveiki $vardas. Norejau jus pasveikinti su $amzius gimtadieniu <br />';
+
+              $vardas2 = $vardas;
+              $vardas3 = &$vardas; //
+
+              function pakeistiVarda($naujasVardas) {
+                $vardas = $naujasVardas; // $vardas - naujas laikinas/ local
+              }
+              echo "Vardas pries pakeitima $vardas <br />";
+              pakeistiVarda("Algis");
+              echo "Vardas po pakeitimo $vardas <br />";
+
+              function pakeistiVarda2(&$senasVardas) {
+                $senasVardas = "Kazimieras";
+              }
+              echo "Vardas pries pakeitima $vardas <br />";
+              pakeistiVarda2($vardas);
+              echo "Vardas po pakeitimo $vardas <br />";
+            ?>
+         </section>
 
 
 

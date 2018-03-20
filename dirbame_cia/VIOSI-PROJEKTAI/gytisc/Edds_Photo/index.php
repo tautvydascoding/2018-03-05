@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- <link href="fonts/fontawesome/css/fontawesome.min.css" rel="stylesheet"> -->
-        <link href="css/master.css" rel="stylesheet" type="text/css">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>

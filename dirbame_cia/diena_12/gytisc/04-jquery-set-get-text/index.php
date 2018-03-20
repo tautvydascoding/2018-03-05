@@ -17,17 +17,40 @@
 
     <body>
 
-        <h1> MOkomes </h1>
+        <!-- <h1> 1 Mokomes </h1>
+        <h2>
+          <strong>2 Mokomes</strong>
+        </h2>
+        <h3> 3 Mokomes </h3>
+        <h4> 4 Mokomes </h4>
+        <h5> 5 Mokomes </h5> -->
 
-        <?php
-          // 1. sujungti DOMNamedNodeMap
-          // 2. susikurti faila su .php galune
-          // <?php programuot
-          print("sveiki <br />");
-          print("sveiki <br />");
-          print("sveiki <br />");
-          echo "sveiki vel <br / />";
-        ?>
+        <h1>Isijunk konsole</h1>
+        <h1>Isijunk konsole</h1>
+
+        <h2> 1. h2 Isijunk konsole</h2>
+        <h2> 2. h2 Isijunk konsole</h2>
+        <h2> 3. h2 Isijunk konsole</h2>
+
+         <section>
+             <h2> 1. h2 Isijunk konsole</h2>
+             <h2> 2. h2 Isijunk konsole</h2>
+             <h2> 3. h2 Isijunk konsole</h2>
+             <h2> 4. h2 Isijunk konsole</h2>
+         </section>
+
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li class='reklama'>Gallery</li>
+            <li>Contact</li>
+        </ul>
+
+        <form action="#" method="post">
+          <input type="text" name='vardas' value="" placeholder="Jusu vardas">
+          <input type="email" name='pastas' value="" placeholder="Jusu el. paštas">
+        </form>
+
 
 
 
