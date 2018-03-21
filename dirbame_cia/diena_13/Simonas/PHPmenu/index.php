@@ -19,14 +19,35 @@
 
         <h1> MOkomes </h1>
 
+<?php
 
-<article>
+ // uzduotis 1
+// A. susikurti meniu masyva: home, about, gallery, contact, blog
+// B. atspausdinti visus meniu punktus i HTML (su html tag'ais)
 
-</article>
+$menu = ['home','about','contacts','blog'];
+echo "<nav>
+        <ul>
+            <li>" . $menu[0] . "</li>
+            <li>" . $menu[1] . "</li>
+            <li>" . $menu[2] . "</li>
+            <li>" . $menu[3] . "</li>
+        </ul>
+      </nav>"
+?>
 
-<footer>
-  mokomes
-</footer>
+<!-- // uzduotis 2
+// A. susirasti 6 nuotraukas
+// B. susikurti nuotrauku pavadinimu masyva
+// C. atspausdinti visas nuotraukas su ciklu, po 3-ris i eilute
+// <img src='./img/1.jpg' alt='' -->
+<?php
+$images = ['1.jpg'];
+echo ' <img src="/img/'. $nuotraukos[0] . ' " width="33%" alt=""> ';
+?>
+
+
+<img src="img/1.jpg" width="33%" alt="hello" >
         <!-- bootstrap4 -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <!-- !!! jQuery "slim" yra nepilna versija ir jQuery kai kurios komandos neveikia, reiktu isisdeti kita jQuery  -->
