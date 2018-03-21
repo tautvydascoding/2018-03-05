@@ -19,11 +19,14 @@
 
         <h1> MOkomes </h1>
 
-
         <?php
+          // 1. sujungti DOMNamedNodeMap
+          // 2. susikurti faila su .php galune
+          // <?php programuot
           print("sveiki <br />");
-          echo "sveiki vel";
-          echo "sviki"
+          print("sveiki <br />");
+          print("sveiki <br />");
+          echo "sveiki vel <br / />";
         ?>
 
 

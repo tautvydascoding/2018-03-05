@@ -2,6 +2,18 @@
 
 
 // .html kodas:
+<<<<<<< HEAD
+ //<h1>Isijunk konsole</h1>
+ //<h1>Isijunk konsole</h1>
+
+ //<h2> 1. h2 Isijunk konsole</h2>
+//<h2> 2. h2 Isijunk konsole</h2>
+ //<h2> 3. h2 Isijunk konsole</h2>
+
+ //<section>
+  //    <h2> 1. h2 Isijunk konsole</h2>
+//     <h2> 2. h2 Isijunk konsole</h2>
+=======
 //
 // <h1>Isijunk konsole</h1>
 // <h1>Isijunk konsole</h1>
@@ -13,16 +25,25 @@
 //  <section>
 //      <h2> 1. h2 Isijunk konsole</h2>
 //      <h2> 2. h2 Isijunk konsole</h2>
+>>>>>>> ad251fae9d8138ebfcdf3da8067fb16265d0ee5d
 //      <h2> 3. h2 Isijunk konsole</h2>
-//      <h2> 4. h2 Isijunk konsole</h2>
+//<h2> 4. h2 Isijunk konsole</h2>
 //  </section>
-//
+
 // <ul>
+<<<<<<< HEAD
+  //   <li>Home</li>
+  //   <li>About</li>
+  //   <li classs='reklama'>Gallery</li>
+  //  <li>Contact</li>
+ //</ul>
+=======
 //     <li>Home</li>
 //     <li>About</li>
 //     <li class="reklama">Gallery</li>
 //     <li>Contact</li>
 // </ul>
+>>>>>>> ad251fae9d8138ebfcdf3da8067fb16265d0ee5d
 
 
         // <form  action="#" method="post">

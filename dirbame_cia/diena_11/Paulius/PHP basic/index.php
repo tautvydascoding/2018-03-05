@@ -18,10 +18,6 @@
     <body>
 
 
-  <?php
-  print("Sveikuciai <br />") ?>
-
-
 
 
 
