@@ -45,6 +45,38 @@
              // uzduotis 1
              // A. susikurti meniu masyva: home, about, gallery, contact, blog
              // B. atspausdinti visus meniu punktus i HTML (su html tag'ais)
+             $menu = [ 'home', 'about', 'gallery', 'contact', 'blog'];
+             echo "<nav>
+                        <ul>
+                            <li>" .  $menu[0] . " </li>
+                            <li>" .  $menu[1] . " </li>
+                            <li>" .  $menu[2] . " </li>
+                        </ul>
+                 </nav>" ;
+             //----arba
+            ?>
+            <nav>
+                <ul>
+                    <li>    <?php echo  $menu[0]   ?>   </li>
+                    <li>    <?php echo  $menu[1]   ?>   </li>
+                </ul>
+            </nav>
+
+            <?php
+            echo "<nav>";
+                echo "<ul>";
+                    echo "<li>" .  $menu[0] . "</li>" ;
+                    echo "<li>" .  $menu[1] . "</li>" ;
+                echo "</ul>";
+            echo "</nav>";
+            // arba
+            // echo "<nav>"
+            //          ."<ul>"
+            //                ."<li>" .  $menu[0] . " </li>"
+            //                ."<li>" .  $menu[1] . " </li>"
+            //                ."<li>" .  $menu[2] . " </li>"
+            //            ."</ul>"
+            //     ."</nav>" ;
 
 
              // uzduotis 2
@@ -52,11 +84,17 @@
              // B. susikurti nuotrauku pavadinimu masyva
              // C. atspausdinti visas nuotraukas su ciklu, po 3-ris i eilute
              // <img src='./img/1.jpg' alt=''  />
-
+             $nuotraukos = ['1.jpg','2.jpg','3.jpg' ];
+             echo ' <img src="./img/' .  $nuotraukos[0]  . '   " width="33%" alt="">  ';
+             echo ' <img src="./img/' .  $nuotraukos[1]  . '   " width="33%" alt="">  ';
+             echo ' <img src="./img/' .  $nuotraukos[2]  . '   " width="33%" alt="">  ';
 
 
          ?>
 
+            <img src="img/<?php    echo $nuotraukos[0]   ?>"  width="33%" alt="">
+            <img src="img/<?php    echo $nuotraukos[1]   ?>"  width="33%" alt="">
+            <img src="img/<?php    echo $nuotraukos[2]   ?>"  width="33%" alt="">
 
 
 
