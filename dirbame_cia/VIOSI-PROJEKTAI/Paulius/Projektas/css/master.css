@@ -1,7 +1,8 @@
-h1 {color: red;
+h1 {color: green;
 text-align: center;
 margin-top: 40px;
 }
+
 
 body{
   margin: 0;
@@ -19,7 +20,7 @@ nav{
   transition: .3s;
 }
 
-nav .logo{
+.logo{
   padding: 22px, 20px;
   height: 80px;
   float: left;

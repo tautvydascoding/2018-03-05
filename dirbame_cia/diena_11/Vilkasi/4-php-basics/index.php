@@ -20,8 +20,12 @@
         <h1> MOkomes </h1>
 
         <?php
+          //1. isijungti MAMP
+          //2. susikurti faila su .php galune
+          //3. <?php  programuoti atsidarius php
+          //4. narsykleje rasyti : localhost: 8888
+        
           print("Sveiki");
-          echo("<br>sveiki vel");
 
          ?>
 
