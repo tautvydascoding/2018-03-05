@@ -53,9 +53,9 @@
             echo  " vardas po pakeitimo $vardas <br />";
 
 ///////////////////////////////////////////////////
-
+ //// & kintamuju panaudojimas
             function pakeistiVarda2( &$senasVardas ) { // globalus kintamas
-              $senasVardas ="Kazimieras"; 
+              $senasVardas ="Kazimieras";
             }
             echo  " vardas pries pakeitima $vardas <br />";
             pakeistiVarda2( $vardas, "Kazimieras");
@@ -64,6 +64,8 @@
              ?>
 
         </section>
+
+      
 
 
 
