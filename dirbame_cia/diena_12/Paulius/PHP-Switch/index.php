@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>php basic</title>
+        <title>PHP-Switch</title>
         <!-- reikalinga kad prisitaikantis dizainas veiktu tvarkingai -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,6 +16,37 @@
     </head>
 
     <body>
+
+        <h1> MOkomes </h1>
+
+
+      <!--UZDUOTIS  "Switch"
+       // paduoti varda ir Jeigu jis lygus:
+        "audi" - atspausdinti "Susimastykite apie variklio prieziura"
+       // "BMW" - atspausdinti "Susimastykite apie greiti ir vairavimo kultura"
+       // "opel" - atspausdinti "Susimastykite apie naujus priedus" -->
+
+          <?php
+                $vardas = '    volvo  ';  //kintamasis
+                $vardas = trim($vardas);    // pasalina tarpus is krastu
+                $vardas = strtolower($vardas); // pavercia mazosiomis raidemis
+                switch ($vardas) {    //koky kintamajy keisim
+                  case 'audi':       // galimi variantai
+                              echo "Susimastykite apie variklio prieziura";  // jeigu bus pasirinkta audi ismes sy uzrasa
+                    break;
+                  case 'bmw':
+                                echo "Susimastykite apie greiti ir vairavimo kultura";
+                    break;
+                  case 'opel':
+                                echo "Susimastykite apie naujus priedus";
+                    break;
+
+                 default:
+                               echo "tokiai $vardas masinai neturime patarimu";  //jeigu nei vienas kintamasis nebus pasirinktas
+               break;
+                }
+           ?>
+
 
 
 

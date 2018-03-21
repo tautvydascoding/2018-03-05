@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>php basic</title>
+        <title>jQuery</title>
         <!-- reikalinga kad prisitaikantis dizainas veiktu tvarkingai -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,6 +17,35 @@
 
     <body>
 
+
+
+        <h1>Isijunk konsole</h1>
+        <h1>Isijunk konsole</h1>
+
+        <h2> 1. h2 Isijunk konsole</h2>
+       <h2> 2. h2 Isijunk konsole</h2>
+        <h2> 3. h2 Isijunk konsole</h2>
+
+        <section>
+             <h2> 1. h2 Isijunk konsole</h2>
+            <h2> 2. h2 Isijunk konsole</h2>
+             <h2> 3. h2 Isijunk konsole</h2>
+             <h2> 4. h2 Isijunk konsole</h2>
+         </section>
+
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li class="reklama">Gallery</li>
+           <li>Contact</li>
+        </ul>
+        <form class="" action="index.html" method="post">
+
+
+        <input type="text" name="vardas" value="" placeholder="Jusu Vardukas">
+        <input type="email" name="pastas" value="" placeholder="Jusu Pastelis">
+
+      </form>
 
 
 

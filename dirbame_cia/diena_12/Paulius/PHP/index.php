@@ -16,6 +16,45 @@
     </head>
 
     <body>
+            <?php
+                $antraste = "Mokomes PHP";
+                echo "<h1> $antraste </h1>";
+             ?>
+<?php
+            $vardas = 'Tomas';
+            $pavarde = "Tomauskas";
+            $amzius = 20;
+
+      echo "<h1> $vardas </h1>";
+      echo "<h4> $pavarde <h4>";
+      echo "<h6> $amzius </h6>";
+      ?>
+      <section>
+        <?php
+            echo "Sveiki, $vardas. Norejau jus pasveikinti su $amzius gimtadieniu <br />";
+
+            function pakeistiVarda($naujasVardas)
+            {
+              $vardas = $naujasVardas;
+            }
+            echo "vardas pries pakeitima $vardas <br />";
+            pakeistiVarda('Kaziukas');
+            echo "vardas po pakeitima $vardas <br />";
+
+
+            function pakeistiVarda2(&$senasVardas, $naujasVardas){ //globalus kintamasis
+              $senasVardas = $naujasVardas;
+            }
+            echo "vardas pries pakeitima $vardas <br />";
+            pakeistiVarda2($vardas, 'Kaziukas');
+            echo "vardas po pakeitima $vardas <br />";
+         ?>
+      </section>
+
+
+
+    
+
 
 
 
