@@ -13,7 +13,7 @@
     <body>
 
       <div class="container-fluid">
-        <div class="container-fluid">
+        <div class="row">
           <div id="pics" class="carousel slide" data-ride="carousel">
             <ul class="carousel-indicators">
               <li data-target="#pics" data-slide-to="0" class="active"></li>
