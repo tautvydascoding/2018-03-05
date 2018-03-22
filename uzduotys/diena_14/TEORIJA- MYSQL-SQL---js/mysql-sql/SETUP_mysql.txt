@@ -25,16 +25,20 @@ C:\MAMP\bin\mysql\bin\mysql.exe -u root -p
 // -p password
 
 //================= MAC================
-sudo ln -s /Applications/MAMP/Library/bin/mysql /usr/bin/mysql
-
+1. isijungti terminala
+2. paleisti sita komanda
+sudo ln -s /Applications/MAMP/Library/bin/mysql/usr/bin/mysql
+3. paleisti kita komanda
 mysql -uroot -proot
 
 
-// OR
+// ARBA
 Start MAMP or MAMP PRO
 Start the server
 Open Terminal (Applications -> Utilities)
 Type in: (one line)
+1. isijungti terminala
+2. paleisti sita komanda
 ?/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot
-
+3. paleisti kita komanda
 mysql -uroot -proot
