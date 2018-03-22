@@ -58,7 +58,10 @@ $('li.reklama').attr( 'width', '20px');
 // A. visiems "li" elementams pridete atributa: class='nav-item '   (naujant jQuery)
 // B. pirmam "li" elementui uzddeti dar viena klase: "active"
 // $('li').attr( 'class', 'nav-item  bg-info m-3 p-3'); // ! istrins buvusias klases
-$('li').addClass(   'nav-item  bg-info m-3 p-3 ');
+$('button').click(function(event) {
+    /* Act on the event */
+    $('li').addClass(   'nav-item  bg-info m-3 p-3 ');
+});
 
 // UZDUOTIS 8
 //   su jquery uzpildyti form'a uz vartotoja:
