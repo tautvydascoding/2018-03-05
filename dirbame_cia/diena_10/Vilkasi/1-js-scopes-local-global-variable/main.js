@@ -69,7 +69,7 @@ function manoVardas (vardas) { // vardas - lokalus kintamasis
   console.log("this.vardas - f-jos viduje:", this.vardas);
 }
 
-manoVardas("Petras");
+manoVardas("Dziumbras");
 
 
 //======================TEKSTO ISVEDIMAS===============
