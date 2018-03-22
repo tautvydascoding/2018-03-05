@@ -42,19 +42,6 @@ INSERT INTO lentelesPavadinimas VALUES ('', 'Tim', "Logan");
     -- pasitikritni
     SELECT * FROM doctors;
 
-
-
- use hospital10;
-
-  CREATE TABLE doctors (
-     id INT(6) AUTO_INCREMENT PRIMARY KEY,
-     name varchar(25),
-     lname varchar(30)
-     );
-
-  show tables;
-
-    INSERT INTO doctors VALUES ('', 'Tim', 'Logan');
     INSERT INTO doctors VALUES ('', 'Paul', 'Elo');
     INSERT INTO doctors VALUES ('', 'Ona', 'Onutaite');
 

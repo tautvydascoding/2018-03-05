@@ -1,4 +1,4 @@
-﻿penktadienis---Tartpinis testas 5% (html, css) 
+﻿(pirmadieni)---Tartpinis testas 5% (html, css) 
 (paskutine savaite)-Tarpinis atsiskaitymas 20% (programavimo pagrindai: Ciklai, f-jos)
 penktadienis----Tarpinis atsiskaitymas 10% (js, jquery)
 ketvirtadienis--Tarpinis atsiskaitymas 5% (js scopes: local ir global varible skirtumai)
