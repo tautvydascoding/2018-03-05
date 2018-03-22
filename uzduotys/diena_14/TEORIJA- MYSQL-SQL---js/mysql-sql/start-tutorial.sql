@@ -33,46 +33,56 @@ use hospital3; -- !!!! nurodome darbine duomenu base (DB)
   show tables;
 
 --duomenu idejimas ilentele
-INSERT INTO lentelesPavadinimas VALUES (1, 'Tim', "Logan");
-INSERT INTO lentelesPavadinimas VALUES ('', 'Tim', "Logan");
-
+--INSERT INTO lentelesPavadinimas VALUES (1, 'Tim', "Logan");
+--INSERT INTO lentelesPavadinimas VALUES ('', 'Tim', "Logan");
+--arba
+--INSERT INTO lentelesPavadinimas (id, name, lname)  VALUES ('', 'Tim', "Logan");
 
 
     INSERT INTO doctors VALUES ('', 'Tim', 'Logan');
     -- pasitikritni
     SELECT * FROM doctors;
 
-
-
- use hospital10;
-
-  CREATE TABLE doctors (
-     id INT(6) AUTO_INCREMENT PRIMARY KEY,
-     name varchar(25),
-     lname varchar(30)
-     );
-
-  show tables;
-
-    INSERT INTO doctors VALUES ('', 'Tim', 'Logan');
     INSERT INTO doctors VALUES ('', 'Paul', 'Elo');
     INSERT INTO doctors VALUES ('', 'Ona', 'Onutaite');
+    INSERT INTO doctors VALUES ('', 'Lita', 'Litaite');
+    INSERT INTO doctors VALUES ('', 'Karis', 'Pita');
 
   SELECT * FROM doctors;
 
-
+-- lenteles kurimas
   CREATE TABLE patients (
      id INT(6) AUTO_INCREMENT PRIMARY KEY,
      name varchar(25),
      lname varchar(30),
      doctor_id INT(6)
      );
-
-     INSERT INTO patients  VALUES  ('', 'Mark', 'Jonon' , '2' );
- 	INSERT INTO patients  VALUES  ('', 'Tom', 'Taros' , '2' );
- 	INSERT INTO patients  VALUES  ('', 'Co', 'Neno' , '0' );
-
+-- duomenu i pacientus idejimas
+    INSERT INTO patients  VALUES  ('', 'Mark', 'Jonon' , '2' );
+    INSERT INTO patients  VALUES  ('', 'Tom', 'Taros' , '2' );
+    INSERT INTO patients  VALUES  ('', 'Aris', 'Tido' , '1' );
+    INSERT INTO patients  VALUES  ('', 'Tom', 'Kigo' , '3' );
+    INSERT INTO patients  VALUES  ('', 'Co', 'Jon' , '1' );
+    INSERT INTO patients  VALUES  ('', 'Tom', 'Nano' , '5' );
+    INSERT INTO patients  VALUES  ('', 'Jili', 'Jato' , '4' );
+    --pasitikrinimas
       SELECT * FROM patients;
+
+      -- lenteles sukurimas
+      CREATE TABLE images (
+         id INT(6) AUTO_INCREMENT PRIMARY KEY,
+         name varchar(120),
+         patient_id INT(6)
+         );
+
+    --idejimas duomenu i 'images' lentele
+     INSERT INTO images  VALUES  ('', 'foto.jpg', 3  );
+     INSERT INTO images  VALUES  ('', '3.png', 1  );
+     INSERT INTO images  VALUES  ('', '1.jpg', 1  );
+     INSERT INTO images  VALUES  ('', '3.gif', 2  );
+
+
+
 
       UPDATE patients
           SET doctor_id = 1
