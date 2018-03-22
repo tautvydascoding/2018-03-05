@@ -80,25 +80,43 @@ use hospital3; -- !!!! nurodome darbine duomenu base (DB)
      INSERT INTO images  VALUES  ('', '3.png', 1  );
      INSERT INTO images  VALUES  ('', '1.jpg', 1  );
      INSERT INTO images  VALUES  ('', '3.gif', 2  );
+     INSERT INTO images  VALUES  ('', '1.jpg', 1  );
+     INSERT INTO images  VALUES  ('', '8.jpg', 4 );
 
+     --pakeiciam timo pavarde i "Timotis"
+    UPDATE doctors SET lname='Timotis'
+        WHERE id = 1
+        Limit 1 ;
+        -- !!!! Butinai 'WHERE' nurodyti , nes kitaip VISA stulpeli pakeis
+        -- limit - uzdeda limita, kiek keisime (puiki apsauga nuo zioplu klaidu)
 
+        -- UZDUOTIS
+        -- ATSPAUSDINTI/ISVESTI TIK 'Onos' eilute
+        SELECT * FROM doctors  WHERE name='Ona';
+        SELECT * FROM doctors  WHERE id=3;
 
+    INSERT INTO doctors  VALUES  ('', 'Tomas', 'Tomulaitis'  );
+
+    DELETE FROM doctors WHERE id=6;
+    DELETE FROM doctors WHERE  name='Tomas';
 
       UPDATE patients
           SET doctor_id = 1
-          WHERE id=3 Limit 1;
+          WHERE id = 3 Limit 1;
 
      UPDATE patients
               SET name = 'Paul', lname = 'Paulauskas', doctor_id = 3
-              WHERE id=5;
+              WHERE id=5 Limit 1;
 
- // kaip istrinti 4 pacienta?
- DELETE FROM patients where id = 4;
+-- kaip istrinti 4 pacienta?
+ DELETE FROM patients where id = 4 Limit 1;
 
-  // kaip istrinti 2 daktara?
-  DELETE FROM doctors WHERE id=2;
+  -- kaip istrinti 2 daktara?
+  DELETE FROM doctors WHERE id=2 Limit 1;
 
-
+SELECT images.id, images.name FROM images
+    INNER JOIN patients ON images.patient_id = patients.id
+    WHERE   patients.id  = 4;
 
   Create TABLE `patients` ( id INT(6) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(25), lname VARCHAR(35) );
    INSERT INTO patients  VALUES  ('', 'Ari', 'Amon');
