@@ -8,7 +8,7 @@ console.log( " Labas ");
 // iskviesti f-ja
 
 function printDuomenys() {
-  var vardas = "Tomas"; // local kintamasis (jis bus istrintas kai funkcija/f-ja baiks darba, t.y.po }
+  var vardas = "Tomas"; // local kintamasis (jis bus istrintas kai funkcija/f-ja baigs darba, t.y.po }
   console.log("Vardas yra:", vardas);
 }
 printDuomenys();
