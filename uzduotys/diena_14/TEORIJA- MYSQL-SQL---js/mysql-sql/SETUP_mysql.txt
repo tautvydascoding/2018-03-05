@@ -1,9 +1,9 @@
 ============WIN===================
-einam MAMP/bin/mysql/bin
-randame mysql.exe ir ant jo spaudizma DPK -  Sernd To -> Desctop
-ant to failiuko, kuri nusiuntem mysql.exe
+1. einam MAMP/bin/mysql/bin
+1.1. randame mysql.exe ir ant jo spaudizma DPK -  Sernd To -> Desctop
+3. ant to failiuko, kuri nusiuntem mysql.exe
 spaudzima DPK - > Properties
-....exe -u root -p
+3.1. pakeiciame ....exe -u root -p
 
 pasisitkrinti:
 !!!
