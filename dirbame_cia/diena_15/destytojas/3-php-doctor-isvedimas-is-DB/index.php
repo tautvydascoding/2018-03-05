@@ -20,32 +20,24 @@
         <h1> MOkomes </h1>
 
         <?php
-            include('./straipnis.php');
-            // INDEX.PHP
-            echo "Vardas yra: $vardas";
-            echo "Pavarde yra: $pavarde";
-        ?>
-        <!--  -->
-        <div class="container">
-            <main class="row">
-                <article class="col-md-4  bg-warning">
-                     <?php  
-                        echo "<h2>" . $masyvas[0] . "</h2>";
-                     ?>
-                     <p>
-                         <?php echo $masyvas[1]; ?>
-                     </p>
+            include('./doctors_functions.php');
 
-                     <div class="bg-info">
-                         <?php echo $masyvas[2]; ?>
-                     </div>
-                     <div class="bg-danger">
-                        <?php echo "$vardas    $pavarde"   ?>
-                     </div>
+            $manoGydytojas = getDoctor( 1 ); // array, '3'- gydytojo 'id'
+            // print_r( $manoGydytojas ); // test
+         ?>
+         <section>
+             <h2>
+                    Gydytojo NR:
+                    <?php echo $manoGydytojas['id'] ?>
+             </h2>
+             <h3>
+                 <?php
+                        echo $manoGydytojas['name'] ;
+                        echo $manoGydytojas['lname'] ;
+                  ?>
+             </h3>
+         </section>
 
-                </article>
-            </main>
-        </div>
 
 
         <!-- bootstrap4 -->
