@@ -22,11 +22,21 @@
         <?php
             include('./doctors_functions.php');
 
-
-            $manoGydytojas = getDoctor( 3 ); // array, '3'- gydytojo 'id'
-
-            print_r( $manoGydytojas );
+            $manoGydytojas = getDoctor( 1 ); // array, '3'- gydytojo 'id'
+            // print_r( $manoGydytojas ); // test
          ?>
+         <section>
+             <h2>
+                    Gydytojo NR:
+                    <?php echo $manoGydytojas['id'] ?>
+             </h2>
+             <h3>
+                 <?php
+                        echo $manoGydytojas['name'] ;
+                        echo $manoGydytojas['lname'] ;
+                  ?>
+             </h3>
+         </section>
 
 
 
