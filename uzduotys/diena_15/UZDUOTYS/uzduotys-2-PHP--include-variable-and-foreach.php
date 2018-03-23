@@ -1,10 +1,12 @@
 // UZDUOTIS
 // 1. suskurti faila:  straipsnis.php
-// 1.1 straipsnis.php afile sukurti 2 kintamuosius ir masyva(antraste, aprasymas, data):
+// 1.1 straipsnis.php faile sukurti 2 kintamuosius ir masyva(antraste, aprasymas, data):
 // $vardas, $pavarde
-// masyvas:  'BMW vel preleke saligatviu',   'Lorem lorem....', '2010-12-01' 
+// masyvas:  'BMW vel preleke saligatviu',   'Lorem lorem....', '2010-12-01'
+
 // 2. index.php faile  ideti:
 // include( './straipsnis.php');
+
 // 2.1 index.php faile sukurti   'container' 'main' 'article'
 // 2.2 sukurti <div> ir jo viduje isvesti su echo $vardas, $pavarde
 // 2.3 'article' videje sukurti:
