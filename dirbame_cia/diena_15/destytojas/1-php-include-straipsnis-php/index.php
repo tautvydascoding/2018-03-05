@@ -28,10 +28,21 @@
         <!--  -->
         <div class="container">
             <main class="row">
-                <article class="col-md-4">
-                    <?php
-                        echo "veikiu";
+                <article class="col-md-4  bg-warning">
+                     <?php
+                        echo "<h2>" . $masyvas[0] . "</h2>";
                      ?>
+                     <p>
+                         <?php echo $masyvas[1]; ?>
+                     </p>
+
+                     <div class="bg-info">
+                         <?php echo $masyvas[2]; ?>
+                     </div>
+                     <div class="bg-danger">
+                        <?php echo "$vardas    $pavarde"   ?>
+                     </div>
+
                 </article>
             </main>
         </div>
