@@ -1,0 +1,167 @@
+.menu {
+  height: 500px;
+}
+
+.logo {
+height: 100px;
+width: auto;
+margin-top: 30px;
+margin-left: 50px;
+margin-bottom: 30px;
+}
+
+ul {
+  border-bottom: solid 1px #FFBF00;
+}
+
+li {
+ list-style-type: none;
+ padding-bottom: 12px;
+ padding-left: 12px;
+}
+
+.fb-icon img {
+  height: 35px;
+  width: 35px;
+}
+
+.fb-icon {
+  text-align: center;
+}
+
+.viso-puslapio-stulpelis {
+  border-left: solid 1px #FFBF00;
+}
+
+.home-page {
+  background-image: url(../img/homepage.jpg);
+  height: 800px;
+  border-bottom: solid 1px #FFBF00;
+  opacity: 0.7;
+}
+
+.home-page p,
+.home-page h1,
+.home-page h2 {
+  color: #FFFFFF;
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+}
+
+.home-page h1 {
+  margin-top: 500px;
+}
+
+.apie-mus,
+.suniukai p {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 30px;
+}
+
+.apie-mus h2,
+.sunys h2,
+.suniukai h2,
+.kontaktai h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.p-citata {
+  font-size:20px;
+  color: #FFBF00;
+  font-style: italic;
+  border-left: 2px solid;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.sunys,
+.suniukai,
+.kontaktai {
+  border-top: solid 1px #FFBF00;
+}
+
+.suo-1,
+.suo-2 {
+  position: relative;
+  width: 50%;
+  padding: 0;
+}
+
+.suo-1 img,
+.suo-2 img {
+height: auto;
+width: 60%;
+margin-left: 125px;
+margin-bottom: 30px;
+}
+
+.suo-1:hover .text,
+.suo-2:hover .text {
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  border: solid 1px black;
+}
+
+.card h5 {
+   text-align: center;
+   border-bottom: solid 2px #FFBF00;
+}
+
+.card p {
+  text-align: justify;
+}
+
+.suniukas-1,
+.suniukas-4 {
+  margin-left: 130px;
+}
+
+.suniukas-1,
+.suniukas-2,
+.suniukas-3,
+.suniukas-4,
+.suniukas-5,
+.suniukas-6 {
+    margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #FFBF00;
+  border: none;
+  width: 60%;
+  transition-duration: 0.4s;
+}
+
+.mygtukas-rezervuoti {
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: black;
+  font-weight: bold ;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+}
