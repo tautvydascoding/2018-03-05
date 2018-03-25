@@ -75,6 +75,11 @@ UPDATE patients
 SET doctor_id=4
 WHERE name like 'T%';
 
+//3.3 atspausdinti gydytojus ir pacientus kuriu vardai prasideda "T"
+
+SELECT patients.name, patients.lname, doctors.name, doctors.lname
+FROM patients, doctors
+WHERE patients.name like 'T%' OR patients.lname like 'T%';
 
 Surasti 4 paciento nuotrauka
 
@@ -82,8 +87,8 @@ SELECT images.id, images.name FROM images
 INNER JOIN patients ON images.patient_id = patients.id
 WHERE patient_id=4;
 
-// uzduotis 4: gauti paciento "Mark" daktaro pavarde
+// uzduotis 4: gauti paciento "Monk" daktaro pavarde
 
 SELECT doctors.lname FROM doctors
-INNER JOIN doctors ON patients.name = doctors.lname
-WHERE patients.name='Mark';
+INNER JOIN patients ON patients.doctor_id = doctors.id
+WHERE patients.name='Monk';
