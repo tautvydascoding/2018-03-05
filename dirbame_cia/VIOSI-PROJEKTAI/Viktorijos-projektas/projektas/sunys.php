@@ -2,7 +2,7 @@
 
 <div class="row ">
   <div class="col sunys">
-    <h2>Mūsų šunys</h2>
+    <h2>Mū<span>sų šu</span>nys</h2>
   </div>
 </div>
 
@@ -24,5 +24,5 @@
       <br>
     </div>
   </div>
-  
+
 </div>

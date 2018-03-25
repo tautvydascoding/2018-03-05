@@ -2,7 +2,7 @@
 
 <div class="row  ">
   <div class="col suniukai">
-    <h2>Šuniukų rezervacija</h2>
+    <h2>Šuniu<span>kų rez</span>ervacija</h2>
     <p>Rugsėjo mėnesį mūsų šeima praturtėjo net šešiais nuostabiais Kavalieriaus Karaliaus Karolio spanieliais. Savo pirmąją vadą atsivedė daugkartinė Lietuvos čempionė Havana. Šuniukus jau galite rezervuoti žemiau.</p>
   </div>
 </div>

@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Tik Idile veislynas</title>
         <!-- reikalinga kad prisitaikantis dizainas veiktu tvarkingai -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
