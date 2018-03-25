@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zooclub.lt</title>
+        <!-- reikalinga kad prisitaikantis dizainas veiktu tvarkingai -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
+        <!-- galimos klaidos -->
+        <!-- blogas kelias iki failo -->
+        <!-- "/" ne i ta puse -->
+        <!-- neuzdarete ">" -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- !!!! VISSA MANO CSS failas pats zemiausias -->
+    </head>
+
+    <body>
+
+
+
+        <div class="container">
+
+
+<!-- Headeris -->
+<header class="row  headeris aukstis-230">
+    <div class="col-md">
+
+      <!-- Logotipas -->
+      <a class="logotipas" href="/index.html"><img src="img/logo.png" alt="Logotipas"></a>
+
+<!-- Prisijungimas -->
+<form class="form-group float-right">
+  <label class="sr-only" for="inlineFormInputName2">Name</label>
+  <input type="text" class="form-control mb-2 mr-md-1" id="inlineFormInputName2" placeholder="Prisijungimo vardas">
+
+  <label class="sr-only" for="inlineFormInputGroupUsername2">Prisijungimas</label>
+  <div class="input-group mb-2 mr-md-1">
+    <div class="input-group-prepend">
+      <div class="input-group-text">@</div>
+    </div>
+    <input type="password" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Slaptažodis">
+  </div>
+
+  <div class="form-check mb-2 mr-md-1">
+    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+    <label class="form-check-label" for="inlineFormCheck">
+      Prisiminti mane
+    </label>
+  </div>
+
+  <button type="submit" class="btn btn-primary mb-2">Prisijungti</button>
+</form>
+
+
+<!-- Meniu pagrindinis -->
+<div class="row pagrindinis-meniu rounded aukstis-40">
+
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Pagrindinis</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Meniu</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Straipsniai</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Šunys</a>
+      <a class="dropdown-item" href="#">Katės</a>
+      <a class="dropdown-item" href="#">Graužikai</a>
+      <a class="dropdown-item" href="#">Paukščiai</a>
+      <a class="dropdown-item" href="#">Akvariumai</a>
+      <a class="dropdown-item" href="#">Ropliai</a>
+      <a class="dropdown-item" href="#">Įdomybės</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Visi straipsniai</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Fotogalerija</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Videogalerija</a>
+  </li>
+</ul>
+
+<!-- Paieska -->
+<form action="" method="post" class="search">
+  <input type="search" name="" placeholder="Paieška" class="input" />
+  <input type="submit" name="" value="" class="submit" />
+</form>
+</div>
+<!-- Paieska pabaiga -->
+</div>
+<!-- Meniu pagrindinis pabaiga -->
+
+</header>
+<!-- headeris end -->
+
+
+
+<!-- Wrapperis  -->
+<div class="wrapper row">
+
+<!-- Navigacija -->
+    <nav class="col-md-2 rounded aukstis-1000">
+      <div class="row navigacijos-virsus rounded aukstis-40">
+        <div class="navbloko-virsus"><b>Pagrindinis meniu</b></div>
+
+      <div class="container-fluid navigacija-kaire rounded">
+
+
+        <ul class="nav nav-pills flex-md-column rounded">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Pagrindinis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Straipsniai</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fotogalerija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Videogalerija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fotogalerija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Videogalerija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fotogalerija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Videogalerija</a>
+          </li>
+        </ul>
+<div class="horizontali-linija1 rounded"></div>
+
+    </div>
+
+      </div>
+    </nav>
+<!-- Navigacijos pabaiga -->
+
+
+
+
+<!-- Pagrindine dalis -->
+    <main class="col-md-10 rounded  aukstis-1000">
+
+<!-- Slaideris - karusele -->
+<!--Indeksatoriai-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+<!--pabaiga-->
+<!-- Img blokas-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="img/panda11.jpg" alt="Apie kažka">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Lorem</h1>
+                <p>Tekstas tektas tekstas tekstas</p>
+                <p><a class="btn btn-md btn-primary" href="#" role="button">Apie kažka</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="second-slide" src="img/paukstis1.jpg" alt="Apie ta">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Lorem1</h1>
+                <p>Tekstas tektas tekstas tekstas</p>
+                <p><a class="btn btn-md btn-primary" href="#" role="button">Apie ta</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide" src="img/jaguaras1.jpg" alt="Apie ana">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>Lorem2</h1>
+                <p>Tekstas tektas tekstas tekstas</p>
+                <p><a class="btn btn-md btn-primary" href="#" role="button">Apie ana</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- Pabaiga -->
+<!--Kontroleriai-->
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Atgal</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Pirmyn</span>
+        </a>
+      </div>
+<!-- Slaiderio pabaiga -->
+
+
+        <div class="horizontali-linija rounded"></div>
+    </main>
+<!-- Pagrines dalies pabaiga -->
+<!-- end wrapper  -->
+
+<!-- Footer -->
+<div class="container">
+<footer class="row">
+   <div class="col-md  rounded aukstis-300">
+     <div class="row footerio-virsus rounded aukstis-40">
+    </div>
+   </div>
+</footer>
+<!-- Footer end -->
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+        <!-- bootstrap4 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- !!! jQuery "slim" yra nepilna versija ir jQuery kai kurios komandos neveikia, reiktu isisdeti kita jQuery  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- !!! mano js failas visada zemiausias -->
+        <script type="text/javascript" src="main.js"> </script>
+    </body>
+</html>
