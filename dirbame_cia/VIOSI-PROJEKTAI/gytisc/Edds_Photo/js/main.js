@@ -1,4 +1,8 @@
 console.log( " Labas ");
 
+$(function() {
+  var height = $("#original").height();
+  var origHeight = $("#dynamic").height();
 
-$('h1').hide(  3000 );
+  $("#dynamic").css("padding-top", (height-origHeight + 20) + '%')
+});

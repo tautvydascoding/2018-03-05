@@ -4,50 +4,36 @@
         <meta charset="utf-8">
         <title>Edd's Photo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/sliderstyle3.css" />
+        <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
         <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- <link href="fonts/fontawesome/css/fontawesome.min.css" rel="stylesheet"> -->
         <link href="css/main.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
 
       <div class="container-fluid nopadding">
-        <div class="wraper row">
+        <div class="wraper row stretch">
           <main class="col-md-12">
             <div id="pics" class="row carousel slide" data-ride="carousel">
-              <ul class="carousel-indicators">
-                <li data-target="#pics" data-slide-to="0" class="active"></li>
-                <li data-target="#pics" data-slide-to="1"></li>
-                <li data-target="#pics" data-slide-to="2"></li>
+              <ul class="cb-slideshow">
+                <li><span>Image 01</span><div><h3>gam.to.je</h3></div></li>
+                <li><span>Image 02</span><div><h3>leng.va</h3></div></li>
+                <li><span>Image 03</span><div><h3>ar.ti</h3></div></li>
+                <li><span>Image 04</span><div><h3>ke.ly.je</h3></div></li>
+                <li><span>Image 05</span><div><h3>lon.do.nas</h3></div></li>
+                <li><span>Image 06</span><div><h3>kar.tu</h3></div></li>
               </ul>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="pics/01.jpg" alt="Pievoje" width="1100" height="500">
-                </div>
-                <div class="carousel-item">
-                  <img src="pics/02.jpg" alt="Levitacija" width="1100" height="500">
-                </div>
-                <div class="carousel-item">
-                  <img src="pics/03.jpg" alt="Artimas grožis" width="1100" height="500">
-                </div>
-                <div class="carousel-item">
-                  <img src="pics/04.jpg" alt="Keliaujam" width="1100" height="500">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#pics" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a class="carousel-control-next" href="#pics" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </a>
               <?php
                 include_once('nav.php');
               ?>
             </div>
-            <aside class="col-md-12 carousel-2">
+            <!-- <aside class="col-md-12 carousel-2">
               carousel
-            </aside>
+            </aside> -->
           </main>
         </div>
       </div>
