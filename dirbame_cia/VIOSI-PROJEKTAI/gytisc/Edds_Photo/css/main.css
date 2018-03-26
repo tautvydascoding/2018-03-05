@@ -16,9 +16,21 @@
   height: 500px;
 }
 
-main {
-  padding: 0;
-  margin: 0;
+.fix-float {
+  clear: both;
+}
+
+/* .nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+} */
+
+nav {
+  float: left;
+}
+
+.button-container {
+  padding-bottom: 20%;
 }
 
 navbuttons ul {
@@ -30,12 +42,13 @@ navbuttons ul {
 navbuttons ul li {
   text-align: center;
   line-height: 40px;
-  width: 200px;
+  width: 195px;
   height: 40px;
   background-color: #000000;
   opacity: .7;
   font-size: 16px;
 }
+
 navbuttons ul li a {
   color: #FFFFFF;
   text-decoration: none;
@@ -60,7 +73,12 @@ ul li:hover ul li {
 .social-icons a{
     font-size: 19px;
     margin: 0 4px;
+    color: #959595;
   }
+
+.social-icons a:hover {
+  color: #FFFFFF;
+}
 
 .social-icons {
   text-align: center;
@@ -72,30 +90,26 @@ ul li:hover ul li {
   height: 100%;
 }
 
-.logoh {
-  width: 225px;
-  padding: 10px;
+.logo-height {
+  width: 195px;
 }
 
 /* display: inline-block; */
 
 nav, aside, .btn {
  background-color: #000000;
- background: rgba(0,0,0,0.4);
+ background: rgba(0,0,0,0.7);
 }
 
 .navcontainer {
+  position: fixed;
+  /* overflow-y: scroll; */
   width: 225px;
-  margin: 30px;
+  margin: 5%;
 }
 
 .copyright {
   text-align: center;
   font-size: 14px;
+  color: #959595;
 }
-
-@media query {
-
-}
-
-/* image slider */
