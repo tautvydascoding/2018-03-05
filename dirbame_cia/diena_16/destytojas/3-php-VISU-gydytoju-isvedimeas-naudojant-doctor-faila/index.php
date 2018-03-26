@@ -22,41 +22,15 @@
  // uzduotis2: atspausdinti daktara i <p> </p>, kurio id yra 7
 // uzduotis3: visus daktarus "ul li" , kaip list item
 // uzduotis4: patobulinti uzduotis3,
-    kad paspaudus ant daktaro vardo/pavardes   atidarytu doctor.php faila 
+    kad paspaudus ant daktaro vardo/pavardes   atidarytu doctor.php faila
 -->
         <?php
             require_once('./doctors_functions.php');
          ?>
-        <!-- ==================================== -->
-        <h3> UZDUOTIS 3 </h3>
-        <ul>
-            <li>
-                <?php
-                    $manoGydytojas = getDoctor(1); // grizo array
-                    echo $manoGydytojas['name'] . " " . $manoGydytojas['lname'];
-                 ?>
-            </li>
-            <li>
-                <?php
-                    $manoGydytojas = getDoctor(2); // grizo array
-                    echo $manoGydytojas['name'] . " " . $manoGydytojas['lname'];
-                 ?>
-            </li>
-            <li>
-                <?php
-                    $manoGydytojas = getDoctor(3); // grizo array
-                    echo $manoGydytojas['name'] . " " . $manoGydytojas['lname'];
-                 ?>
-            </li>
-        </ul>
-        <!-- =================ARBA SU FOR CIKLU ================ -->
         <h3> SU for Ciklu</h3>
         <ul>
             <?php  for ($i=1; $i < 5; $i++) : // ":" - vietoj "{"
-                    $manoGydytojas = getDoctor($i); // grizo array
-                    echo "<li>"
-                            . $manoGydytojas['name'] . " " . $manoGydytojas['lname']
-                        . "</li> ";
+                    include('./doctor.php');
                 endfor;
              ?>
         </ul>
