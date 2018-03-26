@@ -55,10 +55,23 @@ function deleteDoctor( $nr ) {
                         ";
     mysqli_query(   getDBPrisiungimas()  , $mano_sql_tekstas);
 }
-deleteDoctor( 7 );
+// deleteDoctor( 7 );
 
 //
-function createDoctor ($vardas, $pavarde){
+function createDoctor($vardas, $pavarde){
+    $vardas_apdorotas =  mysqli_real_escape_string (getDBPrisiungimas(), $vardas );
+    $pavarde_apdorotas =  mysqli_real_escape_string (getDBPrisiungimas(), $pavarde );
 
-} 
-createDoctor('Faustas', 'Gete');
+    $mano_sql_tekstas = "INSERT INTO doctors
+                                VALUES('', '$vardas_apdorotas', '$pavarde_apdorotas' );
+                        ";
+    $arPavyko = mysqli_query(   getDBPrisiungimas() , $mano_sql_tekstas);
+
+    if ( !$arPavyko ) {
+         // '(! )' JEIGU skliaustuose FALSE?
+         echo "EROROR: nepavyko uzregistruoti gydytojo." . mysqli_error( getDBPrisiungimas() );
+    } else {
+        echo "pavyko sukurti";
+    }
+}
+// createDoctor('Faustas', 'Gete');
