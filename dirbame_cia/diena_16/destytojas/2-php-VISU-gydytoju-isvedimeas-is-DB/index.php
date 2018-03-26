@@ -50,8 +50,17 @@
                  ?>
             </li>
         </ul>
-
-
+        <!-- =================ARBA SU FOR CIKLU ================ -->
+        <h3> SU for Ciklu</h3>
+        <ul>
+            <?php  for ($i=1; $i < 5; $i++) : // ":" - vietoj "{"
+                    $manoGydytojas = getDoctor($i); // grizo array
+                    echo "<li>
+                             $manoGydytojas[name]  $manoGydytojas[lname]
+                        </li> ";
+                endfor;
+             ?>
+        </ul>
 
         <!-- bootstrap4 -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
