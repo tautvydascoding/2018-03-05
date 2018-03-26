@@ -71,7 +71,62 @@ function createDoctor($vardas, $pavarde){
          // '(! )' JEIGU skliaustuose FALSE?
          echo "EROROR: nepavyko uzregistruoti gydytojo." . mysqli_error( getDBPrisiungimas() );
     } else {
-        echo "pavyko sukurti";
+        // echo "pavyko sukurti";
     }
 }
 // createDoctor('Faustas', 'Gete');
+
+function updateDoctor($nr, $vardas, $pavarde) {
+    $vardas_apdorotas =  mysqli_real_escape_string (getDBPrisiungimas(), $vardas );
+    $pavarde_apdorotas =  mysqli_real_escape_string (getDBPrisiungimas(), $pavarde );
+
+    $mano_sql_tekstas = " UPDATE doctors SET
+                            name = '$vardas_apdorotas',
+                            lname = '$pavarde_apdorotas'
+                            WHERE id='$nr'
+                            LIMIT 1;
+                        ";
+    $arPavyko = mysqli_query(   getDBPrisiungimas() , $mano_sql_tekstas);
+
+    if ( !$arPavyko ) {
+         // '(! )' JEIGU skliaustuose FALSE?
+         echo "EROROR: nepavyko uzregistruoti gydytojo." . mysqli_error( getDBPrisiungimas() );
+    } else {
+        // echo "pavyko sukurti";
+    }
+}
+// updateDoctor(3, 'Ona', 'Harkauskeine');
+
+
+function getDoctors($kiekis = 99999) {
+    $mano_sql_tekstas = "SELECT * FROM doctors
+                                  ORDER BY name DESC
+                                  LIMIT $kiekis
+                        ";
+    // LIMIT 5 - limit skaiciai rasomi ne kabutese
+    // ORDER BY - surikiuoja pabal stulpeli 'name'
+
+    // $rezultatai - mysql objektas
+    $rezultatai = mysqli_query( getDBPrisiungimas() , $mano_sql_tekstas);
+
+    // tikrunu ar gryzo duomenu
+    if ( $rezultatai ) {
+         return $rezultatai; //  mysql objektas
+    } else {
+        return NULL; //
+    }
+
+}
+
+// testuojam ar veikia
+// $gydytojai = getDoctors(   ); // skaicius - kiek gydytoju paimsime
+
+// $vienas_gydytojas = mysqli_fetch_assoc($gydytojai); // mysqli_fetch_assoc - paima sekanti gydytoja is mysql objekto IR sudajo jo stulpelius i ARRAY
+
+// tikrinu ar turiu gydytojo duomenis
+// while ( $vienas_gydytojas ) {
+//     echo " <h2>"  . $vienas_gydytojas['name'] . $vienas_gydytojas['lname'] . "</h2>";
+//
+//     // kad to pacio gydytojo neisvestu - vel ir vel - imam sekanti
+//     $vienas_gydytojas = mysqli_fetch_assoc($gydytojai); // mysqli_fetch_assoc - paima sekanti gydytoja is mysql objekto IR sudajo jo stulpelius i ARRAY
+// }
