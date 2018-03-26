@@ -6,3 +6,5 @@ $('.carousel').carousel({
 $('.carousel').carousel({
   pause: hover
 });
+
+//Pagrindines dalies perjungimai (tab'sai)
