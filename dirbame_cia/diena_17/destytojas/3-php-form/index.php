@@ -31,7 +31,7 @@
         ?>
 <h2> Registracija </h2>
 
-<form class="" action="index.html" method="post">
+<form class="" action="#" method="get">
     <input type="text" name="vardas" value="" placeholder="Name">
     <input type="text" name="pavarde" value=""  placeholder="Last Name">
     <input type="number" name="tel" value="" placeholder="Phone">
