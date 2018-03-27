@@ -19,7 +19,27 @@
 
         <h1> MOkomes </h1>
 
+        <?php
 
+        // 1. sukurti form'a naudojant metoda (GET) ir  su ivedimo laukais:
+        //  vardas, pavarde, telefonas, mygtukas 'registruotis'
+        //
+        // 2. kai paspaudzia 'registruotis', vartotoja perkelti i registracija.php faila
+        // 3. registracija.php faile pasinaudojant globaliu PHP masyvu $_GET atspausdinti
+        // vartotojo ivestus duomenis
+        // pvz.: print_r( $GET)
+        ?>
+<h2> Registracija </h2>
+
+<form class="" action="index.html" method="post">
+    <input type="text" name="vardas" value="" placeholder="Name">
+    <input type="text" name="pavarde" value=""  placeholder="Last Name">
+    <input type="number" name="tel" value="" placeholder="Phone">
+
+    <input type="submit" name="" value="Registration">
+    <!-- ARBA -->
+    <button type="submit" name="button">    Registration  </button>
+</form>
 
 
         <!-- bootstrap4 -->
