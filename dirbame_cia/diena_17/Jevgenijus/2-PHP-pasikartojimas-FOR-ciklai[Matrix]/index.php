@@ -28,3 +28,10 @@ for ($i=0; $i< 3; $i++) { // 3 - kiek skirtingu darbuotoju
 // kiek bus "g" ir "i" ?
 echo "g yra: $g <br>";
 echo "i yra:" . $i;
+
+for ($i=0; $i < 3; $i++) {
+  echo "pasiruosimas <br>";
+  for ($g=0; $g <3 ; $g++) {
+    echo "dirbu <br>";
+  }
+}
