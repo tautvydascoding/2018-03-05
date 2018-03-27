@@ -47,9 +47,13 @@ for ($i=0; $i < 5;   $i = $i + 2  ) {
 //     echo "Kas antra data: " .  $masyvas[ $i ] . "<br>";
 //     $i++;
 // }
-for ($i=0, $tt=100     ; $i < 5;      $i++, $tt = $tt +2 ) {
+for ($i=0, $tt=100     ;    $i < 5  ;      $i++, $tt = $tt +2 ) {
     echo " i: $i ir tt: $tt <br />"  ;
 }
 // 'i' ir kam "tt"
 //  0         100
 //
+// 1.5 Atspausdinti visas datas nuo 3-cios (iskaitant 3-cia)
+for ($i=3; $i < 5 ; $i++) {
+    echo "Nuo trecio: " .  $masyvas[ $i ] . "<br>";
+}
