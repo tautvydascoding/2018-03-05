@@ -1,8 +1,8 @@
-﻿(pirmadieni)---Tartpinis testas 5% (html, css) 
-(paskutine savaite)-Tarpinis atsiskaitymas 20% (programavimo pagrindai: Ciklai, f-jos)
-penktadienis----Tarpinis atsiskaitymas 10% (js, jquery)
-ketvirtadienis--Tarpinis atsiskaitymas 5% (js scopes: local ir global varible skirtumai)
-(paskutine savaite)Galutinis testas 10%  (php, OOP- objektinis programavimas)
+﻿(pirmadieni)--------Tartpinis testas 5% (html, css) 
+(last ketvirtadienis)-Tarpinis atsiskaitymas 20% (programavimo pagrindai: Ciklai, f-jos)
+priepaskutinis penktadienis--------Tarpinis atsiskaitymas 10% (js, jquery)
+ketvirtadienis------Tarpinis atsiskaitymas 5% (js scopes: local ir global varible skirtumai)
+(antradieni-pries gynima) Galutinis testas 10%  (php, OOP- objektinis programavimas)
 Baigiamasis 50%
 
 Baigiamasis:
