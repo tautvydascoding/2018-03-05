@@ -2,6 +2,7 @@
   height: 500px;
 }
 
+
 span {
   border-bottom: solid 3px #FFBF00;
 }
@@ -133,9 +134,126 @@ margin-bottom: 30px;
 .parodos-pirmas-blokas,
 .parodos-antras-blokas,
 .parodos-trecias-blokas {
-  height: 300px;
+  height: 400px;
 }
 
+.parodos-pirmas-blokas-1,
+.parodos-pirmas-blokas-2,
+.parodos-pirmas-blokas-3,
+.parodos-pirmas-blokas-4,
+.parodos-antras-blokas-4,
+.parodos-antras-blokas-5,
+.parodos-antras-blokas-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.parodos-pirmas-blokas-1,
+.parodos-pirmas-blokas-2,
+.paroda-pirmas-blokas-3,
+.parodos-antras-blokas-4,
+.parodos-antras-blokas-5,
+.parodos-antras-blokas-6 {
+  position: relative;
+  width: 50%;
+}
+
+.overlay-1,
+.overlay-5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  background-color: #DBA901;
+  overflow: hidden;
+  width: 0;
+  height: 100%;;
+  transition: .2s ease;
+}
+
+
+.parodos-pirmas-blokas-1:hover .overlay-1,
+.parodos-antras-blokas-5:hover .overlay-5 {
+  width: 100%;
+  rigth: 0;
+}
+
+.parodos-pirmas-blokas-1-text,
+.parodos-antras-blokas-5-text {
+  width: 70%;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay-2,
+.overlay-4,
+.overlay-6 {
+ position: absolute;
+ bottom: 0;
+ left: 100%;
+ right: 0;
+ background-color: black;
+ overflow: hidden;
+ width: 0;
+ height: 100%;
+ transition: .2s ease;
+}
+
+.parodos-pirmas-blokas-2:hover .overlay-2,
+.parodos-antras-blokas-4:hover .overlay-4,
+.parodos-antras-blokas-6:hover .overlay-6 {
+  width: 100%;
+  left: 0;
+}
+
+.parodos-pirmas-blokas-2-text,
+.parodos-pirmas-blokas-4-text,
+.parodos-antras-blokas-6-text {
+  width: 70%;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay-3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  background-color: #DBA901;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .2s ease;
+}
+
+.parodos-pirmas-blokas-3:hover .overlay-3 {
+  width: 100%;
+  right: 0;
+}
+
+.parodos-pirmas-blokas-3-text {
+  width: 70%;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 .card {
   border: solid 1px black;
@@ -155,6 +273,7 @@ margin-bottom: 30px;
   margin-left: 130px;
 }
 
+
 .suniukas-1,
 .suniukas-2,
 .suniukas-3,
@@ -163,6 +282,12 @@ margin-bottom: 30px;
 .suniukas-6 {
     margin-bottom: 30px;
 }
+
+.card-body-suniukas1 img {
+  width: 30px;
+  height: auto;
+}
+
 
 .btn {
   background-color: #FFBF00;
@@ -178,6 +303,14 @@ margin-bottom: 30px;
 .btn:hover {
   background-color: black;
   font-weight: bold ;
+}
+
+.modal-body-rezervuoti {
+  margin: 20px;
+}
+
+.modal-header {
+  border-bottom: solid 1px #FFBF00;
 }
 
 .kontaktine-info {
@@ -274,4 +407,15 @@ footer {
 footer p {
   color: white;
   padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+
+@media (max-width: 425px) {
+
+
 }

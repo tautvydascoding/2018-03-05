@@ -1,3 +1,9 @@
+<?php
+    if ($_POST) {
+
+    }
+?>
+
 
 <div class="row ">
   <div class="col kontaktai">
@@ -41,16 +47,16 @@
       </div>
     </div>
 
-    <form class="row contact" action="index.html" method="post">
+    <form class="row contact" action="#" method="post">
       <div class="col kontaktu-forma-kaire">
-        <input type="text" placeholder="Vardas, pavardė*" name="" value="">
+        <input type="text" placeholder="Vardas, pavardė*" name="vardas" value="">
         <br>
-        <input type="text" placeholder="Tel.nr." name="" value="">
+        <input type="text" placeholder="Tel.nr." name="telefonas" value="">
         <br>
-        <input type="text" placeholder="El. pašto adresas*"name="" value="">
+        <input type="text" placeholder="El. pašto adresas*" name="email" value="">
       </div>
       <div class="col kontaktu-forma-desine">
-      <textarea name="name" placeholder="Jūsų žinutė"rows="6" cols="50"></textarea>
+      <textarea name="name" placeholder="Jūsų žinutė*"rows="6" cols="50"></textarea>
       <button type="submit" name="Siųsti" class="kontaktu-forma-btn">Siųsti</button>
       </div>
     </form>
