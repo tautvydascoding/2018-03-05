@@ -1,14 +1,29 @@
-// uzduotis:
-// 1) sukurti interface "Edit" : kuri turi funkcijas: (kurios nera aprasytos (privalomos)!
-    // 0) Ar gali tureti kintamuosius????
-    // changeName($a)
-    // isLogin()
-    // getName()
-// 2) sukurti (abstrakcia) klase "User" :
-    // 0) abstrakti kalse - NEGALI TURETI ABSTRAKCIU KINTAMUJU (BET PAPRASTUS GALI)
-    // A) kuri turi neprivalomus kintamuosius:
-        // name, password , createdDate, lastLogin
-    // B) privaloma funkcija "Loguot()"
-    // C) neprivaloma funkcija clearlastLoginTime()
-// 3) sukurti klase Admin :
-    // A)  kuri panaudoja Edit ir User ~klases (implementuoti ir paveldeti)
+<?php
+
+ 
+
+class Zmogus {
+    public $ugis = 0;
+    private $pusryciai = '';
+    protected $turtas = 'namas';
+
+
+}
+class Vyras  extends Zmogus {
+    private $testosteronas = 6122;
+}
+
+
+//
+
+
+
+// UZDUOTIS 1.
+// susikurti f-jas:
+// 1. kurios pakeicia 'testosterono' kieki
+// 2. isvada 'testosrerono' kieki
+
+
+// UZDUOTIS 2
+// VYRO klases viduje atsapausdinti:
+// ugi, pusrycius, turta
