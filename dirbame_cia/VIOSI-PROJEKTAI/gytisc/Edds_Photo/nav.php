@@ -2,7 +2,7 @@
   <nav class="col-12">
     <div class="row logo-container">
       <div class="col-12 logo1">
-        <a href="#">
+        <a href="index.php">
           <img class="logo-height" src="images/baltas.png" alt="Edd's Photo"/>
         </a>
       </div>
@@ -10,7 +10,7 @@
     <div class="row button-container">
       <navbuttons class="col-12">
         <ul>
-          <li><a href="#">HOME</a></li>
+          <li><a href="index.php">HOME</a></li>
           <li><a href="#">GALLERY</a>
             <!-- <ul>
               <li class="buttonhiden"><a href="#">Gallery1</a></li>
