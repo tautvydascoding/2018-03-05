@@ -1,0 +1,20 @@
+// kintamieji
+$spalva : red;
+$aukstis-1 : 100px;
+
+/* komentaras */
+h1 {
+    color: $spalva;
+}
+.aukstis-100 {
+    height: $aukstis-1;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
