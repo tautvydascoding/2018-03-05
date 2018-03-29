@@ -22,11 +22,15 @@
 } */
 
 nav {
-  float: left;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  position: fixed;
+  height: 80vh;
 }
 
 .button-container {
-  padding-bottom: 20%;
+  padding-bottom: 5px;
 }
 
 .carousel-item img {
@@ -103,9 +107,17 @@ nav, aside, .btn {
 
 .navcontainer {
   position: fixed;
+  height: 100vh;
   /* overflow-y: scroll; */
   width: 225px;
-  margin: 5%;
+  margin: 0 0 0 5%;
+  align-items: center;
+}
+
+.navfoot {
+  align-self: flex-end;
+  margin-top: auto;
+  /* align-self: flex-start; */
 }
 
 .copyright {

@@ -1,14 +1,14 @@
 <div class="row navcontainer">
-  <nav class="col-md-12">
+  <nav class="col-12">
     <div class="row logo-container">
-      <div class="col-md-12 logo1">
+      <div class="col-12 logo1">
         <a href="#">
           <img class="logo-height" src="images/baltas.png" alt="Edd's Photo"/>
         </a>
       </div>
     </div>
     <div class="row button-container">
-      <navbuttons class="col-md-12">
+      <navbuttons class="col-12">
         <ul>
           <li><a href="#">HOME</a></li>
           <li><a href="#">GALLERY</a>
@@ -28,8 +28,8 @@
         </ul>
       </navbuttons>
     </div>
-    <navfooter class="row">
-      <div class="col-md-12">
+    <navfooter class="row navfoot">
+      <div class="col-12">
         <div class="social-icons">
           <a href="#"><i class="fa fa-facebook-square"></i></a>
           <a href="#"><i class="fa fa-twitter"></i></a>

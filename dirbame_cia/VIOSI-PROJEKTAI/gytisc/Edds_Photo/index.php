@@ -17,7 +17,7 @@
 
       <div class="container-fluid nopadding">
         <div class="wraper row stretch">
-          <main class="col-md-12">
+          <main class="col-12">
             <div id="pics" class="row carousel slide" data-ride="carousel">
               <ul class="cb-slideshow">
                 <li><span>Image 01</span><div><h3>gam.to.je</h3></div></li>
