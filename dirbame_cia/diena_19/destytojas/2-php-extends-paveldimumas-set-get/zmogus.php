@@ -1,5 +1,8 @@
 <?php
 
+// extends Zmogus:
+// pavaldimi visi kintamieji ir f-jos,
+// kurie yra 'public' arba 'protected'
 
 class Zmogus {
     public $ugis = 0;
@@ -9,12 +12,8 @@ class Zmogus {
         echo "valgau";
     }
 }
-// extends Zmogus:
-// pavaldimi visi kintamieji ir f-jos,
-// kurie yra 'public' arba 'protected'
 class Vyras  extends Zmogus {
     private $testosteronas = 6122;
-
 }
 class Moteris  extends Zmogus {
     private $estrogenai = 2111;
