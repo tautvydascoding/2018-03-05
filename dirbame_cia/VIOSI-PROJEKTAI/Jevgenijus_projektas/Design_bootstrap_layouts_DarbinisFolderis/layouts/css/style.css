@@ -39,6 +39,13 @@ a {
 .logotipas {
 
 }
+/* Navigacija kaireje */
+.navigacija-kaire a{
+	color: #000;
+}
+.navigacija-kaire a:hover{
+	color: #F7BE6F;
+}
 .headeris {
   background-color: #fff3eb;
 	position: static;
@@ -67,6 +74,7 @@ a {
 }
 .navigacija-kaire {
   margin-top: 10px;
+	margin-left: 10px;
 }
 /* Main-navigacija */
 .main-nav {
@@ -85,10 +93,20 @@ a {
 }
 .horizontali-linija {
 	  border-bottom: 2px solid #ACCCB7;
-		margin-top: 8px;
+		margin-top: 10px;
 }
 .horizontali-linija1 {
   border-bottom: 2px solid #ACCCB7;
+	margin-top: 8px;
+}
+.vertikali-linija {
+	border-right: 2px solid #ACCCB7; width:2px; height:240px;
+	margin-top: 10px;
+	margin-left: 300px;
+}
+.vertikali-linija1 {
+	border-right: 2px solid #ACCCB7; width:2px; height:240px;
+	margin-left: 500px;
 }
 /* Paieska */
 .search {

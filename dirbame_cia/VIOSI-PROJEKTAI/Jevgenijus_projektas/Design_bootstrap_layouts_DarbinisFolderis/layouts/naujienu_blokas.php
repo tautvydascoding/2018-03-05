@@ -1,5 +1,3 @@
-
-
 <div class="card-deck">
   <div class="card">
     <img class="card-img-top" src="..." alt="Card image cap">
@@ -33,5 +31,3 @@
   </div>
 </div>
 
-
-?>
