@@ -2,21 +2,73 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>GURUME sushi bar</title>
-        <!-- reikalinga kad prisitaikantis dizainas veiktu tvarkingai -->
-        <link rel="shortcut icon" type="image/x-icon" href="../pics/GurumeTL64pxv2.ico">
-
+        <title class="title">GURUME sushi bar</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../pics/favicons/GurumeTL64pxv2.ico">
+        <!-- <link rel="shortcut icon" type="image/x-icon" href="../pics/icons/favicon.ico"> -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="../fonts/webfontkit.zip" rel="stylesheet">
         <link rel="stylesheet" href="../libs/bootstrap4/css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/master.css">
-        <!-- !!!! VISSA MANO CSS failas pats zemiausias -->
     </head>
 
     <body>
+        <header class="container-fluid header-main">
+          <div class="row header-row-1">
+            <div class="col-12 ">
+            </div>
+          </div>
+          <div class="row header-row-2">
+            <div class="col-2">
+              <a href="#"><img  src="../pics/Gurume-logo-154-264-resized.png" class="logo-header" alt="Gurume sushi bar logo"></a>
+            </div>
+            <div class="col-10">
+              <nav class="row header-nav-1">
+                <div class="col-12">
+                  <div class="navbar">
+                    <ul class="ul-header-nav-1">
+                      <li><button type="button" class="button-nav-1 button-nav" name="button"><a href="#">MENIU</a></button></li>
+                      <li><button type="button" class="button-nav-2 button-nav" name="button"><a href="#">KONTAKTAI</a></button></li>
+                      <li><button type="button" class="button-nav-3 button-nav" name="button"><a href="#">NAUJIENOS</a></button></li>
+                      <li><button type="button" class="button-nav-4 button-nav" name="button"><a href="#">ATSILIEPIMAI</a></button></li>
+                      <li><button type="button" class="button-nav-5 button-nav button-social" name="facebook"><a href="https://www.facebook.com/sushibargurume/"><img class="social-button1" src="../pics/social-media/fb2.png" alt="facebook"></a></button></li>
+                      <li><button type="button" class="button-nav-6 button-nav button-social" name="facebook"><a href="https://www.instagram.com/explore/tags/gurumesushibar/"><img class="social-button2" src="../pics/social-media/instagram1.png" alt="instagram"></a></button></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="row header-row-3">
+            <div class="col-12">
+
+            </div>
+          </div>
+        </header>
+
+        <main>
+
+        </main>
 
 
-        <h1>Mokomes</h1>
+
+        <footer class="container-fluid no-gutters footer-main">
+          <div class="row prefooter">
+              <div class="col-12">
+                  
+              </div>
+          </div>
+          <div class="container-fluid">
+              <div class="row">
+                <div class="col-12 footer-bottom">
+                    <p>&copy2018 GURUME sushi bar<p>
+                </div>
+
+              </div>
+          </div>
+        </footer>
+
+
+
 
 
 

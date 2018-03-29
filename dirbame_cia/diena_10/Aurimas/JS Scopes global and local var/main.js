@@ -14,6 +14,7 @@ function printDuomenys(){
     console.log("Vardas funkcijoje:",vardas);
 }
 printDuomenys();
+// console.log("kvietimas f-jos kintamojo uz jos ribu:",vardas);
 //   UZDUOTIS  B
 //  dabar, pabandykite po f-ja (uz jos ribu) i konsole atspausdinti kintamaji "vardas"
 //  console.log( vardas) ;
@@ -50,6 +51,7 @@ console.log("z uz funkcijos:", z);
    var kakis ="baltas";
    console.log("Kakis spausdinamas funkcijos viduje: ",kakis);
    console.log("Kakis spausdinamas funkcijos viduje: su 'this.' prierasu: ",this.kakis);
+   console.log("Kakis spausdinamas funkcijos viduje: su 'window.' prierasu: ",window.kakis);
  }
  testas();
  console.log("Kakis spausdinamas funkcijos isoreje: ",kakis);
@@ -110,3 +112,39 @@ printStraipsnis("Trecia","Lorem3...");
 
 
 //=======================================
+
+
+var mass=["7",5,"4"];
+console.log("Masyvas elementai:",mass[0]+mass[1]); //75
+console.log("Masyvas elementai:",mass[0]*mass[1]); //35
+
+console.log("Bnadymai su string:",5+7); //12
+console.log("Bnadymai su string:",5+"7"); //57
+console.log("Bnadymai su string:","7"+5); //75
+console.log("Bnadymai su string:", "7"+"7"); //77
+console.log("Bnadymai su string:", 5-"7"); //-2
+console.log("Bnadymai su string:","7"-5); //2
+
+
+var metai1=15;
+var obje={
+  vardas:"Labas",
+  metai1:1,
+  metai2:2,
+  metai3:3,
+  metai4:4,
+  metusk: function(){
+    var metai1=16;
+    console.log("labas pasauli!",window.metai1);
+  }
+};
+obje.metusk();
+
+
+
+var aa=11;
+function LABA(v,z){
+  // var aa=22;
+  console.log(window.aa,z,v); //11,undefined,10
+}
+LABA(10);

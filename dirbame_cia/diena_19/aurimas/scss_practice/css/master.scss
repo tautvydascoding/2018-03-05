@@ -1,0 +1,67 @@
+
+$height0: 100px;
+$height1: 200px;
+$height2: 300px;
+$height3: 400px;
+$height4: 500px;
+$color: blue;
+
+.aukstis-100 {
+    height: $height0;
+}
+.aukstis-200 {
+    height: $height1;
+}
+.aukstis-300 {
+    height: $height2;
+}
+.aukstis-500 {
+    height: $height3;
+}
+
+// UZDUOTIS
+// html/PHP faile
+// 1. sukurti 'div'
+// 1.1 'div' viduje sukurti antraste ir paragrafa (su lorem)
+
+// 2. sukurti 'aside'
+// 2.1 'aside' viduje sukurti antraste ir paragrafa  (su lorem)
+
+// 3. SCSS faile:
+// 3.1 div antrastes tekstui uzdeti:
+//      teksto spalva : raudona
+//      teksto dydis: 29px
+//      teksto svoris: 600
+// 3.2 div paragrafo tekstui uzdeti:
+//      teksto dydis: 16px
+//      teksto svoris: 100
+// 4.1 aside antrastes tekstui uzdeti:
+//      teksto spalva : melyna
+//      teksto dydis: 29px
+//      teksto svoris: 100
+// 4.2 aside paragrafo tekstui uzdeti:
+//      teksto dydis: 16px
+//      teksto svoris: 600
+div.first {
+  h1{
+    color: red;
+    font-size: 29px;
+    font-weight: 600;
+  }
+  p{
+    font-size: 16px;
+    font-weight: 100;
+  }
+}
+
+aside{
+  h1{
+    color: blue;
+    font-size: 29px;
+    font-weight: 100;
+  }
+  p{
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
