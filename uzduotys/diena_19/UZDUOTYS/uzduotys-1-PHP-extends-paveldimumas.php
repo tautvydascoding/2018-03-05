@@ -1,6 +1,6 @@
 <?php
 
- 
+
 
 class Zmogus {
     public $ugis = 0;
@@ -23,7 +23,7 @@ class Vyras  extends Zmogus {
 // 1. kurios pakeicia 'testosterono' kieki
 // 2. isvada 'testosrerono' kieki
 
-
-// UZDUOTIS 2
-// VYRO klases viduje atsapausdinti:
+// UZDUOTIS 2  (private-protected skirtumas)
+// MOTERS klases viduje atspausdinti:
+// f-ja printMotersDuomenys()
 // ugi, pusrycius, turta
