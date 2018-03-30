@@ -31,17 +31,17 @@ try {
     $mail->Port = 465;                                      // TCP port to connect to
 
     //Server settings
-    $mail->SMTPDebug = 3;                                 // Enable verbose debug output
+    $mail->SMTPDebug = 2;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
 
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'testascoding@gmail.com';          // SMTP username
-    $mail->Password = 'slaptazodis';                    // SMTP username
+    $mail->Username = 'xxxxxx@gmail.com';          // SMTP username
+    $mail->Password = 'xxxxxxpassword';                    // SMTP username
 
     //Recipients
-    $mail->setFrom('testascoding@gmail.com', 'Puslapiu kurejai');
+    $mail->setFrom('testascoding@gmail.com', 'Puslapiu kurejai----');
     $mail->addAddress('testascoding@gmail.com', 'Puslapiu kurejai');     // Add a recipient
-    $mail->addReplyTo($elPastas, 'Kliento vardas'); 
+    $mail->addReplyTo($elPastas, 'Kliento vardas');
 
     //Attachments
     // $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
@@ -53,8 +53,12 @@ try {
     $mail->Body    = $klientoKlausimas;
     $mail->AltBody = $klientoKlausimas;
 
-    $mail->send();
+      $mail->send();
 
+    $zinute = "Sveikinu, jusu laiskas issiustas";
+    $_SESSION['zinutes'] = $zinute;
+     // print_r( $GLOBALS );
+    //createDoctor($elPastas, $klientoAntraste);
 
     echo 'Message has been sent';
 } catch (Exception $e) {
