@@ -1,0 +1,32 @@
+
+$spalva1: red;
+$spalva2: blue;
+$fontsize1: 16px;
+$fontsize2: 29px;
+$fontweight1: 100;
+$fontweight2: 600;
+
+
+div {
+  h1 {
+    color: $spalva1;
+    font-size: $fontsize2;
+    font-weight: $fontweight2;
+  }
+  p {
+    font-size: $fontsize1;
+    font-weight: $fontweight1;
+  }
+}
+
+aside {
+  h2 {
+    color: $spalva2;
+    font-size: $fontsize2;
+    font-weight: $fontweight1;
+  }
+  p {
+    font-size: $fontsize1;
+    font-weight: $fontweight2;
+  }
+}

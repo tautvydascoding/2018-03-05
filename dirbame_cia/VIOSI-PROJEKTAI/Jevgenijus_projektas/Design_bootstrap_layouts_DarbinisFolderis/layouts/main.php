@@ -1,5 +1,4 @@
 
-
 <main class="col-md-10 rounded  aukstis-1000">
 
 // <!-- Slaideris - karusele -->
@@ -59,12 +58,13 @@
 // <!-- Slaiderio pabaiga -->
 
 
+
     <div class="horizontali-linija rounded"></div>
 
 // <!-- Pagrindines dalies meniu -->
 <ul class="nav main-nav nav-pills nav-fill flex-md-row" id="pills-tab" role="tablist">
 <li class="nav-item">
-<a class="nav-link active" id="pills-news-tab" data-toggle="pill" href="pills-news" role="tab" aria-controls="pills-news" aria-selected="true">Naujienos</a>
+<a class="nav-link active" id="pills-news-tab" data-toggle="pill" href="pills-news" role="tab" aria-controls="pills-news" aria-selected="true">222222</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" id="pills-newarticles-tab" data-toggle="pill" href="#pills-newarticles" role="tab" aria-controls="pills-newarticles" aria-selected="false">Naujausi straipsniai</a>
