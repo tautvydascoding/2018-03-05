@@ -1,3 +1,23 @@
+<!-- Footer -->
+<div class="container">
+<footer class="row">
+   <div class="col-md  rounded aukstis-300">
+     <div class="row footerio-virsus rounded aukstis-40"></div>
+
+
+     <div class="vertikali-linija rounded">
+     <div class="vertikali-linija1 rounded"></div>
+    </div>
+    </div>
+</footer>
+<!-- Footer end -->
+
+
+
+</div>
+</div>
+</div>
+
 
         <!-- bootstrap4 -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
