@@ -22,13 +22,16 @@
 
 <form class="" action="email-siuntimas.php" method="post">
         <label for="pastas">  Jusu el.pastas  </label>
+        <br>
         <input type="email" name="pastas" value="" placeholder="El.Pastas" required>
+        <br>
         <input type="text" name="antraste" value="" placeholder="Tema">
-
+        <br>
         <textarea name="klausimas" rows="8" cols="80">
             Jusu klausimas...
         </textarea>
-
+        <br>
+        
         <input type="submit" name="" value="Klausti">
         <!-- ARBA -->
         <button type="submit" name="button">   Klausti    </button>
