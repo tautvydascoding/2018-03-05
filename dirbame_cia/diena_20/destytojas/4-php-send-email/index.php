@@ -31,7 +31,7 @@
             Jusu klausimas...
         </textarea>
         <br>
-        
+
         <input type="submit" name="" value="Klausti">
         <!-- ARBA -->
         <button type="submit" name="button">   Klausti    </button>
