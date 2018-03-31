@@ -1,0 +1,172 @@
+.aukstis-700 {
+  height: 700px;
+  margin-top: 20px;
+}
+
+
+.container-fluid {
+  padding: 0;
+}
+
+
+}
+.mano-float {
+  float: left;
+  position: relative;
+}
+
+.fix-float{
+  clear: both;
+}
+
+figure {
+  float: left;
+  position: relative;
+}
+
+/* ------------------------------------------------------ */
+
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+}
+
+header {
+      width: 100%;
+}
+
+
+
+.logo {
+      position: fixed;
+      float: left;
+      margin: 10px 46px;
+      width: 150px;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(255, 255, 255, 0.70);
+      overflow: hidden;
+      color: #1f1f1f;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: rgba(255, 255, 255, 0.70);
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #1f1f1f;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.70);
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #1f1f1f;
+      display: none;
+}
+
+.headeris {
+  padding: 0;
+  position: relative;
+  z-index:999;
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+.apieaime {  /* po slaideriu info APIE AIME  */
+  margin: 0;
+  height: 320px;
+  background-color: rgba(245, 185, 230, 0.57)
+  float: left;
+  position: relative;
+}
+
+.auksinislogo{
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
+.apieaimelogo {
+  height: 200px;
+  position: relative;
+}
+
+.main_aprasymas {
+  text-align: justify;
+  padding-top: 20px;
+}
+
+figure {
+  float: left;
+  position: relative;
+}
+
+
+@media(max-width: 786px) {
+
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 10px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: rgba(255, 255, 255, 0.90);
+      }
+
+      nav.black ul {
+            background: rgba(255, 255, 255, 0.90);
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+            padding-top: 10px;
+      }
+
+}
