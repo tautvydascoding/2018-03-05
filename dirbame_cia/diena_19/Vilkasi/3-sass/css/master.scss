@@ -1,0 +1,42 @@
+//kintamiejo
+$raudona : red;
+$melyna: blue;
+$aukstis : 100px;
+
+$antrastesdydis : 29px;
+$antrastessvoris : 600;
+
+$paragrafodydis : 16px;
+$paragrafosvoris : 100;
+
+$paragrafoplotis : 30%;
+$pilnaslygiavimas : justify;
+
+div {
+
+    h1 {
+      color: $raudona;
+      font-size: $antrastesdydis;
+      font-weight: $antrastessvoris;
+          } p {
+            font-size: $paragrafodydis;
+            font-weight: $paragrafosvoris;
+            width: $paragrafoplotis;
+            text-align: $pilnaslygiavimas;
+          }
+}
+
+
+aside {
+  h1 {
+    color: $melyna;
+    font-size: $antrastesdydis;
+    font-weight: $paragrafosvoris;
+        } p {
+          font-size: $paragrafodydis;
+          font-weight: $antrastessvoris;
+          width: $paragrafoplotis;
+          text-align: $pilnaslygiavimas;
+        }
+
+}
