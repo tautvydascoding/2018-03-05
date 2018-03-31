@@ -18,7 +18,7 @@ require 'libs\PHPMailer-master\PHPMailerAutoload.php';
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
     //Server settings
-    $mail->SMTPDebug = 3;                                 // Enable verbose debug output
+    $mail->SMTPDebug = 2;                                 // Enable verbose debug output
     // papildomi PhpMailer nustatymia, jeigu neveikia su standartiniais
 
     $mail->SMTPOptions = array(
@@ -41,7 +41,7 @@ try {
     $mail->Password = 'gIl8*oj=T9kLr726e1D6*Txa7&tCAw';                 // SMTP username
 
     //Recipients
-    $mail->setFrom('edds.photo@gmail.com', 'Edds Photo administracija');
+    $mail->setFrom('edds.photo@gmail.com', 'Edd\'s Photo support');
     $mail->addAddress('edds.photo@gmail.com', 'Edds Photo administracija');     // Add a recipient
     // $mail->addAddress('ellen@example.com');               // Name is optional
     $mail->addReplyTo($elPastas, 'Kliento el. paštas');
@@ -59,6 +59,11 @@ try {
     $mail->AltBody = $klientoTekstas;
 
     $mail->send();
+    $zinute = "Jūsų laiškas sėkmingai išsiųstas. Dėkojame!";
+    $_SESSION['zinutes'] = $zinute;
+      print_r($globals);
+      //createDoctor($elPastas)
+
     echo 'Message has been sent';
 } catch (Exception $e) {
     echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
