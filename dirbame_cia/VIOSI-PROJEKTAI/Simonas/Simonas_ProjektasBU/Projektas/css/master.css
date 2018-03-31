@@ -150,7 +150,7 @@ position: relative;
 }
 
                             /* portfolio */
-.portfolio{
+.portfolio  {
             margin: 3em 0;
 }
 
@@ -227,6 +227,19 @@ position: relative;
     box-shadow: 0 0 4em 0 rgba(0,0,0,.5);
     }
 
+    .port-item {
+      width: 33.3%;
+      overflow: hidden;
+    }
+    .port-desc {
+      transform: translateY(150%);
+    }
+    .port-item:hover ,
+    .port-desc {
+      transform:translateY(0%);
+    }
+}
+
    @media (min-width:25rem) {
      h1 {
        font-size: 2rem;
@@ -237,21 +250,9 @@ position: relative;
         padding: 0.325em;
       }
 
-      @media (min-width:37rem) {
+      @media (min-width:36rem) {
         .port-item {
           width: 50%;
           float: left;
         }
       }
-      @media (min-width:60rem) {
-        .port-item {
-          width: 33.3%;
-          overflow: hidden;
-        }
-        .port-desc {
-          transform: translateY(150%);
-        }
-        port-item:hover . port-desc {
-          transform:translateY(0%);
-        }
-    }
