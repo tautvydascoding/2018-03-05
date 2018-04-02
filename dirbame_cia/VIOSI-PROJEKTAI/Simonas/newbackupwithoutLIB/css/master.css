@@ -20,7 +20,7 @@ img {
 .container {
   width: 95%;
   margin: 0 auto;
-  max-width: 70em;
+  max-width: 1024px;
 }
 
 .clearfix::after,
@@ -49,7 +49,7 @@ margin-top: 0;
   width: 33.33%;
   float: left;
 }
-@media (min-width:40rem) {
+@media (min-width:120px) {
 [class^=col-] {
     float: left;
     padding: 0 .5em;
@@ -89,9 +89,10 @@ padding-left: 0;
 }
 
 .unstyled-list {
-  margin: 0;
-  padding: 0;
+  margin-top: 0px;
+  padding: 0px;
   list-style-type: none;
+  margin-left: 40vh;
 }
 
 h1 {
@@ -107,6 +108,15 @@ p {
 }
 p:last-of-type {
   margin-bottom: 0;
+}
+.copyright {
+  text-transform: capitalize;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  padding-right: 30px;
+  float: left;
 }
 
                                   /* button */
@@ -197,6 +207,7 @@ nav a:focus {
   background-size: cover;
   background-position: center;
   padding: 10em 0;
+  background-attachment: fixed;
 }
 
 .home-about-textbox{
@@ -251,9 +262,36 @@ position: relative;
 }
 
 
+                          /* footer action */
+
+.fooA {
+background-color: rgb(235, 252, 255);
+padding: 5em 0;
+color: rgb(8, 4, 14);
+background-blend-mode: soft-light;
+}
+
+
+                                  /* FOOTER */
+
+
+footer {
+background: #232323;
+color: #fff;
+text-align: center;
+padding: 3em 0 0 0;
+}
+
+                                    /*efektas  parallax--box */
+
+.parallax--box {
+  transition: initial;
+}
+
+
                                      /* media */
 
- @media (min-width:60rem) {
+ @media (min-width:240px) {
    p {
      font-size: 1.2rem;
      line-height: 1.6;
@@ -268,7 +306,7 @@ position: relative;
   nav {
     float:right;
   }
-   .home-hero {
+   .home-nojauslaivas {
      height: 100vh;
      padding-top: 35vh;
 }
@@ -312,7 +350,7 @@ position: relative;
     }
 }
 
-   @media (min-width:25rem) {
+   @media (min-width:126px) {
      h1 {
        font-size: 2rem;
      }
@@ -322,38 +360,16 @@ position: relative;
         padding: 0.325em;
       }
 
-      @media (min-width:36rem) {
+      @media (min-width:124px) {
         .port-item {
           width: 50%;
           float: left;
         }
-      }
-
-
-                                                  /* footer action */
-
-    .fooA {
-      background-color: rgb(235, 252, 255);
-      padding: 5em 0;
-      color: rgb(8, 4, 14);
-      background-blend-mode: soft-light;
-    }
-
-
-                                                /* FOOTER */
-
-
-    footer {
-      background: #232323;
-      color: #fff;
-      text-align: center;
-      padding: 5em 0;
-
-    }
-
-    /* footer.copyright {
-      text-transform: capitalize;
-      text-decoration: underline;
-      margin: 0;
-      padding: 0;
-    } */
+        .unstyled-list {
+          padding: 0px;
+          list-style-type: none;
+          margin-top: 0px;
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+        }
