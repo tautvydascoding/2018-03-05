@@ -14,6 +14,7 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  margin:auto;
 }
 
 .container {
@@ -22,7 +23,53 @@ img {
   max-width: 70em;
 }
 
-                              /* typography */
+.clearfix::after,
+section::after,
+footer::after {
+  content: '';
+  display: block;
+  clear: both;
+
+}
+                                                  /* col sistema */
+
+[class^=col-] {
+  width: 100%;
+  margin-top: 1em;
+
+  /* reminder! betkuri klase kuri prasides column^ gaus float !
+  reminder #2! footeriui clearfix uzdeti */
+}
+
+[class^=col-]:first-child {
+margin-top: 0;
+}
+
+.col-1 {
+  width: 33.33%;
+  float: left;
+}
+@media (min-width:40rem) {
+[class^=col-] {
+    float: left;
+    padding: 0 .5em;
+    margin-top: 0;
+}
+[class^=col-]:first-child {
+padding-left: 0;
+}
+
+[class^=col-]:last-child {
+  padding-left: 0;
+}
+.col-3 {
+  width: 50%;
+}
+.col-1 {
+  width: 16.6%;
+}
+
+                                                /* typography */
 
 .title {
   font-size: 2.5rem;
@@ -37,10 +84,21 @@ img {
   font-size: 0.9rem;
 }
 
+.title-fooA {
+  margin: 0 0 .5em;
+}
+
+.unstyled-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 h1 {
   font-weight: 300;
-  font-size: 1.7rem;
+  font-size: 2.7rem;
   margin-top: 0 auto;
+  margin-bottom: 3em;
 }
 
 p {
@@ -64,7 +122,7 @@ p:last-of-type {
 }
 
 .button-accent {
-  color: rgb(214, 255, 17);
+  color: rgb(240, 180, 1);
   border-color: rgb(62, 245, 168);
 
 }
@@ -83,6 +141,18 @@ p:last-of-type {
 .button-small {
   font-size: .6rem;
   font-weight: 700;
+}
+.button-dark{
+  color: #232323;
+  border-color: #232323;
+
+}
+
+.button-dark:hover,
+.button-dark:focus {
+  background: rgb(247, 244, 160);
+  color: rgb(0, 53, 68);
+
 }
 
                                     /* header */
@@ -151,7 +221,7 @@ position: relative;
 
                             /* portfolio */
 .portfolio  {
-            margin: 3em 0;
+            margin: 3em 0 0;
 }
 
 .port-item {
@@ -161,7 +231,7 @@ position: relative;
 
 .port-item img {
             display: block;
-
+            float: left;
 }
 
 .port-desc {
@@ -174,6 +244,7 @@ position: relative;
     background: rgba(0, 0, 0,.7);
     padding-bottom:2em;
     margin-bottom: 10px;
+    width: 35vh;
 }
 .port-desc p{
     margin: 1em;
@@ -186,6 +257,7 @@ position: relative;
    p {
      font-size: 1.2rem;
      line-height: 1.6;
+     text-align:center;
    }
    .title {
      font-size: 3.7rem;
@@ -256,3 +328,32 @@ position: relative;
           float: left;
         }
       }
+
+
+                                                  /* footer action */
+
+    .fooA {
+      background-color: rgb(235, 252, 255);
+      padding: 5em 0;
+      color: rgb(8, 4, 14);
+      background-blend-mode: soft-light;
+    }
+
+
+                                                /* FOOTER */
+
+
+    footer {
+      background: #232323;
+      color: #fff;
+      text-align: center;
+      padding: 5em 0;
+
+    }
+
+    /* footer.copyright {
+      text-transform: capitalize;
+      text-decoration: underline;
+      margin: 0;
+      padding: 0;
+    } */
