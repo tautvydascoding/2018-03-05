@@ -7,9 +7,6 @@
     include ("./sunys.php");
     include ("./parodos.php");
     include ("./rezervacija.php");
-    include ("./galerija.php");
     include ("./kontaktai.php");
     include ("./footer.php");
-
-
  ?>

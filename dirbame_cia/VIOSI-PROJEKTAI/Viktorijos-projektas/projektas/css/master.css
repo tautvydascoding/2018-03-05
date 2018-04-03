@@ -11,18 +11,48 @@ span {
 height: 100px;
 width: auto;
 margin-top: 30px;
-margin-left: 50px;
+margin-left: 20px;
 margin-bottom: 30px;
 }
 
 ul {
   border-bottom: solid 1px #FFBF00;
+  padding-left: 20px;
 }
 
 li {
  list-style-type: none;
  padding-bottom: 12px;
- padding-left: 12px;
+ padding-left: 8px;
+}
+
+.navbar {
+  background-color: white;
+  border-bottom: solid 1px #FFBF00;
+  /* position: relative; */
+}
+
+.navbar-nav {
+  margin-top: 15px;
+}
+
+/* .navbar-brand .logo {
+  width: 55px;
+  height: auto;
+  margin: 0;
+  position: absolute;
+    right: 25px;
+    top: 3px;
+} */
+
+.menu a,
+.collapse a {
+  color: black;
+}
+
+.menu a:hover,
+.collapse a:hover {
+  color: #FFBF00;
 }
 
 .fb-icon img {
@@ -42,11 +72,12 @@ li {
 
 .viso-puslapio-stulpelis {
   border-left: solid 1px #FFBF00;
+  border-right: solid 1px #FFBF00;
 }
 
 .home-page {
   background-image: url(../img/homepage.jpg);
-  height: 800px;
+  height: 700px;
   border-bottom: solid 1px #FFBF00;
   opacity: 0.7;
 }
@@ -60,7 +91,7 @@ li {
 }
 
 .home-page h1 {
-  margin-top: 500px;
+  margin-top: 450px;
 }
 
 .apie-mus,
@@ -73,12 +104,14 @@ li {
 .apie-mus h2,
 .sunys h2,
 .parodos h2,
+.parodos h2,
 .suniukai h2,
 .kontaktai h2 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
 }
+
 
 .p-citata {
   font-size:20px;
@@ -92,6 +125,7 @@ li {
 .sunys,
 .suniukai,
 .parodos,
+.galerija,
 .kontaktai {
   border-top: solid 1px #FFBF00;
 }
@@ -132,8 +166,7 @@ margin-bottom: 30px;
 }
 
 .parodos-pirmas-blokas,
-.parodos-antras-blokas,
-.parodos-trecias-blokas {
+.parodos-antras-blokas {
   height: 400px;
 }
 
@@ -305,6 +338,15 @@ margin-bottom: 30px;
   font-weight: bold ;
 }
 
+.rezervuotas {
+  background-color: #A4A4A4;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+}
+
 .modal-body-rezervuoti {
   margin: 20px;
 }
@@ -377,6 +419,7 @@ margin-bottom: 30px;
 }
 
 .kontaktu-forma-desine textarea {
+  width: 100%;
   background-color: #F2F2F2;
   border: none;
   color: #6E6E6E;
@@ -385,7 +428,7 @@ margin-bottom: 30px;
 }
 
 button.kontaktu-forma-btn {
-  width: 370px;
+  width: 100%;
   border: none;
   color: white;
   background-color:#FFBF00;
@@ -409,13 +452,204 @@ footer p {
   padding-top: 20px;
 }
 
-@media (max-width: 768px) {
+/*galerija  */
+
+/* .filter-button{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.btn-default:active .filter-button:active {
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image {
+    width: 100%;
+}
+
+.gallery_product {
+    margin-bottom: 30px;
+} */
 
 
+
+@media (max-width: 800px) {
+
+  .viso-puslapio-stulpelis {
+    max-width: 100% !important;
+    flex: 100% !important;
+  }
+
+  .home-page {
+    background: url(../img/homepage.jpg) 30% 22%;
+    height: 400px;
+    border-bottom: solid 1px #FFBF00;
+    opacity: 0.7;
+  }
+
+  .home-page h1 {
+    margin-top: 150px;
+  }
+
+  .apie-mus h2,
+  .sunys h2,
+  .parodos h2,
+  .parodos h2,
+  .suniukai h2,
+  .kontaktai h2 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  .apie-mus,
+  .suniukai p {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+  }
+
+  .p-citata {
+    padding-left: 25px;
+  }
+
+  .parodos-pirmas-blokas,
+  .parodos-antras-blokas {
+    height: auto;
+  }
+
+  .suniukas-1,
+  .suniukas-2,
+  .suniukas-3,
+  .suniukas-4,
+  .suniukas-5,
+  .suniukas-6 {
+    margin-left: 130px !important;
+  }
+
+  .rezervuotas {
+    margin-bottom: 20px;
+  }
+
+  .kontaktine-info {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .kontaktu-forma {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
+
+  .viso-puslapio-stulpelis {
+    max-width: 100% !important;
+    flex: 100% !important;
+  }
+
+  .home-page {
+    background: url(../img/homepage.jpg) 35% 20%;
+    height: 300px;
+    border-bottom: solid 1px #FFBF00;
+    opacity: 0.7;
+  }
+
+  .home-page h1 {
+    margin-top: 80px;
+  }
+
+  .home-page h1 {
+    font-size:25px;
+  }
+
+  .home-page h2 {
+    font-size: 20px;
+  }
+
+  .apie-mus,
+  .suniukai p {
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+
+  .apie-mus h2,
+  .sunys h2,
+  .parodos h2,
+  .parodos h2,
+  .suniukai h2,
+  .kontaktai h2 {
+      margin-top: 20px;
+      margin-bottom: 15px;
+      text-align: center;
+  }
+
+  .p-citata {
+    padding-left: 18px;
+  }
+
+  .parodos-pirmas-blokas,
+  .parodos-antras-blokas,
+  .suo-1,
+  .suo-2 {
+    height: auto;
+  }
+
+  .suo-1 img,
+  .suo-2 img {
+  height: auto;
+  width: 60%;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  }
+
+  .suniukas-1,
+  .suniukas-2,
+  .suniukas-3,
+  .suniukas-4,
+  .suniukas-5,
+  .suniukas-6 {
+    margin-left: 0px !important;
+  }
+
+  .rezervuotas {
+    margin-bottom: 20px;
+  }
+
+  .kontaktine-info {
+    width: 180px;
+    height: 180px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .kontaktine-info h3 {
+    font-size: 18px;
+  }
+
+  .kontaktine-info li {
+    font-size: 12px;
+  }
+
+
+  .zemelapis {
+    height: 300px;
+  }
+
+  #map {
+    height: 300px;
+  }
+
+  .kontaktu-forma-kaire {
+    margin-left: 0px;
+  }
+
 
 
 }
