@@ -1,49 +1,102 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Edd's Photo</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
-        <link rel="stylesheet" type="text/css" href="css/sliderstyle3.css" />
-        <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
-        <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="css/main.css" rel="stylesheet" type="text/css">
-    </head>
+<head>
+	<meta charset="utf-8">
+	<title>Edd's photo</title>
+	<?php
+		include("head.php");
+	?>
+	<link rel="stylesheet" href="libs/masterslider/style/masterslider.css" type="text/css">
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<script type="text/javascript" src="js/modernizr.min.js"></script>
+	<script type="text/javascript" src="libs/pace/pace.min.js"></script>
+</head>
 
-    <body>
 
-      <div class="container-fluid nopadding">
-        <div class="wraper row stretch">
-          <main class="col-12">
-            <div id="pics" class="row carousel slide" data-ride="carousel">
-              <ul class="cb-slideshow">
-                <li><span>Image 01</span><div><h3>gam.to.je</h3></div></li>
-                <li><span>Image 02</span><div><h3>leng.va</h3></div></li>
-                <li><span>Image 03</span><div><h3>ar.ti</h3></div></li>
-                <li><span>Image 04</span><div><h3>ke.ly.je</h3></div></li>
-                <li><span>Image 05</span><div><h3>lon.do.nas</h3></div></li>
-                <li><span>Image 06</span><div><h3>kar.tu</h3></div></li>
-              </ul>
-              <?php
-                include_once('nav.php');
-              ?>
-            </div>
-            <!-- <aside class="col-md-12 carousel-2">
-              carousel
-            </aside> -->
-          </main>
-        </div>
-      </div>
-                <!-- <div class="fix-float"></div> -->
+<body>
 
-        <!-- bootstrap4 -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- !!! jQuery "slim" yra nepilna versija ir jQuery kai kurios komandos neveikia, reiktu isisdeti kita jQuery  -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="main.js"> </script>
-    </body>
+		<?php
+		include("menu.php");
+		?>
+		<div class="ms-fullscreen-template" id="slider1-wrapper">
+			<!-- masterslider -->
+			<div class="master-slider ms-skin-default has-thumbnails" id="masterslider">
+				<div class="ms-slide ms-slide2 text-right" data-delay="7">
+					<div class="ms-slide-pattern bg-pattern dark-screen"></div>
+					<img src="masterslider/blank.gif" data-src="images/slider/image_gal_01.jpg" alt="lorem ipsum dolor sit">
+					<div class="ms-layer ms-layer1 ms-text-size1" data-type="text" data-effect="skewleft(10,100,true)" data-duration="1500" data-ease="easeInOutQuint">
+						<div class="container">
+							<h2 class="text-uppercase">Lorem</h2>
+						</div>
+					</div>
+					<div class="ms-layer ms-layer2 ms-text-size5" data-type="text" data-effect="skewleft(10,100,true)" data-duration="1500" data-delay="300" data-ease="easeInOutQuint">
+						<div class="container text-right">
+							<h2 class="text-uppercase">
+								Edd's Photo
+							</h2>
+						</div>
+					</div>
+					<div class="ms-thumb"><img alt="img" src="images/slider_thumbs/image_gal_01.jpg"></div>
+				</div><!-- .ms-slide -->
+				<div class="ms-slide ms-slide2 text-right" data-delay="7">
+					<div class="ms-slide-pattern bg-pattern dark-screen"></div>
+					<img src="masterslider/blank.gif" data-src="images/slider/image_gal_02.jpg" alt="lorem ipsum dolor sit">
+					<div class="ms-layer ms-layer1 ms-text-size1" data-type="text" data-effect="skewleft(10,100,true)" data-duration="1500" data-ease="easeInOutQuint">
+						<div class="container">
+							<h2 class="text-uppercase">Lorem</h2>
+						</div>
+					</div>
+					<div class="ms-layer ms-layer2 ms-text-size5" data-type="text" data-effect="skewleft(10,100,true)" data-duration="1500" data-delay="300" data-ease="easeInOutQuint">
+						<div class="container text-right">
+							<h2 class="text-uppercase">
+								Edd's Photo
+							</h2>
+						</div>
+					</div>
+					<div class="ms-thumb"><img alt="img" src="images/slider_thumbs/image_gal_02.jpg"></div>
+				</div><!-- .ms-slide -->
+				<div class="ms-slide ms-slide2 text-right" data-delay="7">
+					<div class="ms-slide-pattern bg-pattern dark-screen"></div>
+					<img src="masterslider/blank.gif" data-src="images/slider/image_gal_03.jpg" alt="lorem ipsum dolor sit">
+					<div class="ms-layer ms-layer1 ms-text-size1" data-type="text" data-effect="skewleft(10,100,true)" data-duration="1500" data-ease="easeInOutQuint">
+						<div class="container">
+							<h2 class="text-uppercase">Lorem</h2>
+						</div>
+					</div>
+					<div class="ms-layer ms-layer2 ms-text-size5" data-type="text" data-effect="skewleft(10,100,true)" data-duration="1500" data-delay="300" data-ease="easeInOutQuint">
+						<div class="container text-right">
+							<h2 class="text-uppercase">
+								Edd's Photo
+							</h2>
+						</div>
+					</div>
+					<div class="ms-thumb"><img alt="img" src="images/slider_thumbs/image_gal_03.jpg"></div>
+				</div><!-- .ms-slide -->
+				<div class="ms-slide ms-slide2 text-right" data-delay="7">
+					<div class="ms-slide-pattern bg-pattern dark-screen"></div>
+					<img src="masterslider/blank.gif" data-src="images/slider/image_gal_04.jpg" alt="lorem ipsum dolor sit">
+					<div class="ms-layer ms-layer1 ms-text-size1" data-type="text" data-effect="skewleft(10,100,true)" data-duration="1500" data-ease="easeInOutQuint">
+						<div class="container">
+							<h2 class="text-uppercase">Lorem</h2>
+						</div>
+					</div>
+					<div class="ms-layer ms-layer2 ms-text-size5" data-type="text" data-effect="skewleft(10,100,true)" data-duration="1500" data-delay="300" data-ease="easeInOutQuint">
+						<div class="container text-right">
+							<h2 class="text-uppercase">
+								Edd's Photo
+							</h2>
+						</div>
+					</div>
+					<div class="ms-thumb"><img alt="img" src="images/slider_thumbs/image_gal_04.jpg"></div>
+				</div><!-- .ms-slide -->
+			</div><!-- end of masterslider -->
+		</div><!-- .ms-fullscreen-template -->
+	<?php
+		include("body.php");
+	?>
+	<script type="text/javascript" src="libs/masterslider/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="libs/masterslider/masterslider.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</body>
 </html>

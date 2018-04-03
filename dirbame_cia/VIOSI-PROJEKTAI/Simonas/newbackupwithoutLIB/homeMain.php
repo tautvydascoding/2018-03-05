@@ -2,7 +2,7 @@
 
           <section class="home-nojauslaivas">
             <div class="container">
-            <h1 class="title">Hi there!♥
+            <h1 class="title">Welcome♥
             <span>DON'T BE SHY,LOOK AROUND</span>
             </h1>
             <a href="" class="button button-accent">Our Heaven</a>
@@ -21,11 +21,23 @@
           </div>
 
           <section class="portfolio">
-            <h1>Choose your Path</h1>
+            <h2>Choose your Path</h2>
             <figure class="port-item">
               <img src="img/nj20.jpeg" alt="portfolio item">
               <figcaption class="port-desc">
                 <p>Survivor Villa</p>
+                <?php
+                    require_once('./villa_functions.php');
+                 ?>
+
+                <p>
+                    <strong>Villa Price from</strong> 
+
+                    <?php
+                        $villa1 = getPrice(1); // grizo array
+                        echo $villa1['price'];
+                     ?>
+                </p>
                 <a href="" class="button button-accent button-small">DETAILS</a>
               </figcaption>
             </figure>

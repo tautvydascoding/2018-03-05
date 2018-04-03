@@ -8,11 +8,11 @@
         $error="";
         $success="";
 
-        if (strlen($vardas) < 3) {
+        if (strlen($vardas) < 3 ) {
           $error.="<div class='alert alert-danger'>Vardas įvestas neteisingai! </div>";
         }
 
-        if (strlen($telefonas) < 6) {
+        if (strlen($telefonas) < 6 ) {
           $error.="<div class='alert alert-danger'>Telefono numeris įvestas neteisingai!</div>";
         }
 

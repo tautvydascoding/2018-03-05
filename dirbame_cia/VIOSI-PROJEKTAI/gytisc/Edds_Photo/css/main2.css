@@ -1,0 +1,127 @@
+.fix-float {
+  clear: both;
+}
+
+/* #background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+} */
+
+/* .stretch {
+    width:100%;
+    height:100%;
+} */
+
+/* .nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+} */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  position: fixed;
+  height: 88vh;
+}
+
+.button-container {
+  padding-bottom: 5px;
+}
+
+.carousel-item img {
+  height: 500px;
+}
+
+navbuttons ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+navbuttons ul li {
+  text-align: center;
+  line-height: 40px;
+  width: 195px;
+  height: 40px;
+  background-color: #000000;
+  opacity: .7;
+  font-size: 16px;
+}
+
+navbuttons ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+}
+
+navbuttons ul li a:hover {
+  background-color: #404040;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+}
+
+.buttonhiden {
+  display: none;
+}
+
+ul li:hover ul li {
+  display: block;
+}
+
+.social-icons a{
+    font-size: 19px;
+    margin: 0 4px;
+    color: #959595;
+  }
+
+.social-icons a:hover {
+  color: #FFFFFF;
+}
+
+.social-icons {
+  text-align: center;
+  margin: 15px 0 15px 0;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-height {
+  width: 195px;
+}
+
+/* display: inline-block; */
+
+nav, aside, .btn {
+ background-color: #000000;
+ background: rgba(0,0,0,0.7);
+}
+
+.navcontainer {
+  position: fixed;
+  height: 100vh;
+  /* overflow-y: scroll; */
+  width: 225px;
+  margin: 0 0 0 3%;
+  align-items: center;
+}
+
+.navfoot {
+  align-self: flex-end;
+  margin-top: auto;
+  /* align-self: flex-start; */
+}
+
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #959595;
+}

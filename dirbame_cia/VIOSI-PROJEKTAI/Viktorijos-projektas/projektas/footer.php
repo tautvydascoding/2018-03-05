@@ -1,7 +1,7 @@
 
 <footer class="row">
-  <div class="col">
-    <p>Copyright &#169; 2018 All rights reserved </p>
+  <div class="col-11">
+    <p>&#169; 2018 made by Viktorija Mačiūnė</p>
   </div>
 </footer>
 
