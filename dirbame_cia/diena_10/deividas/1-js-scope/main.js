@@ -52,15 +52,15 @@ printDuomenys();
  // }
  // testLocalVar();
  // console.log("kakis:", kakis);  // error - 1)   nes sukurtas f-jos viduje 2) sukurtas su "var"
- var kakis = "juodas"; //globalus
+ var kakisjuodas = "juodas"; //globalus
 
  function testLocal2() {
-    var kakis = "baltas"; //localus
-    console.log("kakis:", kakis);
-    console.log("this.kakis - j-jos viduje:", this.kakis); //this - pasiekia global kintamuosius
+    var kakisbaltas = "baltas"; //localus
+    console.log("kakis baltas:", kakisbaltas);
+    console.log("this.kakis - j-jos viduje:", this.kakisjuodas); //this - pasiekia global kintamuosius
  }
  testLocal2();
-console.log("kakis:",kakis);
+console.log("kakis:",kakisjuodas);
 
 
 
@@ -85,7 +85,7 @@ console.log("kakis:",kakis);
 //  kuri atspausdina i DOM-a (ekrana) "x" reiksme
 //  iskviesti f-ja 3 kartus, kad atspausdintu 3 skirtingas antrastes:  "BMW pinga, nes daugeja", "Greik pageres orai", "Vasaros vis salteja"
 
-}
+
 //  1.2 UZDUOTIS
 //  sukurti funkcija "printStraipsnis(x)" ,
 //  kuri atspausdina i DOM-a (ekrana) "x" reiksme
