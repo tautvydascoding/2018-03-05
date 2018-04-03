@@ -1,0 +1,191 @@
+body {
+	border-top: 3px solid #7e7e7e;
+  background-color: #E5DFCF;
+	/* background-image: url(img/bg.png); */
+}
+nav {
+  background-color: #F4F2EC;
+}
+main {
+  background-color: #F7F5F0;
+}
+footer {
+  background-color: #F4F2EC;
+}
+a {
+	color: #fff;
+}
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-40 {
+    height: 40px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-230 {
+    height: 230px;
+}
+.aukstis-300 {
+    min-height: 300px;
+		height: auto;
+}
+.aukstis-500 {
+    height: 500px;
+}
+.aukstis-1000 {
+  min-height: 1000px;
+	height: auto;
+/* Navigacija kaireje */
+}
+.navigacija-kaire a{
+	color: #000;
+}
+.navigacija-kaire a:hover{
+	color: #F7BE6F;
+}
+.headeris {
+  background-color: #fff3eb;
+	position: static;
+}
+.pagrindinis-meniu {
+  background-color: #2FA427;
+  margin-top: 135px;
+	position: relative;
+}
+/* Karusele */
+.carousel-inner img {
+  display: block;
+  width: 920px;
+  height: 240px !important;
+  margin-top: 10px;
+	border-radius: 7px;
+/* Karusele Pabaiga */
+}
+.footerio-virsus {
+  background-color: #7E786D;
+  margin-top: 1px;
+}
+.navigacijos-virsus {
+  background-color: #19991E;
+  margin-top: 1px;
+}
+.navigacija-kaire {
+  margin-top: 10px;
+	margin-left: 10px;
+}
+/* Main-navigacija */
+.main-nav {
+	background-color: #19991E;
+}
+/* Main-navigacija pabaiga */
+/* Visi straipsniai */
+.visi-straipsniai {
+    display: inline-block;
+    position:relative;
+		max-width: 220px;
+		height: auto;
+}
+.visi-straipsniai .visistr-tekstas {
+    display: block;
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color:#fff;
+    padding:10px;
+    background-color:rgba(0,0,0,.3);
+}
+.visi-straipsniai h6 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+.visi-straipsniai span {
+    font-size:12px;
+}
+/* Visi straipsniai Pabaiga */
+/* Galerijos naujienu blokas */
+.thumb img {
+		-webkit-filter: grayscale(0);
+		filter: none;
+		border-radius: 5px;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		padding: 5px;
+}
+.thumb img:hover {
+		-webkit-filter: grayscale(1);
+		filter: grayscale(1);
+}
+.thumb {
+		padding: 5px;
+}
+/* Galerijos naujienu blokas pabaiga */
+.navbloko-virsus {
+  color: #ffffff;
+	position: relative;
+	margin: 7px 25px;
+}
+.form-group {
+  width: 170px;
+  height: 50px;
+  margin-top: 10px;
+}
+/* Galerijos bloko pirmame puslapyje */
+.horizontali-linija {
+	  border-bottom: 2px solid #ACCCB7;
+		margin-top: 10px;
+}
+.horizontali-linija1 {
+  border-bottom: 2px solid #ACCCB7;
+	margin-top: 8px;
+}
+/* Paieska */
+.search {
+  width: 15%;
+  position: relative;
+  margin-top: 3px;
+  margin-left: 500px;
+}
+.search input {
+  border: none;
+}
+.search .input {
+  width: 100%;
+  padding: 8px 37px 9px 15px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+  border-radius: 20px;
+  background: #EEE;
+  font: 13px Tahoma, Arial, sans-serif;
+  color: #555;
+  outline: none;
+}
+.search .input:focus {
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
+  background: #E8E8E8;
+  color: #333;
+}
+.search .submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 37px;
+  height: 100%;
+  cursor: pointer;
+  background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 50% no-repeat;
+  opacity: 0.5;
+}
+.search .submit:hover {
+  opacity: 0.8;
+}
+input[type="search"] {
+  -webkit-appearance: none;
+}
+/* Paieskos pabaiga */
