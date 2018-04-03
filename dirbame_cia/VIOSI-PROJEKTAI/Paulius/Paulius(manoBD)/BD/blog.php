@@ -22,16 +22,16 @@
 
       <!--1.================HEADER=================-->
       <nav id="nav">
-          <div id="logo"> <b><a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(mano%20BD)/BD/" >Logo</a> </b>
+          <div id="logo"> <b><a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(manoBD)/BD/" >Logo</a> </b>
               <li>Blog</li>
               <li>About</li>
             <li>
-              <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(mano%20BD)/BD/gallery.php" > Gallery</a>
+              <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(manoBD)/BD/gallery.php" > Gallery</a>
            </li>
 
               <li>Contact</li>
             <li>
-                <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(mano%20BD)/BD/" > Main</a>
+                <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(manoBD)/BD/" > Main</a>
             </li>
         </div>
       </nav>
@@ -39,14 +39,6 @@
    <div id="hero"></div>
 
    <!--1.===========HEADER END==============-->
-    <!-- $komandosNarys = getTeam(1);
-   echo $komandosNarys['Vardas'] . " " . $komandosNarys['Pavarde'] . "<br /> " . $komandosNarys['Pareigos'];
-
- $paslauga = getPaslaugos(1);
-      echo $paslauga['Data'] -->
- <!-- $paslauga = getPaslaugos(1);
-      echo $paslauga['Straipsnis']; -->
-
 
 <div class="container">
     <div class="row blog-row bg-color-white block-padding">
