@@ -1,0 +1,312 @@
+.aukstis-700 {
+  height: 700px;
+  margin-top: 20px;
+}
+
+.aukstis-200 {
+  height: 200px;
+}
+
+.aukstis-100 {
+  height: 100px;
+}
+
+
+.container-fluid {
+  padding: 0;
+}
+
+
+}
+.mano-float {
+  float: left;
+  position: relative;
+}
+
+.fix-float{
+  clear: both;
+}
+
+figure {
+  float: left;
+  position: relative;
+}
+
+/* ------------------------------------------------------ */
+
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+}
+
+header {
+      width: 100%;
+}
+
+
+
+.logo {
+      position: fixed;
+      float: left;
+      margin: 10px 46px;
+      width: 150px;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(255, 255, 255, 0.70);
+      overflow: hidden;
+      color: #1f1f1f;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: rgba(255, 255, 255, 0.70);
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #1f1f1f;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.70);
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #1f1f1f;
+      display: none;
+}
+
+.headeris {
+  padding: 0;
+  position: relative;
+  z-index:999;
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+
+
+.apieaime {  /* po slaideriu info APIE AIME  */
+  margin: 0;
+  height: 320px;
+  background-color: rgba(245, 185, 230, 0.57)
+  float: left;
+  position: relative;
+}
+
+.auksinislogo{
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
+.apieaimelogo {
+  height: 200px;
+  position: relative;
+}
+
+.main_aprasymas {
+  text-align: justify;
+  padding-top: 20px;
+}
+
+.portfolio{
+  text-align: center;
+  font-family: caviardreams;
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+
+figure {
+  float: left;
+  position: relative;
+}
+
+.nuotrauka-nuotraukoje {
+  margin: 12px 0 0 0;
+  padding: 0;
+}
+
+
+@media(max-width: 786px) {
+
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 10px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: rgba(255, 255, 255, 0.90);
+      }
+
+      nav.black ul {
+            background: rgba(255, 255, 255, 0.90);
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+            padding-top: 10px;
+      }
+
+}
+
+.kontaktai {
+  margin-top: 40px;
+}
+
+.forma{
+  position: relative;
+}
+
+form{
+display: block;
+}
+
+/*==================kontaktu forma================  */
+
+ textarea , input {
+  border: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: ;
+  background-color: transparent;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-left: 0;
+  font-family: caviardreams;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+
+
+input[type="submit"] {
+  padding: 15px 80px;
+  text-transform: uppercase;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.inner-content {
+  max-width: 500px;
+  float: left;
+}
+
+.half-width {
+  width: 48%;
+  float: left;
+}
+
+.full-width {
+  width: 100%;
+  float: left;
+}
+
+.first-input {
+  margin-right: 4%;
+}
+
+
+/* ------------------------NUOTRAUKU HOVERIS------------------------------ */
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.81);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.figura:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: #1f1f1f;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+/* ------------------------FOOTERIS------------------------------ */
+
+  .footeris {
+  float: right;
+  position: relative;
+  margin-right: 50px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.copyright {
+float: left;
+position: relative;
+margin-left: 50px;
+margin-top: 50px;
+font-size: 15px;
+}
+
+.footer1 {
+  background-color: rgb(241, 241, 241);
+}
+
+.footer2 {
+  background-color: rgb(241, 241, 241);
+}
