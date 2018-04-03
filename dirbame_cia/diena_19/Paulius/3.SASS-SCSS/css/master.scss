@@ -1,0 +1,24 @@
+$spalva: 'indigo';
+$tekstoDydis: 29px;
+$tekstoSvoris: 600px;
+$spalva2: 'blue';
+$tekstoDydis2: 16px;
+$tekstoSvoris2: 100px;
+
+h2{
+    color: $spalva;
+      font-size: $tekstoDydis;
+        font-weight: $tekstoSvoris;
+      }
+
+
+
+
+
+$color: "red";
+$aukstis: ' 100px'; //kintamieji
+
+h1{
+  color: $color;
+  height: $aukstis;
+}
