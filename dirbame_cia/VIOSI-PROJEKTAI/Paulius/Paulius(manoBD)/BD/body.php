@@ -8,16 +8,16 @@
 
 <!--============1.HEADER================-->
     <header id="nav">
-      <ul id="logo"> <b><a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(mano%20BD)/BD/" >Logo</a> </b>
+      <ul id="logo"> <b><a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(manoBD)/BD/" >Logo</a> </b>
           <li>
-            <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(mano%20BD)/BD/blog.php">Blog</a> </li>
+            <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(manoBD)/BD/blog.php">Blog</a> </li>
           <li>About</li>
         <li>
-          <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(mano%20BD)/BD/gallery.php" > Gallery</a>
+          <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(manoBD)/BD/gallery.php" > Gallery</a>
         </li>
           <li>Contact</li>
         <li>
-            <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(mano%20BD)/BD/" > Main</a>
+            <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(manoBD)/BD/" > Main</a>
         </li>
       </ul>
     </header>
@@ -29,7 +29,7 @@
 
 
 
-<div id="hero">  </div>
+<div id="fotobg">  </div>
 
 </div>
 
@@ -142,7 +142,7 @@
 <div class="container">
 <div class="row bg-light">
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-  <img alt="Bootstrap Image Preview" src="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid img-responsive" />
+  <img alt="Bootstrap Image Preview" src="foto/car.jpg" class="img-fluid img-responsive" />
   <blockquote class="blockquote">
 
     <p class="mb-0">
@@ -156,7 +156,7 @@
 </div>
 
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-  <img alt="Bootstrap Image Preview" src="https://images.pexels.com/photos/326678/pexels-photo-326678.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid img-responsive" />
+  <img alt="Bootstrap Image Preview" src="foto/bicycle.jpeg" class="img-fluid img-responsive" />
   <blockquote class="blockquote">
     <p class="mb-0">
       <b><u> <?php $paslauga = getPrekes(2); echo $paslauga['Paslauga'] . " <br />" . $paslauga['Kaina']; ?> </u></b> Euro
@@ -169,7 +169,7 @@
 
 </div>
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-  <img alt="Bootstrap Image Preview" src="https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid img-responsive" />
+  <img alt="Bootstrap Image Preview" src="foto/boat.jpg" class="img-fluid img-responsive" />
   <blockquote class="blockquote">
     <p class="mb-0">
       <b><u> <?php $paslauga = getPrekes(3); echo $paslauga['Paslauga'] . " <br />" . $paslauga['Kaina']; ?> </u></b> Euro
@@ -184,7 +184,7 @@
 </div>
 <div class="row bg-light">
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-  <img alt="Bootstrap Image Preview" src="https://images.pexels.com/photos/65225/boat-house-cottage-waters-lake-65225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid img-responsive " />
+  <img alt="Bootstrap Image Preview" src="foto/lake-house.jpeg" class="img-fluid img-responsive " />
   <blockquote class="blockquote">
     <p class="mb-0">
       <b><u> <?php $paslauga = getPrekes(4); echo $paslauga['Paslauga'] . " <br />" . $paslauga['Kaina']; ?> </u></b> Euro
@@ -197,7 +197,7 @@
 
 </div>
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-  <img alt="Bootstrap Image Preview" src="https://images.pexels.com/photos/134525/pexels-photo-134525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid img-responsive" />
+  <img alt="Bootstrap Image Preview" src="foto/umbrella.jpeg" class="img-fluid img-responsive" />
   <blockquote class="blockquote">
     <p class="mb-0">
       <b><u> <?php $paslauga = getPrekes(5); echo $paslauga['Paslauga'] . " <br />" . $paslauga['Kaina']; ?> </u></b> Euro
@@ -210,7 +210,7 @@
 
 </div>
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-  <img alt="Bootstrap Image Preview" src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid img-responsive" />
+  <img alt="Bootstrap Image Preview" src="foto/house.jpeg" class="img-fluid img-responsive" />
   <blockquote class="blockquote">
     <p class="mb-0">
       <b><u> <?php $paslauga = getPrekes(6); echo $paslauga['Paslauga'] . " <br />" . $paslauga['Kaina']; ?> </u></b> Euro
@@ -225,7 +225,7 @@
 </div>
 <div class="row galleryEnd bg-light"> <!--JEIGU LIEKA MARGIN NENUSPALVINTAS TAI CIA=======-->
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-  <img alt="Bootstrap Image Preview" src="https://images.pexels.com/photos/59969/papillon-dog-animal-59969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid img-responsive" />
+  <img alt="Bootstrap Image Preview" src="foto/dog.jpeg" class="img-fluid img-responsive" />
   <blockquote class="blockquote">
     <p class="mb-0">
       <b><u> <?php $paslauga = getPrekes(7); echo $paslauga['Paslauga'] . " <br />" . $paslauga['Kaina']; ?> </u></b> Euro
@@ -238,7 +238,7 @@
 
 </div>
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-  <img alt="Bootstrap Image Preview" src="https://images.pexels.com/photos/127028/pexels-photo-127028.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid img-responsive" />
+  <img alt="Bootstrap Image Preview" src="foto/cat.jpeg" class="img-fluid img-responsive" />
   <blockquote class="blockquote">
     <p class="mb-0">
       <b><u> <?php $paslauga = getPrekes(8); echo $paslauga['Paslauga'] . " <br />" . $paslauga['Kaina']; ?> </u></b> Euro
@@ -251,7 +251,7 @@
 
 </div>
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-  <img alt="Bootstrap Image Preview" src="https://images.pexels.com/photos/594384/van-vw-travel-trip-594384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid img-responsive" />
+  <img alt="Bootstrap Image Preview" src="foto/road-trip.jpeg" class="img-fluid img-responsive" />
   <blockquote class="blockquote">
     <p class="mb-0">
       <b><u> <?php $paslauga = getPrekes(9); echo $paslauga['Paslauga'] . " <br />" . $paslauga['Kaina']; ?> </u></b> Euro
@@ -327,17 +327,17 @@
 <div class="col-12">
     <h1 class="glr2"> Gallery</h1>
     <p class="glr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(mano%20BD)/BD/gallery.php" class="pink-button">Go To Gallery</a>
+    <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(manoBD)/BD/gallery.php" class="pink-button">Go To Gallery</a>
 </div>
 <!-- col-xl-4 col-lg-4 col-md-12 col-sm-12 -->
 <!-- col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6 -->
-<div class="col-md-4 col-sm-12 col-xs-12"><img class="img-responsive img-fluid" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" /></div>
+<div class="col-md-4 col-sm-12 col-xs-12"><img class="img-responsive img-fluid" src="foto/glr.jpg" /></div>
 
-    <div class="col-md-4 col-sm-12 col-xs-12"><img class="img-responsive img-fluid" src="http://th03.deviantart.net/fs70/200H/f/2010/256/0/9/painting_of_nature_by_dhikagraph-d2ynalq.jpg" /></div>
+    <div class="col-md-4 col-sm-12 col-xs-12"><img class="img-responsive img-fluid" src="foto/glr2.jpg" /></div>
 
 
 
-    <div class="col-md-4 col-sm-12 col-xs-12"><img class="img-responsive img-fluid" src="http://th03.deviantart.net/fs70/200H/f/2010/256/0/9/painting_of_nature_by_dhikagraph-d2ynalq.jpg" /></div>
+    <div class="col-md-4 col-sm-12 col-xs-12"><img class="img-responsive img-fluid" src="foto/glr.jpg" /></div>
 </div>
 
 
@@ -365,7 +365,7 @@
 
     <div class="post col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
-            <img class="img-thumbnail" alt="team-photo" src="https://images.pexels.com/photos/459953/pexels-photo-459953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%">
+            <img class="img-thumbnail" alt="team-photo" src="foto/ot1.jpg" width="100%">
             <div class="post-s">
 
 
@@ -381,7 +381,7 @@
 
      <div class="post col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
-            <img class="img-thumbnail" alt="team-photo" src="https://images.pexels.com/photos/261895/pexels-photo-261895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%">
+            <img class="img-thumbnail" alt="team-photo" src="foto/ot2.jpeg" width="100%">
             <div class="post-s">
 
 
@@ -395,7 +395,7 @@
 
      <div class="post col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
-            <img class="img-thumbnail" alt="team-photo" src="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%">
+            <img class="img-thumbnail" alt="team-photo" src="foto/ot3.jpeg" width="100%">
             <div class="post-s">
 
 
@@ -416,7 +416,7 @@
 <!--9.==================BLOG BLOG ==============-->
 <div class="container bg-light" style="margin-top:65px">
 <div class="row">
-<h1 class="blog">Latest Blog's <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(mano%20BD)/BD/blog.php" class="baton">Blog Page</a>
+<h1 class="blog">Latest Blog's <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(manoBD)/BD/blog.php" class="baton">Blog Page</a>
 
 </h1>
 
@@ -428,7 +428,7 @@
       <a href="blog-ici.html">
             <div class="col-lg-4">
                 <div class="card">
-                    <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    <img src="foto/blog1.jpeg">
                     <h4>Lorem Ipsum 1</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <a href="blog-ici.html" class="blue-button">Read More</a>
@@ -438,7 +438,7 @@
         <a href="blog-ici.html">
             <div class="col-lg-4">
                 <div class="card">
-                    <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    <img src="foto/blog1.jpeg">
                     <h4>Lorem Ipsum 2</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <a href="blog-ici.html" class="blue-button">Read More</a>
@@ -448,7 +448,7 @@
         <a href="blog-ici.html">
             <div class="col-lg-4">
                 <div class="card">
-                    <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    <img src="foto/blog1.jpeg">
                     <h4>Lorem Ipsum 3</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <a href="blog-ici.html" class="blue-button">Read More</a>
@@ -463,7 +463,7 @@
         <a href="blog-ici.html">
             <div class="col-lg-4">
                 <div class="card">
-                    <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    <img src="foto/blog1.jpeg">
                     <h4>Lorem Ipsum 4</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <a href="blog-ici.html" class="blue-button">Read More</a>
@@ -473,7 +473,7 @@
         <a href="blog-ici.html">
             <div class="col-lg-4">
                 <div class="card">
-                    <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    <img src="foto/blog1.jpeg">
                     <h4>Lorem Ipsum 5</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <a href="blog-ici.html" class="blue-button">Read More</a>
@@ -483,7 +483,7 @@
         <a href="blog-ici.html">
             <div class="col-lg-4">
                 <div class="card">
-                    <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    <img src="foto/blog1.jpeg">
                     <h4>Lorem Ipsum 6</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <a href="blog-ici.html" class="blue-button">Read More</a>

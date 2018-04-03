@@ -10,52 +10,49 @@ background-image:-webkit-gradient(linear, left bottom, right top, color-stop(22%
 
         /*1.=============HEADER================*/
 #nav {
-          height: 70px;
-          background: black;
-          display: block;
-          position: fixed;
-          width: 100%;
-          z-index: 2;
-          transition: all ease .5s;
-
-        }
+  height: 70px;
+  background: black;
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  transition: all ease .5s;
+}
 
 #logo {
-          color: #fff;
-          padding: 20px;
-          font-size: 18px;
-          transition: all ease .5s;
-
-        }
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    transition: all ease .5s;
+  }
 
 #hero {
-          height:100px;
-          width: 100%;
-          background-image:
-          background-size: cover;
-          background-position: center;
-          position: relative;
-        }
+  height:100px;
+  width: 100%;
+  background-image:
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  }
 
-        #nav.shrink {
-          height: 40px;
-          transition: all ease .5s;
-        }
+#nav.shrink {
+    height: 40px;
+    transition: all ease .5s;
+  }
 
-        #nav.shrink #logo {
-          padding: 10px;
-          transition: all ease .5s;
-        }
+#nav.shrink #logo {
+    padding: 10px;
+    transition: all ease .5s;
+  }
 
-        li {
-          list-style: none;
-          float: right;
-          color: #fff;
-          padding: 5px;
-          font-size: 18px;
-          transition: all ease .5s;
-
-        }
+li {
+  list-style: none;
+  float: right;
+  color: #fff;
+  padding: 5px;
+  font-size: 18px;
+  transition: all ease .5s;
+}
 
 /* BLOG*/
 
@@ -71,9 +68,8 @@ div.clear {
 }
 
 
-/**
- * Style for blog row
- ****************************************************************************/
+/*
+  Style for blog row*/
 .blog-row {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
@@ -98,9 +94,9 @@ div.clear {
 }
 
 
-/**
- * Common style for blog image
- ****************************************************************************/
+/*
+  style for blog image
+ */
 .wtf{
   margin-top: 30px;
 }
@@ -143,9 +139,9 @@ p{
 	height: 100%;
 }
 
-/**
- * Effect on image mouse over
- ****************************************************************************/
+/*
+  EFEKTAI UZVEDUS PELE
+ */
 .blog-image figure.effect-layla figcaption::before,
 .blog-image figure.effect-layla figcaption::after {
 	position: absolute;

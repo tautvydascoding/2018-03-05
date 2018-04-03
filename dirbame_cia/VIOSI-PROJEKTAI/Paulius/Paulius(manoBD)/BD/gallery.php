@@ -18,18 +18,18 @@
     <body>
       <!--header-->
       <nav id="nav">
-          <div id="logo"><b><a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(mano%20BD)/BD/" >Logo</a> </b>
+          <div id="logo"><b><a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(manoBD)/BD/" >Logo</a> </b>
 
 
-              <li><a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(mano%20BD)/BD/blog.php">Blog</a></li>
+              <li><a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(manoBD)/BD/blog.php">Blog</a></li>
               <li>About</li>
             <li>
-              <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(mano%20BD)/BD/gallery.php" > Gallery</a>
+              <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(manoBD)/BD/gallery.php" > Gallery</a>
           </li>
 
               <li>Contact</li>
               <li>
-                <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(mano%20BD)/BD/" > Main</a>  </li>
+                <a href="http://localhost/VIOSI-PROJEKTAI/Paulius/Paulius(manoBD)/BD/" > Main</a>  </li>
 
           </div>
 
@@ -163,7 +163,7 @@
 <div class="row" style="margin-top:100px">
   <div class="col-md-12">
       <div class="well text-center"><h2>TRAVEL PHOTOGRAPHY</h2></div>
-      
+
 
 	<div class="container">
   <div id="masonry">
