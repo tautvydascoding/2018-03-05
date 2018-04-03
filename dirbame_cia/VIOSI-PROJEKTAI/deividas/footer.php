@@ -95,8 +95,7 @@
      $('.button-delete').click(function(){
       var el = this;
       var id = this.id;
-    //  var id = this.attr("id");
-    //  var splitid = id.split("_");
+    
 
       // Delete id
          //  var deleteid = splitid[1];
